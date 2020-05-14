@@ -34,10 +34,10 @@ track length: {{ page.length }}<br>
 track duration: {{ page.duration }}<br>
 track difficulty: {{ page.difficulty }}<br>
 track rating: {{ page.rating }}<br>
-track pictures: <img src="{{ site.url }}/assets/pictures/{{ page.picture }}" alt="{{ page.picture }}"><br>
+track pictures: <img src="{{ site.url | relative_url  }}/assets/pictures/{{ page.picture }}" alt="{{ page.picture }}"><br>
 track more Info: <a href="{{ page.infolink }}">{{ page.infolink }}</a><br>
 track map: <a href="{{ page.maplink }}">{{ page.maplink }}</a><br>
-track file: <a href="{{ site.url }}/assets/gpx/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
+track file: <a href="{{ site.url  | relative_url }}/assets/gpx/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
 
 ------
 
