@@ -12,8 +12,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Minimal theme
+
 logo: /assets/img/inslichtruecken.png
 description: Minimal is a theme for GitHub Pages.
 show_downloads: true
 theme: jekyll-theme-minimal
+
+github_repo: https://github.com/inslichtruecken/gpx
+github_branch: master
+baseurl: ""
+url: "https://inslichtruecken.github.io/gpx/"
+
+collections:
+  tracks:
+    output: true
+    permalink: /:collection/:title
+    sequence: 2
+   
+      
+ 
+    
+    
+   

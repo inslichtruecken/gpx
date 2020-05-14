@@ -1,0 +1,23 @@
+collections:
+   tracks:
+      output: true
+      permalink: /:collection/:title
+      sequence: 2
+   
+   general:
+      output: true
+      permalink: /:collection/:title
+      sequence: 2
+      
+ markdown: kramdown
+ plugins:
+    -jekyll-feed
+    
+ exclude:
+    - Gemfile
+    - Gemfile.lock
+    - src
+    - design
+    - node_modules
+    - bower.json
+    - design.idea

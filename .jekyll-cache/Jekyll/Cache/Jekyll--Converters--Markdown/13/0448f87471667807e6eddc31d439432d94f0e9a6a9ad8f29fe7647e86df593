@@ -1,8 +1,10 @@
-I"Â<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
+I"d<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
 
-<p><a href="./another-page.html">Link to another page</a>.</p>
-
-<p>There should be whitespace between paragraphs.</p>
+<p><a href="./general/another-page.html">Link to another page</a>.
+<a href="./general/about-me.html">Link to about me</a>
+<a href="./tracks/my-first-track.html">Link to a track</a>
+<a href="./tracks/atest.html">Link to atest</a>
+There should be whitespace between paragraphs.</p>
 
 <p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 

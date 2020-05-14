@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<!-- This layout is designed to present a         -->
+<!-- GPX Track with some nice description         -->
+<!--                                              -->
+<!-- supported tags to provide:                   -->
+<!-- Title of the Track: page.title               -->
+<!-- Author of the Track: page.author             -->
+<!-- Description of the Track: page.description   -->
+<!-- Region: page.region                          -->
+<!-- Start: page.start                            -->
+<!-- Length: page.length                          -->
+<!-- Duration: page.duration                      -->
+<!-- Difficulty: page.difficulty                  -->
+<!-- Rating: page.rating                          -->
+<!-- Picturehoto: page.pictures                   -->
+<!-- Link for more more informaton: page.infolink -->
+<!-- Link to a map: page.maplink                  -->
+<!-- Name of the GPX File: page.gpxfile           -->
+<!--                                              -->
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ page.author | default: site.author }}</p>
+
+track name: {{ page.title }}<br>
+track author: {{ page.author }}<br>
+track description: {{ page.description }}<br>
+track region: {{ page.region }}<br>
+track Start: {{ page.start }}<br>
+track length: {{ page.length }}<br>
+track duration: {{ page.duration }}<br>
+track difficulty: {{ page.difficulty }}<br>
+track rating: {{ page.rating }}<br>
+track pictures: <img src="{{ site.url }}/assets/pictures/{{ page.picture }}" alt="{{ page.picture }}"><br>
+track more Info: <a href="{{ page.infolink }}">{{ page.infolink }}</a><br>
+track map: <a href="{{ page.maplink }}">{{ page.maplink }}</a><br>
+track file: <a href="{{ site.url }}/assets/gpx/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
+
+------
+
+{{content}}
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
