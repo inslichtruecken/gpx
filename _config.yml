@@ -15,10 +15,16 @@
 
 title: Minimal theme
 
-logo: /assets/img/inslichtruecken.png
+logo: assets/img/inslichtruecken.png
 description: Minimal is a theme for GitHub Pages.
 show_downloads: true
 theme: jekyll-theme-minimal
+
+github_repo: https://github.com/inslichtruecken/gpx
+github_branch: master
+baseurl: ""
+url: "https://inslichtruecken.github.io/gpx/"
+
 
 collections:
   tracks:

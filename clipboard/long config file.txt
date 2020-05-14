@@ -21,3 +21,9 @@ collections:
     - node_modules
     - bower.json
     - design.idea
+	
+	
+	github_repo: https://github.com/inslichtruecken/gpx
+github_branch: master
+baseurl: ""
+url: "https://inslichtruecken.github.io/gpx/"
