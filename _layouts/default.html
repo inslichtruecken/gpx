@@ -45,7 +45,7 @@
 		
 	<ul>
 		{% for track in site.tracks %}
-        <li><a href="{{ track.url }}">{{ track.title }}</a></li>
+        <li><a href="{{ track.url | relative_url }}">{{ track.title }}</a></li>
         {% endfor %}
 	 </ul>
 
