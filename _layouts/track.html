@@ -3,7 +3,7 @@ layout: default
 ---
 <!-- This layout is designed to present a         -->
 <!-- GPX Track with some nice description         -->
-<!--                                              -->
+<!--      TAGS als Properties bezeichnen!!!!!!!!!!!!!                                        -->
 <!-- supported tags to provide:                   -->
 <!-- Title of the Track: page.title               -->
 <!-- Author of the Track: page.author             -->
@@ -23,8 +23,6 @@ layout: default
 <!--                                              -->
 
 
-<!--                                              -->
-
 
 
 
@@ -33,21 +31,34 @@ layout: default
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
-track name: {{ page.title }}<br>
-track author: {{ page.author }}<br>
-track description: {{ page.description }}<br>
-track region: {{ page.region }}<br>
-track Start: {{ page.start }}<br>
-track length: {{ page.length }}<br>
-track duration: {{ page.duration }}<br>
-track difficulty: {{ page.difficulty }}<br>
-track rating: {{ page.rating }}<br>
+<p>
+
+<blockquote>
+Region <strong>{{ page.region }}</strong><br>
+Start <strong>{{ page.start }}</strong><br>
+Rating <strong>{{ page.rating }}</strong><br>
+</blockquote>
+<p>
+
+<ul class="downloads">
+<li><a href="">Length<strong>{{ page.length }}</strong></a></li>
+<li><a href="">Duration<strong>{{ page.duration }}</strong></a></li>
+<li><a href="">Difficulty<strong>{{ page.difficulty }}</strong></a></li>
+</ul>
+
+
+{{ page.description }}<br>
+
+
+
 track image: <img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.imagetext }}" title="{{ page.imagetext }}"><br>
 track infolink: <a href="{{ page.infolink }}">{{ page.infolink }}</a><br>
 track map: <a href="{{ page.maplink }}">{{ page.maplink }}</a><br>
 track mapimage: <img src="{{ "/" | relative_url }}assets/maps/{{ page.mapimage }}" alt="{{ page.mapimage }}"><br>
-track file: <a href="{{ "/" | relative_url  }}assets/tracks/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
 
+<ul class="downloads">
+<li><a href="{{ "/" | relative_url  }}assets/tracks/{{ page.gpxfile }}">Download<strong>GPX</strong></a></li>
+</ul>
 
 track file:Test mit absolute url <a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
 

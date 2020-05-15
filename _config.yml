@@ -18,13 +18,16 @@ show_downloads: true
 theme: jekyll-theme-minimal
 repository: inslichtruecken/gpx
 
-title: FrischLuftWege GPX Repo
+
+# custom properties for this GPX Site
+title: Frisch Luft Wege
 logo: /assets/img/inslichtruecken.png
-description: Minimal GitHub Pages to manage and present your GPX Tracks
+description: Manage and present your GPX Tracks
 impressum: https://www.frischluftwege.de/impressum/
-gdprnotice: https://help.github.com/en/github/site-policy/github-privacy-statement/
+gdpr-notice: https://help.github.com/en/github/site-policy/github-privacy-statement/
 legal: https://www.frischluftwege.de/rechtliche-hinweise/
 mylink: https://www.frischluftwege.de/"
+seo-keywords: gps, navigation, outdoor, hiking
 
 
 

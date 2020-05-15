@@ -2,4 +2,4 @@
 layout: default
 ---
 
-GDPR Notice
+# GDPR Notice

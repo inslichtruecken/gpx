@@ -2,7 +2,7 @@
 layout: track
 title: Jägerpfad
 author: Thomas
-region: Schwarzwald
+region: Schönbuch
 start: Bad Liebenzell
 description: Versteckte Waldpfade im Naturpark Schönbuch und ein Besuch beim neuen Schönbuchturm.
 length: 12km
@@ -15,6 +15,7 @@ infolink: https://www.frischluftwege.de/wandern/jaegerpfad
 maplink: https://www.openstreetmap.org
 gpxfile: Schoenbuch.Herrenberg.Jaegerpfad.gpx
 mapimage: Schoenbuch.Herrenberg.Jaegerpfad-Map.png
+tags: test zwei drei
 ---
 
 

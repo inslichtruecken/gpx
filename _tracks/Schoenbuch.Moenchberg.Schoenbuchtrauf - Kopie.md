@@ -15,6 +15,7 @@ infolink: https://www.frischluftwege.de/wander/schoenbuchtrauf
 maplink: https://www.openstreetmap.org
 gpxfile: Schoenbuch.Moenchberg.Schoenbuchtrauf.gpx
 mapimage: Schoenbuch.Moenchberg.Schoenbuchtrauf-Map.png
+tags: test zwei drei
 ---
 
 

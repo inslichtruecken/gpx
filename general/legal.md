@@ -2,4 +2,4 @@
 layout: default
 ---
 
-Rechtliche Hinweise
+# Rechtliche Hinweise
