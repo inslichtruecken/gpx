@@ -59,16 +59,17 @@
 
       </section>
       <footer>
+	  <small>
         {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-		<p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        
-		<p><a href="{{ site.impressum }}">Impressum</a> <a href="{{ site.legal }}">Rechtliche Hinweise</a></p>
-        <p><small>Created by <a href="{{ site.github.owner_url }}">Thomas Stober</a></small></p>
-		<p><small>Hosted on GitHub Pages &mdash; <a href="{{ site.gdprnotice }}">Datenschutzerklärung für Github Pages</p>
-		<p><small>Theme based on the <a href="https://github.com/orderedlist/minimal">Minimal Theme</a> by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-		<p><small>Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></small></p>
+        This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
+        {% endif %} 
+		Created by <a href="{{ site.github.owner_url }}">Thomas Stober</a><br>
+		Theme based on the <a href="https://github.com/orderedlist/minimal">Minimal Theme</a> by <a href="https://github.com/orderedlist">orderedlist</a><br>
+		Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a><br>
+		Hosted on GitHub Pages <br>
+		<a href="{{ site.gdprnotice }}">Datenschutzerklärung für Github Pages</a><br>
+		<a href="{{ site.impressum }}">Impressum</a> <a href="{{ site.legal }}">Rechtliche Hinweise</a></p><br>
+	</small>	
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
