@@ -13,12 +13,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: FrischLuftWege GPX Repo
+
 show_downloads: true
 theme: jekyll-theme-minimal
 url: https://inslichtruecken.github.io/gpx/
 
 
+title: FrischLuftWege GPX Repo
 logo: /assets/img/inslichtruecken.png
 description: Minimal is a theme for GitHub Pages.
 impressum: https://www.frischluftwege.de/impressum/
