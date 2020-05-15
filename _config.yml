@@ -14,12 +14,17 @@
 # in the templates via {{ site.myvariable }}.
 
 title: FrischLuftWege GPX Repo
-
-url: https://inslichtruecken.github.io/gpx/
-logo: /assets/img/inslichtruecken.png
-description: Minimal is a theme for GitHub Pages.
 show_downloads: true
 theme: jekyll-theme-minimal
+url: https://inslichtruecken.github.io/gpx/
+
+
+logo: /assets/img/inslichtruecken.png
+description: Minimal is a theme for GitHub Pages.
+impressum: https://www.frischluftwege.de/impressum/
+gdprnotice: https://help.github.com/en/github/site-policy/github-privacy-statement/
+legal: https://www.frischluftwege.de/rechtliche-hinweise/
+mylink: https://www.frischluftwege.de/"
 
 
 

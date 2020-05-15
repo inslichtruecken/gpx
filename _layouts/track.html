@@ -14,11 +14,19 @@ layout: default
 <!-- Duration: page.duration                      -->
 <!-- Difficulty: page.difficulty                  -->
 <!-- Rating: page.rating                          -->
-<!-- Picturehoto: page.pictures                   -->
+<!-- Image: page.image                            -->
+<!-- Image Alt Text: page.imagetext               -->
 <!-- Link for more more informaton: page.infolink -->
-<!-- Link to a map: page.maplink                  -->
+<!-- Map as Image: page.mapimage                  -->
+<!-- Map as Link reference: page.maplink          -->
 <!-- Name of the GPX File: page.gpxfile           -->
 <!--                                              -->
+
+
+<!--                                              -->
+
+
+
 
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
@@ -34,10 +42,11 @@ track length: {{ page.length }}<br>
 track duration: {{ page.duration }}<br>
 track difficulty: {{ page.difficulty }}<br>
 track rating: {{ page.rating }}<br>
-track pictures: <img src="{{ site.url | relative_url }}/assets/pictures/{{ page.picture }}" alt="{{ page.picture }}"><br>
+track image: <img src="{{ site.url | relative_url }}/assets/images/{{ page.image }}" alt="{{ page.imagetext }}" title="{{ page.imagetext }}"><br>
 track more Info: <a href="{{ page.infolink }}">{{ page.infolink }}</a><br>
 track map: <a href="{{ page.maplink }}">{{ page.maplink }}</a><br>
-track file: <a href="{{ site.url | relative_url }}/assets/gpx/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
+track mapimage: <img src="{{ site.url | relative_url }}/assets/maps/{{ page.mapimage }}" alt="{{ page.mapimage }}"><br>
+track file: <a href="{{ site.url | relative_url }}/assets/tracks/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
 
 ------
 

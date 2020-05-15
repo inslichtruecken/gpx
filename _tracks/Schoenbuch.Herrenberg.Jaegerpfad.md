@@ -9,11 +9,12 @@ length: 12km
 duration: 2,5 - 3 h
 difficulty: Einfach
 rating: Top
-picture: Schoenbuch.Herrenberg.Jaegerpfad.jpg
+image: Schoenbuch.Herrenberg.Jaegerpfad.jpg
+imagetext: unterwegs
 infolink: https://www.frischluftwege.de/wandern/jaegerpfad
 maplink: https://www.openstreetmap.org
 gpxfile: Schoenbuch.Herrenberg.Jaegerpfad.gpx
-
+mapimage: Schoenbuch.Herrenberg.Jaegerpfad-Map.png
 ---
 
 
