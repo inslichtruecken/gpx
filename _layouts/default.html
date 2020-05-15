@@ -45,7 +45,9 @@
 		
 	<ul>
 		{% for track in site.tracks %}
+		
         <li><a href="{{ track.url | relative_url }}">{{ track.title }}</a></li>
+		
         {% endfor %}
 	 </ul>
 
@@ -68,8 +70,26 @@
 		Theme based on the <a href="https://github.com/orderedlist/minimal">Minimal Theme</a> by <a href="https://github.com/orderedlist">orderedlist</a><br>
 		Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a><br>
 		Hosted on GitHub Pages <br>
+		
+		{% if site.gdprnotice %}
 		<a href="{{ site.gdprnotice }}">Datenschutzerklärung für Github Pages</a><br>
-		<a href="{{ site.impressum }}">Impressum</a> <a href="{{ site.legal }}">Rechtliche Hinweise</a></p><br>
+		{% else %}
+		<a href="/general/gdprnotice">Datenschutzerklärung für Github Pages</a><br>
+        {% endif %}
+	
+	    
+		{% if site.gdprnotice %}
+		<a href="{{ site.impressum }}">Impressum</a> 
+		{% else %}
+		<a href="/general/impressum">Impressum</a><br>
+        {% endif %}
+
+		{% if site.gdprnotice %}
+		<a href="{{ site.legal }}">Rechtliche Hinweise</a></p><br>
+		{% else %}
+		<a href="/general/legal">Rechtliche Hinweise</a><br>
+        {% endif %}
+
 	</small>	
       </footer>
 	  

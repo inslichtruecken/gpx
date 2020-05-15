@@ -42,12 +42,14 @@ track length: {{ page.length }}<br>
 track duration: {{ page.duration }}<br>
 track difficulty: {{ page.difficulty }}<br>
 track rating: {{ page.rating }}<br>
-track image: <img src="{{ "/" | absolute_url }}assets/images/{{ page.image }}" alt="{{ page.imagetext }}" title="{{ page.imagetext }}"><br>
-track more Info: <a href="{{ page.infolink }}">{{ page.infolink }}</a><br>
+track image: <img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.imagetext }}" title="{{ page.imagetext }}"><br>
+track infolink: <a href="{{ page.infolink }}">{{ page.infolink }}</a><br>
 track map: <a href="{{ page.maplink }}">{{ page.maplink }}</a><br>
-track mapimage: <img src="{{ "/" | absolute_url }}assets/maps/{{ page.mapimage }}" alt="{{ page.mapimage }}"><br>
-track file: <a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
-track file:site url relative url <a href="{{ "/" | relative_url  }}assets/tracks/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
+track mapimage: <img src="{{ "/" | relative_url }}assets/maps/{{ page.mapimage }}" alt="{{ page.mapimage }}"><br>
+track file: <a href="{{ "/" | relative_url  }}assets/tracks/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
+
+
+track file:Test mit absolute url <a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
 
 
 ------
