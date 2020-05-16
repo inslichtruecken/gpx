@@ -16,7 +16,7 @@ layout: default
 <!-- Rating: page.rating                          -->
 <!-- Image: page.image                            -->
 <!-- Image Alt Text: page.imagetext               -->
-<!-- Link for more more informaton: page.infolink -->
+<!-- Link for more more informaton: page.infolinks-->
 <!-- Map as Image: page.mapimage                  -->
 <!-- Map as Link reference: page.maplink          -->
 <!-- Name of the GPX File: page.gpxfile           -->
@@ -24,48 +24,78 @@ layout: default
 
 
 
-
-
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<div>
 <h1>{{ page.title }}</h1>
-
-<p class="view">by {{ page.author | default: site.author }}</p>
+<p class="view">by {{ page.author | default: site.author }}
+</div>
+<div>
+{% if site.logo %}
+Bewertung: 
+	{% if page.rating==1 %}
+    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+	{% endif %}
+	{% if page.rating==2 %}
+    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+	{% endif %}
+	{% if page.rating==3 %}
+    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+	{% endif %}
 
 <p>
+{% endif %}
+</div>
 
+<p>
+<div>
 <blockquote>
 Region <strong>{{ page.region }}</strong><br>
 Start <strong>{{ page.start }}</strong><br>
-Rating <strong>{{ page.rating }}</strong><br>
-</blockquote>
-<p>
+Links: <a href="{{ page.infolink }}" target="_blank">{{ page.infolinks }}</a><br>
+Start: <a href="{{ page.maplink }}" target="_blank">{{ page.maplink }}</a><br>
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
 
+</blockquote>
+</div>
+<div>
+{{ page.description }}<br>
+
+</div>
+
+
+
+
+<div>
 <ul class="downloads">
 <li><a href="">Length<strong>{{ page.length }}</strong></a></li>
 <li><a href="">Duration<strong>{{ page.duration }}</strong></a></li>
 <li><a href="">Difficulty<strong>{{ page.difficulty }}</strong></a></li>
 </ul>
 
-
-{{ page.description }}<br>
-
-
-
-track image: <img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.imagetext }}" title="{{ page.imagetext }}"><br>
-track infolink: <a href="{{ page.infolink }}">{{ page.infolink }}</a><br>
-track map: <a href="{{ page.maplink }}">{{ page.maplink }}</a><br>
-track mapimage: <img src="{{ "/" | relative_url }}assets/maps/{{ page.mapimage }}" alt="{{ page.mapimage }}"><br>
-
+<p>
 <ul class="downloads">
 <li><a href="{{ "/" | relative_url  }}assets/tracks/{{ page.gpxfile }}">Download<strong>GPX</strong></a></li>
 </ul>
+</div>
+
+<hr>
+
+{{content}}
+
+<hr>
+track image: <img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.imagetext }}" title="{{ page.imagetext }}"><br>
+track mapimage: <img src="{{ "/" | relative_url }}assets/maps/{{ page.mapimage }}" alt="{{ page.mapimage }}"><br>
+
+
 
 track file:Test mit absolute url <a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
 
 
-------
 
-{{content}}
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>

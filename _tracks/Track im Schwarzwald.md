@@ -8,7 +8,7 @@ description: Track im Schwarzwald.
 length: 11 km
 duration: 2,5 - 3 h
 difficulty: Einfach
-rating: Top
+rating: 3
 image: Schoenbuch.Moenchberg.Schoenbuchtrauf.jpg
 imagetext: unterwegs
 infolink: https://www.frischluftwege.de/wander/schoenbuchtrauf

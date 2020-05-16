@@ -36,8 +36,7 @@ collections:
     output: true
     permalink: /:collection/:title
     sequence: 2
-   
-      
+  
  
     
     

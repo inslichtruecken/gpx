@@ -42,6 +42,7 @@
 		
 		
 	  <!-- TMS Begin -->
+		<!-- Tracks -->
 		
 		<!-- iterate through all the tracks in the collection and sort by region -->
 		<h2>List of tracks</h2>
@@ -66,7 +67,8 @@
 		
 		{% endfor %}
 		
-	
+	<!-- Blogs -->
+		
 
 	
 	  <!-- TMS End -->
@@ -86,21 +88,21 @@
 		Hosted on GitHub Pages <br>
 		
 		{% if site.gdpr-notice %}
-		<a href="{{ site.gdpr-notice }}">Datenschutzerklärung für Github Pages</a><br>
+		<a href="{{ site.gdpr-notice }}" target="_blank">Datenschutzerklärung für Github Pages</a><br>
 		{% else %}
 		<a href="/general/gdpr-notice">Datenschutzerklärung für Github Pages</a><br>
         {% endif %}
 	
 	    
-		{% if site.gdprnotice %}
-		<a href="{{ site.impressum }}">Impressum</a>  
+		{% if site.impressum %}
+		<a href="{{ site.impressum }}" target="_blank">Impressum</a>  
 		{% else %}
 		<a href="/general/impressum">Impressum</a>
         {% endif %}
         &mdash;
 
-		{% if site.gdprnotice %}
-		<a href="{{ site.legal }}">Rechtliche Hinweise</a></p><br>
+		{% if site.legal %}
+		<a href="{{ site.legal }}" target="_blank">Rechtliche Hinweise</a></p><br>
 		{% else %}
 		<a href="/general/legal">Rechtliche Hinweise</a><br>
         {% endif %}
