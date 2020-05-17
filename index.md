@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: main-page
 ---
 
 
@@ -10,5 +10,6 @@ layout: default
 [Set up Instructions](./general/set-up-instructions.html)
 
 # Hello!
+
 
 

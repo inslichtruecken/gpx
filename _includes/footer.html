@@ -1,0 +1,33 @@
+<!-- Footer markup for the site rendering                    -->
+<!--                                                         -->
+<!-- inslichtruecken/gpx: track repository web site          -->
+<!-- Created by Thomas Stober,  www.inslichtruecken.de       -->
+<!-- Licensed CC BY-SA 3.0                                   -->
+
+	  <small>
+		Created by <a href="{{ site.github.owner_url }}">Thomas Stober</a><br>
+		Theme based on the <a href="https://github.com/orderedlist/minimal">Minimal Theme</a> by <a href="https://github.com/orderedlist">orderedlist</a><br>
+		Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a><br>
+		Hosted on GitHub Pages <br>
+		
+		{% if site.gdpr-notice %}
+		<a href="{{ site.gdpr-notice }}" target="_blank">Datenschutzerklärung für Github Pages</a><br>
+		{% else %}
+		<a href="/general/gdpr-notice">Datenschutzerklärung für Github Pages</a><br>
+        {% endif %}
+	
+	    
+		{% if site.impressum %}
+		<a href="{{ site.impressum }}" target="_blank">Impressum</a>  
+		{% else %}
+		<a href="/general/impressum">Impressum</a>
+        {% endif %}
+        &mdash;
+
+		{% if site.legal %}
+		<a href="{{ site.legal }}" target="_blank">Rechtliche Hinweise</a></p><br>
+		{% else %}
+		<a href="/general/legal">Rechtliche Hinweise</a><br>
+        {% endif %}
+
+	</small>	

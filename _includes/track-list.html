@@ -1,0 +1,32 @@
+<!-- Markup for displaying the list of all Tracks            -->
+<!--                                                         -->
+<!-- inslichtruecken/gpx: track repository web site          -->
+<!-- Created by Thomas Stober,  www.inslichtruecken.de       -->
+<!-- Licensed CC BY-SA 3.0                                   -->
+
+
+	<!-- Display Tracks sorted and grouped by Region -->
+		
+		<!-- iterate through all the tracks in the collection and group by region -->
+		<h2>List of tracks</h2>
+		{% assign tracks_by_region = site.tracks | group_by: 'region'  %}
+	
+		{% for region in tracks_by_region %}
+		
+		<!-- Add a title for each region -->
+		<p class="view">{{region.name}}</p>
+		
+		<ul>
+			{% for track in region.items %}
+			
+			{% if track.region %}
+			
+		     <!-- Add a list entry for each track -->
+			<li><a href="{{track.url | absolute_url }}">{{track.title}}</a></li>
+			{% endif %}
+			
+			{% endfor %}
+		</ul>
+		
+		{% endfor %}
+		
