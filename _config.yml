@@ -1,13 +1,18 @@
-# Welcome to Jekyll 
+# Main Configuration file for this github pages site
+#                                                         
+# inslichtruecken/gpx: track repository web site          
+# Created by Thomas Stober,  www.inslichtruecken.de       
+# Licensed CC BY-SA 3.0                                   
+#                                                         
+# Welcome to Jekyll! 
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing these this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
-#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+#
+# Overall site properties:
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
@@ -19,15 +24,33 @@ theme: jekyll-theme-minimal
 repository: inslichtruecken/gpx
 
 
-# custom properties for this GPX Site
+# Custom properties for this Track Repository Web Site
+
+The title of your site]
+description: [A short description of your site's purpose]
+
+# The title of your site:                                    title              
+# A short description of your site's purpose:                description
+# Location of the logo file:                                 logo
+# true/false to indicate whether to provide a download URL:  show_downloads 
+# Your Google Analytics tracking ID:                         google_analytics
+# A link to the impressum you want to reference:             impressum
+# (Note: if not specified: the page ./general/impressum will be displayed)
+# A link to the gdpr-notice you want to reference:           gdpr-notice
+# (Note: if not specified: the page ./general/gdpr-notice will be displayed)
+# A link to the legal you want to reference:                 legal
+# (Note: if not specified: the page ./general/legal will be displayed)
+# Link to your Homepage:                                     my links
+# SEO Keywords to include in the Markup header:              seo-keyword
+
 title: Frisch Luft Wege
-logo: /assets/img/inslichtruecken.png
 description: Manage and present your GPX Tracks
+logo: /assets/img/inslichtruecken.png
 impressum: https://www.frischluftwege.de/impressum/
 gdpr-notice: https://help.github.com/en/github/site-policy/github-privacy-statement/
 legal: https://www.frischluftwege.de/rechtliche-hinweise/
-mylink: https://www.frischluftwege.de/"
-seo-keywords: gps, navigation, outdoor, hiking
+my-link: https://www.frischluftwege.de/"
+seo-keywords: gps navigation outdoor hiking
 
 
 

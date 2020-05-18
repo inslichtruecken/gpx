@@ -1,37 +1,57 @@
 ---
 layout: post
-title: Setup instructions
+title: Setup Instructions
 ---
 
+
 ### Install a local environment
-This Playbook is made using Jekyll and hosted on Github pages. 
-[Jekyll](https://jekyllrb.com/) is a static site generator which creates web pages from raw text files, such as `markdown`, and as such individual pages are simple markdown files.
+This Site is made using Jekyll and hosted on Github pages. 
+[Jekyll](https://jekyllrb.com/) is a static site generator which creates web pages from raw text files, using the syntax specified as `markdown`. Individual pages are simple markdown files.
 
-There are two ways to develop this site. Either change files individually on the GitHub interface (the `Edit this Page` button at the top of each page should take you directly to that file on GitHub), or clone the repository and edit the files locally.
+There are two ways to develop this site. 
 
-To run the site locally, you will need `ruby` (version 2.5.x!) (LINK!!!!)   and `git` (LINK!!!!)to be installed. 
-Have a look here [Jekyll Installation](https://jekyllrb.com/docs/installation/)
-You should then be able to run the following commands:
+* Either change files individually on the GitHub interface (the `Edit this Page` button at the top of each page should take you directly to that file on GitHub), 
+* or clone the repository and edit the files locally.
+
+To *run the site locally*, you will need:
+
+* `ruby` (version 2.5.x with DevKit) ([get it from here](https://rubyinstaller.org/)) and run `ridk install` with all install options at the end of the install procedure.
+* `git` ([get it from here](https://git-scm.com/downloads)) to be installed. 
+
+Once you have Jekyll set up, you will have to clone this github repo [inslichtruecken/gpx](https://github.com/inslichtruecken/gpx).
+
 ```
-git clone git@github.ibm.com:ZaaS/ZaaS.github.ibm.com.git
-cd ZaaS.github.ibm.com
+git clone https://github.com/inslichtruecken/gpx 
+```
+
+You can also use the [Github Desktop client](https://desktop.github.com/).
+
+`cd` into the local directory of the repo you have just cloned.
+
+Install the `Jekyll` and `Bundler` ruby gems to install the site specific gems.
+
+```
 gem install jekyll bundler
-bundle install
+bundle update
+```
+
+*Note:* Have a look at the full [Jekyll installation procedure](https://jekyllrb.com/docs/installation/) for more details.
+
+
+### Start your local environment to render Jekyll pages
+
+Finally you can run Jekyll which provides the web pages on local web server at `localhost:4000` to view your local changes.
+```
 bundle exec jekyll serve
 ```
 
-If you have not uploaded your public SSH key to github.ibm.com, then use the following clone command instead, which will prompt for your credentials at github.ibm.com:
-```
-git clone https://github.ibm.com/ZaaS/ZaaS.github.ibm.com.git
-```
+Jekyll will immediately update the web pages when changes are made in the work directory of your repository clone. 
 
-This will clone the repository locally, install the `Jekyll` and `Bundler` ruby gems, install the site specific gems, and then run Jekyll which provides the web pages on local web server at `localhost:4000` with your local changes.
-Jekyll will immediately update the web pages when changes are made in the work directory of your repository clone. From this point make any changes you want, and follow normal git procedure to commit the changes back to the repository.
-
+From this point make any changes you want, and follow normal git procedure to commit the changes back to the repository.
 
 
 ### Understanding Layouts
-Every page you visit should have an underlying `markdown` file accompanying it. Generally the content of that file is mostly plain text, with some styling elements (refer to the GFM cheatsheet to see what styling elements exist), and the layout of that file is specified by a corresponding layout file.
+Every page you visit should have an underlying `markdown` file accompanying it. Generally the content of that file is mostly plain text, with some styling elements (refer to the [cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to see what styling elements exist), and the layout of that file is specified by a corresponding layout file.
 A layout file for a page is specified by the following content at the top of a file:
 
 ```
@@ -40,23 +60,23 @@ layout: ...
 ---
 ```
 
-Where the value of the layout has to match a path to a html file under `_layouts/`. For instance, this page uses
+The value of the layout has to match a path to a html file under `_layouts/`. 
 
-```
-layout: question
-```
 
-Which uses the `_layouts/question.html` layout file. 
+For instance, a page describing a GPX track uses
+```
+layout: track
+```
+That page will use the `_layouts/track.html` layout file. 
 
 Consider the layout as a kind of template, which arranges the information to be shown on the page nicely. Once you have specified a layout, the contents of your file is placed into the `{{ contents }}` tag inside the layout file.
-Furthermore, each layout can provide a set of tags, which a page can specify. The layout will arrange and display those tags during the page rendering.
- **Note** that layout files can also have a layout tag, meaning you can have a nest of layouts.
+Furthermore, each layout can provide a set of properties, which a page can specify. The layout will arrange and display those properties during the page rendering.
+ **Note** that layout files can also have a layout property, meaning you can have a nest of layouts.
 
 The key layouts provided for usage on this github pages sites are:
-*question (a template specifying how questions for this FaQ are being displayed)
-*post (a template specifying a very generic page on which you can add markdown syntax)
-*ibm.box (a template specifying how to displayed a box note)
-*squad (a template specifying how displayed names of people))
+* `track` (a template specifying how tracks are being displayed)
+* `post` (a template specifying a very generic blog post)
+* `main-page` (a template specifying the main "home" page of the site
 
 As mentioned before, the styling for a page comes from the `layout` specified at the top of the file. If you want to make changes to this layout then edit the underlying layout file and your changes should be reflected all pages using that layout.
 **Note** that layouts are probably going to be used by more that one page, so it makes more sense to create a new layout file with the changes you want so you don't edit other peoples posts.
@@ -66,24 +86,22 @@ Another Jekyll concept is `includes`. This is the opposite of a layout where you
 
 ```liquid
 {% raw %}
-{% include footer.html %}
+{% include track-list %}
 {% endraw %}
 ```
 
-Inside your `markdown` file would include the `_includes/footer.html` page at that location.
+Inside your `markdown` file would include the `_includes/track-list.html` page at that location.
 
 ### Understanding the Side Navigation
 The Side nav is build by looping through all the *collections* in the site, and then all the pages in each collection.
-A collection is defined by creating a directory starting with an underscore (`_`) in the root of the project. For instance, we have the `_general` collection. There are some reserved names you can't use for a collection (e.g., layouts and includes) but most names are available.
+A collection is defined by creating a directory starting with an underscore (`_`) in the root of the project. For instance, we have the `_track` collection. There are some reserved names you can't use for a collection (e.g., layouts and includes) but most names are available.
 A collection also needs an entry in the `_config.yml` file in the root of the directory. For example, the `_general` collection is defined by:
 ```yaml
 collections:
-  general:
+  tracks:
     output: true
-    permalink: /:collection/:title
-    icon: /assets/lib/glyphs/tools/tools_24.svg
 ```
-Everything under the `collections` entry is created as a collection. The name `general` must match the name of the directory we created, minus the underscore, `output: true` tells Jekyll to render the pages, `permalink` tells Jekyll where to display the rendered pages and `icon` is the small icon displayed next to the collection name in the side nav.
+Everything under the `collections` entry is created as a collection. The name `tracks` must match the name of the directory we created, minus the underscore, `output: true` tells Jekyll to render the pages, `permalink` tells Jekyll where to display the rendered pages and `icon` is the small icon displayed next to the collection name in the side nav.
 
 
 - To **add** a new collection, make a new directory starting with an underscore, add a new `collections` entry (you can copy most of this from existing entries) in `_config.yml` and you should see your title rendered in the sidebar.
@@ -101,5 +119,3 @@ The collections in the side nav will display all of their posts:
     Which tells Jekll to render the page. If you were successful you should see your new post being displayed in the side nav.
 - To **delete** a post in a collection, just delete the `markdown` file you don't want to display. The file should no longer appear in the side nav.
 
-### careful: Special handling for the collection "Faq"
-A special handling is done for the collection named **Faq**: Here the entries in the side navigation are not only displayed in a flat list, but are grouped by "types". Each entry can specify its type.

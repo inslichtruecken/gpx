@@ -1,34 +1,37 @@
 ---
 layout: default
 ---
-<!-- Markup for rendering for entries of type track          -->
-<!--                                                         -->
-<!-- inslichtruecken/gpx: track repository web site          -->
-<!-- Created by Thomas Stober,  www.inslichtruecken.de       -->
-<!-- Licensed CC BY-SA 3.0                                   -->
-<!--                                                         -->
-<!-- Valid Properties for this type of entry:                -->
-<!--                                                         -->
-<!-- This layout is designed to present a                    -->
-<!-- GPX Track with some nice description                    -->
-<!--      TAGS als Properties bezeichnen!!!!!!!!!!!!!                                        -->
-<!-- supported tags to provide:                              -->
-<!-- Title of the Track: page.title                          -->
-<!-- Author of the Track: page.author                        -->
-<!-- Description of the Track: page.description              -->
-<!-- Region: page.region                                     -->
-<!-- Start: page.start                                       -->
-<!-- Length: page.length                                     -->
-<!-- Duration: page.duration                                 -->
-<!-- Difficulty: page.difficulty                             -->
-<!-- Rating: page.rating                                     -->
-<!-- Image: page.image                                       -->
-<!-- Image Alt Text: page.imagetext                          -->
-<!-- Link for more more informaton: page.infolinks           -->
-<!-- Map as Image: page.mapimage                             -->
-<!-- Map as Link reference: page.maplink                     -->
-<!-- Name of the GPX File: page.gpxfile                      -->
-<!--                                                         -->
+<!-- Markup for rendering for entries of type track           -->
+<!--                                                          -->
+<!-- inslichtruecken/gpx: track repository web site           -->
+<!-- Created by Thomas Stober,  www.inslichtruecken.de        -->
+<!-- Licensed CC BY-SA 3.0                                    -->
+<!--                                                          -->
+<!-- Valid Properties for this type of entry:                 -->
+<!--                                                          -->
+<!-- This layout is designed to present a                     -->
+<!-- GPX Track with some nice description                     -->
+<!--                                                          -->
+<!-- Supported properties:                                    -->
+<!-- Title of the Track:           page.title                 -->
+<!-- Author of the Track:          page.author                -->
+<!-- Description of the Track:     page.description           -->
+<!-- Region:                       page.region                -->
+<!-- Start:                        page.start.location        -->
+<!-- Start:                        page.start.coordinates     -->
+<!-- Start:                        page.start.google-map-link -->
+<!-- Length:                       page.length                -->
+<!-- Duration:                     page.duration              -->
+<!-- Difficulty:                   page.difficulty            -->
+<!-- Rating:                       page.rating                -->
+<!-- Image:                        page.image                 -->
+<!-- Image Alt Text:               page.image-text            -->
+<!-- Links for more informaton:    page.info-links            -->
+<!-- Map showing track as Image:   page.map-image             -->
+<!-- Map showing track as link:    page.map-link              -->
+<!-- Name of the GPX File:         page.gpx-file              -->
+<!-- Tags describing the track:    page.tags                  -->
+<!--                                                          -->
 
 
 
@@ -60,9 +63,9 @@ Bewertung:
 <div>
 <blockquote>
 Region <strong>{{ page.region }}</strong><br>
-Start <strong>{{ page.start }}</strong><br>
-Links: <a href="{{ page.infolink }}" target="_blank">{{ page.infolinks }}</a><br>
-Start: <a href="{{ page.maplink }}" target="_blank">{{ page.maplink }}</a><br>
+Start <strong>{{ page.start-location }}</strong><br>
+Links: <a href="{{ page.info-link }}" target="_blank">{{ page.info-links }}</a><br>
+Start: <a href="{{ page.map-link }}" target="_blank">{{ page.map-link }}</a><br>
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
@@ -86,7 +89,7 @@ Start: <a href="{{ page.maplink }}" target="_blank">{{ page.maplink }}</a><br>
 
 <p>
 <ul class="downloads">
-<li><a href="{{ "/" | relative_url  }}assets/tracks/{{ page.gpxfile }}">Download<strong>GPX</strong></a></li>
+<li><a href="{{ "/" | relative_url  }}assets/tracks/{{ page.gpx-file }}">Download<strong>GPX</strong></a></li>
 </ul>
 </div>
 
@@ -95,12 +98,12 @@ Start: <a href="{{ page.maplink }}" target="_blank">{{ page.maplink }}</a><br>
 {{content}}
 
 <hr>
-track image: <img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.imagetext }}" title="{{ page.imagetext }}"><br>
-track mapimage: <img src="{{ "/" | relative_url }}assets/maps/{{ page.mapimage }}" alt="{{ page.mapimage }}"><br>
+track image: <img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.image-text }}" title="{{ page.imagetext }}"><br>
+track map-image: <img src="{{ "/" | relative_url }}assets/maps/{{ page.map-image }}" alt="{{ page.map-image }}"><br>
 
 
 
-track file:Test mit absolute url <a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpxfile }}">{{ page.gpxfile }}</a><br>
+track file:Test mit absolute url <a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpx-file }}">{{ page.gpx-file }}</a><br>
 
 
 
