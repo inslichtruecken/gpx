@@ -7,4 +7,4 @@ layout: default
 This repository creates Github Pages to present your GPX tracks nicely.
 
 
-[back]({{ site.url }})
+[back]({{ "/" | relative_url }})

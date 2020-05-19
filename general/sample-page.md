@@ -126,5 +126,5 @@ The final element.
 
 
 
-[back]({{ site.url }})
+[back]({{ "/" | relative_url }})
 

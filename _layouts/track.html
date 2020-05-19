@@ -24,90 +24,108 @@ layout: default
 <!-- Duration:                     page.duration              -->
 <!-- Difficulty:                   page.difficulty            -->
 <!-- Rating:                       page.rating                -->
+<!--                               (1, 2 or 3)                -->
 <!-- Image:                        page.image                 -->
+<!--                               (stored in assets/images)  -->
 <!-- Image Alt Text:               page.image-text            -->
-<!-- Links for more informaton:    page.info-links            -->
+<!-- Link(s) for more informaton:  page.info-links            -->
+<!--                               (separated by blank,       -->
+<!--                               include https://)          -->
 <!-- Map showing track as Image:   page.map-image             -->
+<!--                               (stored in assets/maps)    -->
 <!-- Map showing track as link:    page.map-link              -->
 <!-- Name of the GPX File:         page.gpx-file              -->
+<!--                               (stored in assets/tracks)  -->
 <!-- Tags describing the track:    page.tags                  -->
+<!--                               (separated by blank)       -->
 <!--                                                          -->
 
 
-
+<!-- page header                                              -->
 <div>
-<h1>{{ page.title }}</h1>
-<p class="view">by {{ page.author | default: site.author }}
-</div>
-<div>
-{% if site.logo %}
-Bewertung: 
-	{% if page.rating==1 %}
-    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-	{% endif %}
-	{% if page.rating==2 %}
-    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-	{% endif %}
-	{% if page.rating==3 %}
-    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-    <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-	{% endif %}
-
-<p>
-{% endif %}
+   <h1>{{ page.title }}</h1>
+   <p class="view">by {{ page.author | default: site.author }}
 </div>
 
+<div>
+   {% if site.logo %}
+      Bewertung: 
+	  {% if page.rating==1 %}
+         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+	  {% endif %}
+	  {% if page.rating==2 %}
+         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+	  {% endif %}
+	  {% if page.rating==3 %}
+         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
+	  {% endif %}
+      <p>
+      {% endif %}
+</div>
+
 <p>
+
 <div>
 <blockquote>
-Region <strong>{{ page.region }}</strong><br>
-Start <strong>{{ page.start-location }}</strong><br>
-Links: <a href="{{ page.info-link }}" target="_blank">{{ page.info-links }}</a><br>
-Start: <a href="{{ page.map-link }}" target="_blank">{{ page.map-link }}</a><br>
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+   Region <strong>{{ page.region }}</strong><br>
+   Start <strong>{{ page.start-location }}</strong><br>
 
+   {% if page.info-links %}
+   Links: 
+      {% assign all-links = page.info-links | split:' ' %}
+      {% for one-link in all-links %}   
+      <a href="{{ one-link }}" target="_blank">{{ one-link }}</a>
+      {% endfor %}
+      <br>
+   {% endif %}
+
+   Start: <a href="{{ page.map-link }}" target="_blank">{{ page.map-link }}</a><br>
+   {% if page.tags %}
+   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+   {% endif %}
 </blockquote>
 </div>
+
+
 <div>
 {{ page.description }}<br>
-
 </div>
-
-
 
 
 <div>
-<ul class="downloads">
-<li><a href="">Length<strong>{{ page.length }}</strong></a></li>
-<li><a href="">Duration<strong>{{ page.duration }}</strong></a></li>
-<li><a href="">Difficulty<strong>{{ page.difficulty }}</strong></a></li>
-</ul>
+   <ul class="downloads">
+      <li><a href="">Length<strong>{{ page.length }}</strong></a></li>
+      <li><a href="">Duration<strong>{{ page.duration }}</strong></a></li>
+      <li><a href="">Difficulty<strong>{{ page.difficulty }}</strong></a></li>
+   </ul>
 
-<p>
-<ul class="downloads">
-<li><a href="{{ "/" | relative_url  }}assets/tracks/{{ page.gpx-file }}">Download<strong>GPX</strong></a></li>
-</ul>
+   <p>
+   <ul class="downloads">
+      <li><a href="{{ "/" | relative_url  }}assets/tracks/{{ page.gpx-file }}">Download<strong>GPX</strong></a></li>
+   </ul>
 </div>
-
 <hr>
 
+
+<!-- markdown content is placed here                           -->
+
 {{content}}
+
+<!-- page footer                                               -->
+
 
 <hr>
 track image: <img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.image-text }}" title="{{ page.imagetext }}"><br>
 track map-image: <img src="{{ "/" | relative_url }}assets/maps/{{ page.map-image }}" alt="{{ page.map-image }}"><br>
-
-
-
 track file:Test mit absolute url <a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpx-file }}">{{ page.gpx-file }}</a><br>
-
-
 
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
+<p>
+
+<a href="{{ "/" | relative_url }}">back</a>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: How to Add Tracks
 ---
 
@@ -43,35 +43,52 @@ Supported properties:
 * Length:                       length                
 * Duration:                     duration              
 * Difficulty:                   difficulty            
-* Rating:                       rating                
-* Image:                        image                 
+* Rating:                       rating      (1, 2 or 3)          
+* Image:                        image       (must be stored in assets/images)         
 * Image Alt Text:               image-text            
-* Links for more informaton:    info-links            
-* Map showing track as Image:   map-image             
+* Link(s) for more informaton:  info-links  (separated by blank, include https://)          
+* Map showing track as Image:   map-image   (must be stored in assets/maps)            
 * Map showing track as link:    map-link              
-* Name of the GPX File:         gpx-file    
-* Tags describing this track    tags         
+* Name of the GPX File:         gpx-file    (must be stored in assets/tracks)
+* Tags describing this track    tags        (separated by blank)
 
 
 Below the section specifying those properties you can add further markdown syntax to describe your track. That **content** will be rendering for you by the layout template as well.
 You are free to type whatever and as much individual content you want into the file. You can add further images, structure longer contributions with sub-headlines, bullets, etc. [Here is a cheatsheet to get you acquianted with Git flavoured Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf). However it is possible to just write plain text and it will still be served on a page.
 
-Once the file is committed on Github, it will represent your track as a unique **page** in your overall Github pages site and will be visible for everyone in the site navigation.
+A very simple track description can look like this:
 
-**As a summary: the concepts used for each provided track are:**
+```
+---
+layout: track
+title: Track in the Black Forest
+author: Thomas Stober
+region: Black Forest
+start-location: Baiersbronn
+description: My first Track
+length: 11 km
+duration: 2,5 - 3 h
+difficulty: Easy
+rating: 3
+image: my-nice-photo.jpg
+image-text: my nicephoto 
+info-links: https://www.frischluftwege.de 
+maplink: https://www.openstreetmap.org
+gpx-file: Schoenbuchtrauf.gpx
+map-image: Schoenbuchtrauf-Map.png
+tags: Train Forest Family
+---
+{% raw %}
+## Welcome to my first track
+{% endraw %}
+here comes my detailed description 
+with all **markdown** syntax you 
+might want.
+```
 
-> * **for each track:** 
->
->   * **file** (added in the subdirectory "_tracks" with extension "*.md")
->
->   * **layout** (specify the layout "track")
->
->   * **properties** (specify the key data for your track, e.g. type, duration, length, ...)
->
->   * **content** (describe any additional helpful info in markdown syntax)
->
->   * **page** (will show up in the resulting Github Pages site)
 
+
+Once the file describing your track is committed on Github, it will represent your track as a unique **page** in your overall Github pages site and will be visible for everyone in the site navigation.
 
 
 ## How to add Blog post
@@ -89,7 +106,8 @@ layout: post
 There are further **properties**, which allow for a full structured description of a bog post.
 
 Supported properties:                                    
-* Title of the Track:           title  
+* Title of the Blog post:           title  
+* Auuthor:                          Author  
 TO DO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 There is one special constraint on blog posts:
@@ -102,4 +120,4 @@ In addition to the tracks you can add **further pages** to the site by adding `m
 
 
 
-[back]({{ site.url }})
+[back]({{ "/" | relative_url }})

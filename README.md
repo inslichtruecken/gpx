@@ -58,4 +58,4 @@ you can find more about me and this project on
 [www.inslichtruecken.de](www.inslichtruecken.de)
 
 
-[back]({{ site.url }})
+[back]({{ "/" | relative_url }})

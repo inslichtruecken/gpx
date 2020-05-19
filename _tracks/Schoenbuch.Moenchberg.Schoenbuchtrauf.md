@@ -11,11 +11,11 @@ difficulty: Einfach
 rating: Top
 image: Schoenbuch.Moenchberg.Schoenbuchtrauf.jpg
 image-text: unterwegs
-info-links: https://www.frischluftwege.de/wander/schoenbuchtrauf
+info-links: https://www.frischluftwege.de/wander/schoenbuchtrauf https://www.inslichtruecken.de
 map-link: https://www.openstreetmap.org
 gpx-file: Schoenbuch.Moenchberg.Schoenbuchtrauf.gpx
 map-image: Schoenbuch.Moenchberg.Schoenbuchtrauf-Map.png
-tags: test zwei drei
+tags: Train Forest Family
 ---
 
 
@@ -26,4 +26,4 @@ tags: test zwei drei
 
 _yay_
 
-[back](./)
+

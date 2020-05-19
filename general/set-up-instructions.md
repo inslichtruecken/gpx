@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Create your own Track Web Site
 ---
 
@@ -127,5 +127,5 @@ A good step by step tutorial on Jekyll and Github Pages can be found [here](http
 
 
 
-[back]({{ site.url }})
+[back]({{ "/" | relative_url }})
 

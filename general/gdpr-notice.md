@@ -6,4 +6,4 @@ layout: default
 
 
 
-[back]({{ site.url }})
+[back]({{ "/" | relative_url }})

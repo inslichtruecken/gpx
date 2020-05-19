@@ -11,11 +11,11 @@ difficulty: Einfach
 rating: 3
 image: Schoenbuch.Herrenberg.Jaegerpfad.jpg
 image-text: unterwegs
-info-links: https://www.frischluftwege.de/wandern/jaegerpfad
+info-links: https://www.frischluftwege.de/wandern/jaegerpfad https://www.inslichtruecken.de
 map-link: https://www.openstreetmap.org
 gpx-file: Schoenbuch.Herrenberg.Jaegerpfad.gpx
 map-image: Schoenbuch.Herrenberg.Jaegerpfad-Map.png
-tags: test zwei drei
+tags: Train Forest Family
 ---
 
 
@@ -26,4 +26,4 @@ tags: test zwei drei
 
 _yay_
 
-[back](./)
+

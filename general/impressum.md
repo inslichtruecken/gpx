@@ -5,4 +5,4 @@ layout: default
 # Impressum
 
 
-[back]({{ site.url }})
+[back]({{ "/" | relative_url }})
