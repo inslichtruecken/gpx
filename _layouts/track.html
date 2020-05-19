@@ -110,6 +110,25 @@ layout: default
 <hr>
 
 
+<!-- get the script body info for leaflet -->
+{% include leaflet-body.html %}
+
+<!-- Draw a map -->
+jetzt kommt leaflet
+<div id="mapid">
+<script>
+var mymap = L.map('mapid').setView([48.586, 8.921], 13);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a></a>',
+    maxZoom: 18,
+    tileSize: 512,
+    zoomOffset: -1,
+}).addTo(mymap);
+</script>
+
+</div>
+ende leaflet
+
 <!-- markdown content is placed here                           -->
 
 {{content}}

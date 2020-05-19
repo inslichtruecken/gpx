@@ -21,6 +21,10 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+
+    <!-- get the header info for leaflet -->
+	{% include leaflet-header.html %}
+
   </head>
   
   <body>
@@ -48,10 +52,9 @@
 		<p>
 	    </small>	
  
-       <!--  the main page comes here -->	  
-
-       {% include main-page.html %}
-
+       <!--  the main page content comes here -->	  
+       
+      {{ content }}
 
       </section>
 	  

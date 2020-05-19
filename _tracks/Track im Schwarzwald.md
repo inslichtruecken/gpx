@@ -11,11 +11,11 @@ difficulty: Einfach
 rating: 3
 image: Schoenbuch.Moenchberg.Schoenbuchtrauf.jpg
 image-text: unterwegs
-info-link: https://www.frischluftwege.de/wander/schoenbuchtrauf
+info-links: https://www.frischluftwege.de/wander/schoenbuchtrauf
 maplink: https://www.openstreetmap.org
 gpx-file: Schoenbuch.Moenchberg.Schoenbuchtrauf.gpx
 map-image: Schoenbuch.Moenchberg.Schoenbuchtrauf-Map.png
-tags: test zwei drei
+tags: Car Forest Museum Crowded
 ---
 
 

@@ -64,6 +64,30 @@ Its easy and fast to make your changes and test them locally until you are happy
 
 From this point make any changes you want, and follow normal git procedure to commit the changes back to the repository.
 
+# Understanding the site configuration
+
+The file `_config.yml` includes the overall settings of the Track Web Site.
+Parameters include:
+
+* Properties provided by the Minimal Theme
+  * selection of the theme:                                    theme
+  * true/false to indicate whether to provide a download URL:  show_downloads 
+  * used Github repository:                                    repository
+  * Your Google Analytics tracking ID:                         google_analytics
+* Properties used by the Jekyll SEO Tag
+  * The title of your site:                                    title              
+  * title tagd of the home page like 'title | tagline':        tagline 
+  * The full URL to your site:                                 url 
+  * A short description of your site's purpose:                description
+  * Location of the logo file:                                 logo
+  * for verifying ownership via Google webmaster tools:        google_site_verification
+  * The locale these tags are marked up in:                    lang 
+* Custom properties for this GPX Track Repository Web Site
+  * A link to the impressum you want to reference:             impressum (Note: if not specified: the page ./general/impressum will be displayed)
+  * A link to the gdpr-notice you want to reference:           gdpr-notice (Note: if not specified: the page ./general/gdpr-notice will be displayed)
+  * A link to the legal you want to reference:                 legal (Note: if not specified: the page ./general/legal will be displayed)
+  * Link to your Homepage:                                     my link
+
 
 ## Understanding Layouts
 Every page you visit should have an underlying `markdown` file accompanying it. Generally the content of that file is mostly plain text, with some styling elements (refer to the [cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to see what styling elements exist), and the layout of that file is specified by a corresponding layout file.

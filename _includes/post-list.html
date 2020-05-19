@@ -6,7 +6,8 @@
 
 
 	<!-- Blogs (posts) -->
-		<!-- Display Posts -->
+	<h2>List of Blog Posts</h2>
+		<!-- Iterate through the Posts -->
 		{% for post in site.posts %}	
 		     <!-- Add a list entry for each post -->
 			<li><a href="{{post.url | absolute_url }}">{{post.title}}</a></li>		

@@ -1,0 +1,61 @@
+---
+layout: search
+title: Search
+---
+<!-- Markup for rendering entries of type: search             -->
+<!--                                                          -->
+<!-- inslichtruecken/gpx: track repository web site           -->
+<!-- Created by Thomas Stober,  www.inslichtruecken.de        -->
+<!-- Licensed CC BY-SA 3.0                                    -->
+<!--                                                          -->
+<!-- Valid Properties for this type of entry:                 -->
+<!--                                                          -->
+
+<!-- page header                                              -->
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ page.author | default: site.author }}</p>
+
+
+<!-- Search result list content is placed here                           -->
+
+<form action="{{ site.url }}/search.html" method="get" id="search-form">
+    <label for="search-box">Searching for</label>
+    <input type="text" id="search-box" name="query">
+    <input type="image" alt="go" id="search-submit" src="assets/lib/glyphs/search/search_128.svg">
+    <!--<input type="submit" value="search">-->
+</form>
+
+<ul id="search-results"></ul>
+
+<script>
+  {% assign first = 0 %}
+  window.store = {
+  {% for collection in site.collections %}
+      {% if collection.label == 'posts' %}{% continue %}{% endif %}
+      {% for post in collection.docs %}
+          "{{ post.url | slugify }}": {
+            "title": "{{ post.title | xml_escape }}",
+            "subtitle": "{{ post.subtitle | xml_escape }}",
+            "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+            "url": "{{ post.url | xml_escape | prepend: site.url }}",
+            "collection": "{{ post.collection | capitalize}}",
+            "excerpt": "{{ item.excerpt }}"
+          },
+      {% endfor %}
+  {% endfor %}
+  };
+</script>
+<script src="{{ site.url }}/assets/js/lunr.js"></script>
+<script src="{{ site.url }}/assets/js/search.js"></script>
+
+
+<!-- page footer                                               -->
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
+<p>
+
+<a href="{{ "/" | relative_url }}">back</a>

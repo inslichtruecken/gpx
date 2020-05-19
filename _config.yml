@@ -18,36 +18,46 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
-show_downloads: false
+# Properties provided by the Minimal Theme
+# selection of the theme:                                    theme
+# true/false to indicate whether to provide a download URL:  show_downloads 
+# used Github repository:                                    repository
+# Your Google Analytics tracking ID:                         google_analytics
 theme: jekyll-theme-minimal
+show_downloads: false
 repository: inslichtruecken/gpx
 
 
-# Custom properties for this Track Repository Web Site
-#
+# Properties used by the Jekyll SEO Tag
 # The title of your site:                                    title              
+# title tagd of the home page like 'title | tagline':        tagline 
+# The full URL to your site:                                 url 
 # A short description of your site's purpose:                description
 # Location of the logo file:                                 logo
-# true/false to indicate whether to provide a download URL:  show_downloads 
-# Your Google Analytics tracking ID:                         google_analytics
+# for verifying ownership via Google webmaster tools:        google_site_verification
+# The locale these tags are marked up in:                    lang 
+title: FrischLuftWege
+tagline: Outdoor GPX Tracks Hiking
+url: https://inslichtruecken.github.io/gpx/
+description: Outdoor und Navigaton
+logo: /assets/img/inslichtruecken.png
+google_site_verification:
+lang: de_DE
+
+
+# Custom properties for this GPX Track Repository Web Site
+#
 # A link to the impressum you want to reference:             impressum
 # (Note: if not specified: the page ./general/impressum will be displayed)
 # A link to the gdpr-notice you want to reference:           gdpr-notice
 # (Note: if not specified: the page ./general/gdpr-notice will be displayed)
 # A link to the legal you want to reference:                 legal
 # (Note: if not specified: the page ./general/legal will be displayed)
-# Link to your Homepage:                                     my links
-# SEO Keywords to include in the Markup header:              seo-keyword
-
-title: Frisch Luft Wege
-description: Manage and present your GPX Tracks
-logo: /assets/img/inslichtruecken.png
+# Link to your Homepage:                                     my link
 impressum: https://www.frischluftwege.de/impressum/
 gdpr-notice: https://help.github.com/en/github/site-policy/github-privacy-statement/
 legal: https://www.frischluftwege.de/rechtliche-hinweise/
 my-link: https://www.frischluftwege.de/"
-seo-keywords: gps navigation outdoor hiking
 
 
 

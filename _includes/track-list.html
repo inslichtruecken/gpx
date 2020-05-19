@@ -9,8 +9,8 @@
 		
 		<!-- iterate through all the tracks in the collection and group by region -->
 		<h2>List of tracks</h2>
+		
 		{% assign tracks_by_region = site.tracks | group_by: 'region'  %}
-	
 		{% for region in tracks_by_region %}
 		
 		<!-- Add a title for each region -->

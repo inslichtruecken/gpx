@@ -52,6 +52,8 @@ Supported properties:
 * Name of the GPX File:         gpx-file    (must be stored in assets/tracks)
 * Tags describing this track    tags        (separated by blank)
 
+TO DO VALIDATE PROPERTIES WHEN FINALLY DONE
+
 
 Below the section specifying those properties you can add further markdown syntax to describe your track. That **content** will be rendering for you by the layout template as well.
 You are free to type whatever and as much individual content you want into the file. You can add further images, structure longer contributions with sub-headlines, bullets, etc. [Here is a cheatsheet to get you acquianted with Git flavoured Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf). However it is possible to just write plain text and it will still be served on a page.
@@ -77,6 +79,9 @@ maplink: https://www.openstreetmap.org
 gpx-file: Schoenbuchtrauf.gpx
 map-image: Schoenbuchtrauf-Map.png
 tags: Train Forest Family
+
+TO DO VALIDATE PROPERTIES WHEN FINALLY DONE
+
 ---
 {% raw %}
 ## Welcome to my first track
