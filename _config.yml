@@ -25,10 +25,7 @@ repository: inslichtruecken/gpx
 
 
 # Custom properties for this Track Repository Web Site
-
-The title of your site]
-description: [A short description of your site's purpose]
-
+#
 # The title of your site:                                    title              
 # A short description of your site's purpose:                description
 # Location of the logo file:                                 logo

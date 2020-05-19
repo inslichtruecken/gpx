@@ -25,10 +25,28 @@
     <div class="wrapper">
       <header>
  
+        <!--  the header (left side of the page come here -->	  
+
  {% include header.html %}
  
       </header>
       <section>
+
+       <!--  small header with key links to be shown on each page -->	  
+	     <small>
+       	<a href="./general/about-this-site">About this site</a>
+        &mdash;
+     	<a href="./general/about-me">About me</a>
+        &mdash;
+     	<a href="./README">ReadMe</a>
+        &mdash;
+		<a href="./general/set-up-instructions">Getting Started</a>
+        &mdash;
+		<a href="./general/how-to-add-tracks">Adding your own Tracks</a>
+		<p>
+	</small>	
+ 
+       <!--  the main page comes here -->	  
 
 {% include main-page.html %}
 
@@ -36,6 +54,9 @@
       </section>
 	  
       <footer>
+
+       <!--  the footer on each page comeh here -->	  
+
 	  
 {% include footer.html %}
 	  
