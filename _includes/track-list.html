@@ -22,7 +22,7 @@
 			{% if track.region %}
 			
 		     <!-- Add a list entry for each track -->
-			<li><a href="{{track.url | absolute_url }}">{{track.title}}</a></li>
+			<li><a href="{{track.url | relative_url }}">{{track.title}}</a></li>
 			{% endif %}
 			
 			{% endfor %}
