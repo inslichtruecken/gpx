@@ -3,14 +3,13 @@ layout: default
 ---
 
 
-# Your own GPX Track Repository Web Site
+# Your own GPX Track Web Site
 
-This repository includes a Website based on Github Pages to present your GPX tracks nicely.
+This Github repository creates Github Pages to present your GPX tracks nicely.
 
-
-[./general/about-this-site](About this site)
-
-[./general/about-me](About me)
+[About this site]({{ site.url }}general/about-this-site) 
+&mdash;
+[About me]({{ site.url }}general/about-me) 
 
 
 # Features and capabilities
@@ -55,4 +54,8 @@ This GPX Tracks Repository is licenced under [CC BY-SA 3.0](http://creativecommo
 
 # more information
 
-you can find more about me on [www.inslichtruecken.de](www.inslichtruecken.de)
+you can find more about me and this project on 
+[www.inslichtruecken.de](www.inslichtruecken.de)
+
+
+[back]({{ site.url }})

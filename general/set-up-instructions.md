@@ -1,10 +1,26 @@
 ---
 layout: post
-title: Setup Instructions
+title: Create your own Track Web Site
 ---
 
 
-### Install a local environment
+## Clone this Github repository
+
+First you need to get your own copy of this repository.
+Either Fork or clone this github repo [inslichtruecken/gpx](https://github.com/inslichtruecken/gpx).
+
+You can do this either 
+
+* with the Github Web UI on [github.com](https://github.com/inslichtruecken/gpx)
+
+* or using the Github Command Line Interface
+  * `git clone https://github.com/inslichtruecken/gpx`
+  
+* or using the [Github Desktop client](https://desktop.github.com/).
+
+
+## Make changes to your your own clone
+
 This Site is made using Jekyll and hosted on Github pages. 
 [Jekyll](https://jekyllrb.com/) is a static site generator which creates web pages from raw text files, using the syntax specified as `markdown`. Individual pages are simple markdown files.
 
@@ -13,32 +29,30 @@ There are two ways to develop this site.
 * Either change files individually on the GitHub interface (the `Edit this Page` button at the top of each page should take you directly to that file on GitHub), 
 * or clone the repository and edit the files locally.
 
+## Get a local environment on your computer
+
+### Install Ruby and Git
+
 To *run the site locally*, you will need:
 
 * `ruby` (version 2.5.x with DevKit) ([get it from here](https://rubyinstaller.org/)) and run `ridk install` with all install options at the end of the install procedure.
 * `git` ([get it from here](https://git-scm.com/downloads)) to be installed. 
 
-Once you have Jekyll set up, you will have to clone this github repo [inslichtruecken/gpx](https://github.com/inslichtruecken/gpx).
+*Note:* Have a look at the full [Jekyll installation procedure](https://jekyllrb.com/docs/installation/) for more details.
 
-```
-git clone https://github.com/inslichtruecken/gpx 
-```
 
-You can also use the [Github Desktop client](https://desktop.github.com/).
+### Install the necessary prerequisites
 
 `cd` into the local directory of the repo you have just cloned.
 
-Install the `Jekyll` and `Bundler` ruby gems to install the site specific gems.
+Install the `Jekyll` and `Bundler` ruby gems to install the site specific gems:
 
 ```
 gem install jekyll bundler
 bundle update
 ```
 
-*Note:* Have a look at the full [Jekyll installation procedure](https://jekyllrb.com/docs/installation/) for more details.
-
-
-### Start your local environment to render Jekyll pages
+## Use your local environment to display your Track Web Site
 
 Finally you can run Jekyll which provides the web pages on local web server at `localhost:4000` to view your local changes.
 ```
@@ -46,11 +60,12 @@ bundle exec jekyll serve
 ```
 
 Jekyll will immediately update the web pages when changes are made in the work directory of your repository clone. 
+Its easy and fast to make your changes and test them locally until you are happy.
 
 From this point make any changes you want, and follow normal git procedure to commit the changes back to the repository.
 
 
-### Understanding Layouts
+## Understanding Layouts
 Every page you visit should have an underlying `markdown` file accompanying it. Generally the content of that file is mostly plain text, with some styling elements (refer to the [cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to see what styling elements exist), and the layout of that file is specified by a corresponding layout file.
 A layout file for a page is specified by the following content at the top of a file:
 
@@ -73,7 +88,7 @@ Consider the layout as a kind of template, which arranges the information to be 
 Furthermore, each layout can provide a set of properties, which a page can specify. The layout will arrange and display those properties during the page rendering.
  **Note** that layout files can also have a layout property, meaning you can have a nest of layouts.
 
-The key layouts provided for usage on this github pages sites are:
+The key layouts provided for usage on this GPX Track Web Site are:
 * `track` (a template specifying how tracks are being displayed)
 * `post` (a template specifying a very generic blog post)
 * `main-page` (a template specifying the main "home" page of the site
@@ -81,7 +96,7 @@ The key layouts provided for usage on this github pages sites are:
 As mentioned before, the styling for a page comes from the `layout` specified at the top of the file. If you want to make changes to this layout then edit the underlying layout file and your changes should be reflected all pages using that layout.
 **Note** that layouts are probably going to be used by more that one page, so it makes more sense to create a new layout file with the changes you want so you don't edit other peoples posts.
 
-### Understanding Includes
+## Understanding Includes
 Another Jekyll concept is `includes`. This is the opposite of a layout where you can include some html on the current page. Each include must be backed up by a html file in the `_includes` directory, so for example:
 
 ```liquid
@@ -92,8 +107,8 @@ Another Jekyll concept is `includes`. This is the opposite of a layout where you
 
 Inside your `markdown` file would include the `_includes/track-list.html` page at that location.
 
-### Understanding the Side Navigation
-The Side nav is build by looping through all the *collections* in the site, and then all the pages in each collection.
+## Understanding the collection of all tracks
+The list of tracks is build by looping through the *collections* of tracks.
 A collection is defined by creating a directory starting with an underscore (`_`) in the root of the project. For instance, we have the `_track` collection. There are some reserved names you can't use for a collection (e.g., layouts and includes) but most names are available.
 A collection also needs an entry in the `_config.yml` file in the root of the directory. For example, the `_general` collection is defined by:
 ```yaml
@@ -101,21 +116,16 @@ collections:
   tracks:
     output: true
 ```
+
 Everything under the `collections` entry is created as a collection. The name `tracks` must match the name of the directory we created, minus the underscore, `output: true` tells Jekyll to render the pages, `permalink` tells Jekyll where to display the rendered pages and `icon` is the small icon displayed next to the collection name in the side nav.
+Blog posts are also collections, but Jekyll creates that collection automatically. They are treated a bit special.
+
+## More information
 
 
-- To **add** a new collection, make a new directory starting with an underscore, add a new `collections` entry (you can copy most of this from existing entries) in `_config.yml` and you should see your title rendered in the sidebar.
-- To **delete** a collection, remove the collection directory, and it's entry in the `collections` section of `_config.yml`. If it worked your collection should no longer appear in the side nav.
+A good step by step tutorial on Jekyll and Github Pages can be found [here](https://jekyllrb.com/docs/step-by-step/01-setup/)
 
-<br />
 
-The collections in the side nav will display all of their posts:
 
-- To **add** a post to a collection, simply create a new `markdown` file within the collection directory. The file has to contain at least the content:
-    ```
-    ---
-    ---
-    ```
-    Which tells Jekll to render the page. If you were successful you should see your new post being displayed in the side nav.
-- To **delete** a post in a collection, just delete the `markdown` file you don't want to display. The file should no longer appear in the side nav.
+[back]({{ site.url }})
 

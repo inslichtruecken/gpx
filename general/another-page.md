@@ -6,4 +6,4 @@ layout: default
 dfdfdfdfdfd
 _yay_
 
-[back](./)
+[back]({{ site.url }})

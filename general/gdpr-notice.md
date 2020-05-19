@@ -2,4 +2,8 @@
 layout: default
 ---
 
-# GDPR Notice
+## GDPR Notice
+
+
+
+[back]({{ site.url }})
