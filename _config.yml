@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-minimal
 repository: inslichtruecken/gpx
 

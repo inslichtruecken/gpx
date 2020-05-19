@@ -10,22 +10,22 @@
 		Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a><br>
 		Hosted on GitHub Pages <br>
 		
-		{% if site.gdpr-notice %}
+		{% if site.gdpr-notice==".." %}
 		<a href="{{ site.gdpr-notice }}" target="_blank">Datenschutzerklärung für Github Pages</a><br>
 		{% else %}
 		<a href="/general/gdpr-notice">Datenschutzerklärung für Github Pages</a><br>
         {% endif %}
 	
 	    
-		{% if site.impressum %}
+		{% if site.impressum==".." %}
 		<a href="{{ site.impressum }}" target="_blank">Impressum</a>  
 		{% else %}
 		<a href="/general/impressum">Impressum</a>
         {% endif %}
         &mdash;
 
-		{% if site.legal %}
-		<a href="{{ site.legal }}" target="_blank">Rechtliche Hinweise</a></p><br>
+		{% if site.legal==".." %}
+		<a href="{{ site.legal }}" target="_blank">Rechtliche Hinweise</a><br>
 		{% else %}
 		<a href="/general/legal">Rechtliche Hinweise</a><br>
         {% endif %}
