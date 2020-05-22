@@ -12,12 +12,12 @@
         appendString += '<li><div class="search-meta"><a href="' + item.url + '">' + item.title + '</a>';
 
         if (item.collection) {
-          appendString += '<p class="search-collection">In '+ item.collection + '</p></div>';
+          appendString += '<p>In <b>'+ item.collection + '</b><br>';
         } else {
-          appendString += '</div>';
+          appendString += '';
         }
 
-        appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+        appendString += '<small>' + item.content.substring(0, 150) + '...</small><p></li>';
 
       }
 
@@ -52,14 +52,27 @@
       this.field('title');
       this.field('content');
       this.field('subtitle');
-
-      for (var key in window.store) { // Add the data to lunr
+	  
+	  // Define additional properties specific to GPX tracks which you can search for 
+      this.field('tags');
+      this.field('description');
+      this.field('region');
+      this.field('startlocation');
+	  
+      // Add the data to lunr
+      for (var key in window.store) { 
         this.add({
           'id': key,
           'title': window.store[key].title,
           'content': window.store[key].content,
-          'subtitle': window.store[key].subtitle
-        });
+          'description': window.store[key].subtitle, 
+		  
+		  // Add additional properties specific to GPX tracks 
+		  'tags': window.store[key].tags,
+          'description': window.store[key].description,
+		  'region': window.store[key].region,
+		  'startlocation': window.store[key].startlocation
+		  });
       }
     });
 

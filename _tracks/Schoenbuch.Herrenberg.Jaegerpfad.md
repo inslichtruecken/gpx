@@ -20,10 +20,6 @@ tags: Train Forest Family
 
 
 
-## Welcome to my first track
-
-
-
-_yay_
+Dies ist einer unserer absoluten Lieblingstouren. Eine echte Genießerrunde. Die Strecke führt größtenteils auf Naturpfaden, was sonst im gut ausgebauten Schönbuch eher selten möglich ist. Die Stille des Waldes ist in dieser Ecke des Naturparks unglaublich und der schattige Verlauf ist gerade an heißen Sommertagen wohltuend. Ein Highlight ist sicherlich die elegante Architektur des neuen Schönbuchturms, auch wenn das Gedränge dort ein heftiger Kontrast zum Rest der Wanderung ist. 
 
 

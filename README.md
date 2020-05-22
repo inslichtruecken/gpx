@@ -29,8 +29,8 @@ This Github repository creates Github Pages to present your GPX tracks nicely.
 
 The code uses:
 - [Jekyll](https://jekyllrb.com/)
-- [Theme based on the minimal theme](https://github.com/pages-themes/minimal)
-- [Future: Lunr Search](http://lunrjs.com)
+- [Theme based on the minimal theme by orderedlist](https://github.com/pages-themes/minimal)
+- [Lunr Search 2.1.2 by Oliver Nightingale](http://lunrjs.com)
 - [Sample tracks](https://www.inslichtruecken.de)
 
 
@@ -57,5 +57,3 @@ This GPX Tracks Repository is licenced under [CC BY-SA 3.0](http://creativecommo
 you can find more about me and this project on 
 [www.inslichtruecken.de](www.inslichtruecken.de)
 
-
-[back]({{ "/" | relative_url }})

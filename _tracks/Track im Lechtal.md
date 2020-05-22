@@ -1,10 +1,10 @@
 ---
 layout: track
-title: Track im Schwarzwald
+title: Track im Lechtal
 author: Thomas Stober
-region: Schwarzwald
-start-location: Baiersbronn
-description: Ein netter Track im dunklen Wald.
+region: Alpen
+start-location: Reutte
+description: Ein steiler Track im wilden Gebirge
 length: 11 km
 duration: 2,5 - 3 h
 difficulty: Einfach
@@ -15,12 +15,13 @@ info-links: https://www.frischluftwege.de/wander/schoenbuchtrauf
 maplink: https://www.openstreetmap.org
 gpx-file: Schoenbuch.Moenchberg.Schoenbuchtrauf.gpx
 map-image: Schoenbuch.Moenchberg.Schoenbuchtrauf-Map.png
-tags: Car Forest Museum Crowded
+tags: Alpin Klettern Car
 ---
 
 
 
-## Im tiefen Tannenwald gibt es dunkle Täler
+## Willkommen zu meiner ersten Bergtour
 
+Da gibt es Gipfel Glück ganz droben
 
 

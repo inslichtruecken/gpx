@@ -15,15 +15,13 @@ info-links: https://www.frischluftwege.de/wander/schoenbuchtrauf https://www.ins
 map-link: https://www.openstreetmap.org
 gpx-file: Schoenbuch.Moenchberg.Schoenbuchtrauf.gpx
 map-image: Schoenbuch.Moenchberg.Schoenbuchtrauf-Map.png
-tags: Train Forest Family
+tags: Obst Family
 ---
 
 
+Der Schönbuchtrauf ist ein Platz mit Aussicht: Der südliche Rand des dicht bewaldeten Naturparks fällt hier steil ins Ammertal hinab. Der Blick schweift über das obere Neckartal, Alb und Schwarzwald. Die Hänge schmücken Streuobstwiesen, Weinberge und Wiesen. Die spektakuläre Blütenpracht im Frühling ist jedes Jahr etwas ganz Besonderes.
+Diese Wanderrunde führt am oberen Rand des Schönbuchtraufs entlang auf schmalen Pfaden durch herrlichen Buchenwald. Nicht nur am Grafenberg öffnet sich der Blick ins weite Land zu unseren Füßen.  Der Rückweg verläuft dann gemächlich oberhalb von Kayh zwischen den Obstbäumen. Diese abwechslungsreiche Runde kombiniert elegant einen Abschnitt des Fernwanderwegs HW 5 mit der lokalen Rundwanderung "Land.Tour SchönbuchTrauf".
 
-## Welcome to my first track
 
-
-
-_yay_
 
 
