@@ -44,8 +44,8 @@ layout: default
 			   "startlocation": {{ post.start-location | xml_escape | jsonify }}, 
 			{% endif %}
 
-       	    <!-- final steps to prepare this collection item for the search index -->
-			"url": "{{ post.url | xml_escape | prepend: site.url }}",
+       	    <!-- final steps to prepare this collection item for the search index -->			
+			"url": "{{ post.url | relative_url | xml_escape }}",
             "collection": "{{ post.collection | capitalize}}",
             "excerpt": "{{ item.excerpt }}"
           },
