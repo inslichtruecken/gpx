@@ -12,6 +12,7 @@ layout: default
 <!-- Author of the Blog Post:          page.author            -->
 <!-- Tags describing the track:        page.tags              -->
 <!--                                   (separated by blank)   -->
+<!-- Flag if post is archived:         page.archived          -->
 <!--                                                          -->
 
 
@@ -23,6 +24,9 @@ layout: default
          <h1>{{ page.title }}</h1>
        </td>
 	   <td>
+	      {% if page.archived==true %}
+		      <strong>Archived</strong>
+		  {% endif %}
 	      <small>{{ page.date | date: "%-d %B %Y" }}</small>
   	   </td>
 	</tr>

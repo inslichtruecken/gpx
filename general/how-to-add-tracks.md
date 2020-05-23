@@ -107,10 +107,10 @@ layout: post
 There are further **properties**, which allow for a full structured description of a bog post.
 
 Supported properties:                                    
-* Title of the Blog post:           title  
-* Auuthor:                          Author  
-
-TO DO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* Title of the Blog post:       title  
+* Author:                       Author  
+* Tags describing this track    tags        (separated by blank)
+* Flag if the post is archived: archived
 
 There is one special constraint on blog posts:
 **The naming of the markdown post file must have the format `yyy-mm-dd-name`**

@@ -12,10 +12,13 @@
 
 		{% for post in all-posts %}	
 		
-		     <!-- Add a list entry for each post -->
-			<li><a href="{{post.url | relative_url }}">{{post.title}}</a> <small>({{ post.date | date: "%-d %B %Y" }})</small></li>	
-			
-			<small>{{ page.date | date: "%-d %B %Y" }}</small>
+		    {% if post.archived %} 
+			   <!-- ignore archived posts in this list -->
+			{% else %}
+		       <!-- Add a list entry for each post -->
+			   <li><a href="{{post.url | relative_url }}">{{post.title}}</a> <small>({{ post.date | date: "%-d %B %Y" }})</small></li>	
+			   <small>{{ page.date | date: "%-d %B %Y" }}</small>
+			{% endif %}
 			
 		{% endfor %}
 		

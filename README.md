@@ -11,7 +11,7 @@ This Github repository creates Github Pages to present your GPX tracks nicely.
 &mdash;
 [About me](https://inslichtruecken.github.io/gpx/general/about-me) 
 &mdash;
-[Getting started](https://inslichtruecken.github.io/gpx/general/set-up-instructionse) 
+[Getting started](https://inslichtruecken.github.io/gpx/general/set-up-instructions) 
 &mdash;
 [Licensing](https://inslichtruecken.github.io/gpx/general/license) 
 

@@ -1,6 +1,6 @@
 ---
 layout: search-results
-title: Search Results
+title: Suchergebnisse
 ---
 
 
