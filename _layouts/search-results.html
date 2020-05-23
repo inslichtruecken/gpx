@@ -18,6 +18,7 @@ layout: default
 
 <ul id="search-results"></ul>
 
+
 <script>
   <!-- Create the full Search Index with all documents (and data) to search for -->
   {% assign first = 0 %}
@@ -45,7 +46,7 @@ layout: default
 			{% endif %}
 
        	    <!-- final steps to prepare this collection item for the search index -->			
-			"url": "{{ post.url | relative_url | xml_escape }}",
+			"url": "{{ post.url | absolute_url | xml_escape }}",
             "collection": "{{ post.collection | capitalize}}",
             "excerpt": "{{ item.excerpt }}"
           },
