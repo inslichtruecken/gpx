@@ -1,1 +1,89 @@
-#mapid { height: 380px; }
+
+.search-box table{
+  table-layout: auto;
+  border: none;
+  border-bottom: none;
+  width: 100%;
+  margin-left: -10px;
+  text-align:right;
+}
+
+.search-box td:first-child {
+  text-align:left;
+}
+
+.search-box td:last-child {
+  text-align:right;
+}
+
+.search-box tr{
+  border: none;
+  border-bottom: none;
+  border-top: none;
+  
+}
+
+.search-box td{
+  border: none;
+  border-bottom: none;
+  border-top: none;
+  
+}
+
+
+.invisible-box table{
+  table-layout: auto;
+  text-align:bottom;
+  border: none;
+  border-bottom: none;
+  width: 100%;
+  margin-left: -10px;
+}
+
+.invisible-box td:last-child {
+  text-align:right;
+}
+
+.invisible-box tr{
+  border: none;
+  border-bottom: none;
+  border-top: none;
+  
+}
+
+.invisible-box td{
+  border: none;
+  border-bottom: none;
+  border-top: none;
+  
+}
+
+.info-box table{
+  border-top: 1px solid #e5e5e5;
+  border-radius: 3px;
+  box-shadow:0 1px 1px rgba(0,0,0,0.15),0 1px 1px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15);
+  table-layout: auto;
+  text-align:center;
+  width: 99%
+}
+
+.info-box tr {
+ 
+}
+
+.info-box td:first-child {
+ font-weight:bold;
+}
+
+.info-box a {
+  }
+
+.info-box a:hover, .info-boxS a:focus {
+  color:#267CB9;
+  background-color:#f0f0f0;
+  font-weight:bold;
+}
+
+.info-box ul a:active {
+  background-color:#f0f0f0;
+}

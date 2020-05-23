@@ -20,7 +20,7 @@ layout: default
 <!-- Start Location Name:          page.start-location        -->
 <!-- Start Location Latitude N/S:  page.start-lat             -->
 <!--                               (format: 48.60280)         -->   
-<!-- Start Location Longitude W/W: page.start-lat             -->
+<!-- Start Location Longitude O/W: page.start-long             -->
 <!--                               (format:  8.90339)         -->   
 <!-- Length of the Hike:           page.length                -->
 <!-- Duration (pure walking):      page.duration              -->
@@ -42,78 +42,118 @@ layout: default
 <!--                                                          -->
 
 
-<!-- page header                                              -->
-<div>
-   <h1>{{ page.title }}</h1>
-   <p class="view">by {{ page.author | default: site.author }}
-   {% if page.tags %}
-     <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-   {% endif %}
-   </p>
+
+<!-- Display page title and track rating                      -->
+<div class="invisible-box">
+    <table>
+	<tr>
+	   <td>
+         <h1>{{ page.title }}</h1>
+       </td>
+	   <td>
+       {% if site.logo %}
+	   
+	     {% if page.rating==1 %}
+            <img src="{{ "/" | relative_url  }}assets/img/star.png" alt="star" height=20/>
+	     {% endif %}
+	     {% if page.rating==2 %}
+            <img src="{{ "/" | relative_url  }}assets/img/star.png" alt="star" height=20/>
+            <img src="{{ "/" | relative_url  }}assets/img/star.png" alt="star" height=20/>
+	     {% endif %}
+	     {% if page.rating==3 %}
+            <img src="{{ "/" | relative_url  }}assets/img/star.png" alt="star" height=20/>
+            <img src="{{ "/" | relative_url  }}assets/img/star.png" alt="star" height=20/>
+            <img src="{{ "/" | relative_url  }}assets/img/star.png" alt="star" height=20/>
+	     {% endif %}
+       {% endif %}
+	   </td>
+	</tr>
+	</table>
 </div>
 
+<!-- Display author and tags                                 -->
+
+<div class="invisible-box">
+   <table>
+   <tr>
+      <td>
+      von {{ page.author | default: site.author }}
+      </td>
+      {% if page.tags %}
+	  <td>
+      <small>Schlagwörter: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+      {% endif %}     
+      </td>
+   </tr>
+   </table>
+</div>
+
+<!-- Display description text                                    -->
 <div>
-   {% if site.logo %}
-      Bewertung: 
-	  {% if page.rating==1 %}
-         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-	  {% endif %}
-	  {% if page.rating==2 %}
-         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-	  {% endif %}
-	  {% if page.rating==3 %}
-         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-         <img src="{{site.logo | relative_url}}" alt="Logo" height=40/>
-	  {% endif %}
-      <p>
-      {% endif %}
+    <strong>
+ 
+    {{ page.description }}<br>
+	
+	</strong> 
+
 </div>
 
 <p>
 
-<div>
-<blockquote>
-   Region <strong>{{ page.region }}</strong><br>
-   Start <strong>{{ page.start-location }}</strong><br>
-   Google Maps <strong><a href="http://maps.google.com/maps?z=15&mrt=loc&t=p&q={{ page.start-lat }}%2C{{ page.start-long }}" target="_blank">Link</a></strong><br>
-
-   {% if page.info-links %}
-   Links: 
-      {% assign all-links = page.info-links | split:' ' %}
-      {% for one-link in all-links %}   
-      <a href="{{ one-link }}" target="_blank">{{ one-link }}</a>
-      {% endfor %}
-      <br>
-   {% endif %}
-
-   {% if page.tags %}
-   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-   {% endif %}
-</blockquote>
+<!-- Display key data                                          -->
+<div class="info-box">
+    <table>
+    <tr>
+      <td>Region</td>
+      <td>{{ page.region }}</td>
+	</tr>
+	<tr>
+      <td>Länge</td>
+      <td>{{ page.length }}</td>
+    </tr>
+	<tr>
+      <td>Dauer</td>
+      <td>{{ page.duration }}</td>
+    </tr>
+	<tr>
+      <td>Schwierigkeit</td>
+      <td>{{ page.difficulty }}</td>
+    </tr>
+	
+	
+	<tr>
+      <td>Startpunkt</td>
+      <td>
+	      {{ page.start-location }} <br>
+		  <a href="http://maps.google.com/maps?z=15&mrt=loc&t=p&q={{ page.start-lat }}%2C{{ page.start-long }}" target="_blank"> 
+		  Link to Google Maps</a> <br>
+		  Koordinaten: {{ page.start-lat }}, {{ page.start-long }}
+	  </td>
+	</tr>
+	<tr>
+      <td>Links</td>
+      <td>
+	      {% if page.info-links %}
+          {% assign all-links = page.info-links | split:' ' %}
+          {% for one-link in all-links %}   
+               <a href="{{ one-link }}" target="_blank">{{ one-link }}</a>
+          {% endfor %}
+          {% endif %}
+	  </td>
+	</tr>
+	<tr>
+      <td>GPX Track</td>
+      <td><a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpx-file }}">{{ page.gpx-file }}</a></td>
+	</tr>
+	
+    </table>
 </div>
 
+<p>
 
-<div>
-{{ page.description }}<br>
-</div>
+<!-- Markdown content with more details on the track is placed here                           -->
+{{content}}
 
-
-<div>
-   <ul class="downloads">
-      <li><a href="">Length<strong>{{ page.length }}</strong></a></li>
-      <li><a href="">Duration<strong>{{ page.duration }}</strong></a></li>
-      <li><a href="">Difficulty<strong>{{ page.difficulty }}</strong></a></li>
-   </ul>
-
-   <p>
-   <ul class="downloads">
-      <li><a href="{{ "/" | relative_url  }}assets/tracks/{{ page.gpx-file }}">Download<strong>GPX</strong></a></li>
-   </ul>
-</div>
-
-<hr>
 
 <!-- Show an interactive map with Track and Waypoints -->
 {% if site.enable-map-viewer %}
@@ -121,24 +161,20 @@ layout: default
     <div class="gpxview:{{ "/" | relative_url }}assets/tracks/{{ page.gpx-file }}" style="width:500px;height:500px">
        <noscript><p>Zum Anzeigen der Karte wird Javascript benötigt.</p></noscript>
     </div>
-	 <small>Powered by <a href="https://www.j-berkemeier.de/GPXViewer" target="_blank">GPXViewer (Jürgen Berkemeier)</a></small>
-
+	 <small>Powered by <a href="https://www.j-berkemeier.de/GPXViewer" target="_blank">GPXViewer (Jürgen Berkemeier)</a><br></small>
+{% else %}
+     <!-- A nice map image for illustration as an alternative to the interactive map -->
+    <img src="{{ "/" | relative_url }}assets/maps/{{ page.map-image }}" alt="{{ page.map-image }}" title="{{ page.map-image }}"><br>
 {% endif %}
 <!-- End of map display                 -->
 
+<p>
+<p>
 
-<!-- Markdown content with more details on the track is placed here                           -->
-
-{{content}}
-
-
-<hr>
-track image: <img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.image-text }}" title="{{ page.imagetext }}"><br>
-track map-image: <img src="{{ "/" | relative_url }}assets/maps/{{ page.map-image }}" alt="{{ page.map-image }}"><br>
-track file:Test mit absolute url <a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpx-file }}">{{ page.gpx-file }}</a><br>
-
-
+<!-- A nice picture for illustration -->
+<img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.image-text }}" title="{{ page.imagetext }}"><br>
 
 <p>
+
 
 

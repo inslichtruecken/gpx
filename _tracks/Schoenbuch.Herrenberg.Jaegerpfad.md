@@ -1,7 +1,7 @@
 ---
 layout: track
 title: Jägerpfad
-author: Thomas
+author: Thomas Stober
 region: Schönbuch
 start-location: "Naturfreundehaus Herrenberg"
 start-lat: 48.60280
@@ -16,7 +16,7 @@ image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/jaegerpfad https://www.inslichtruecken.de
 gpx-file: Schoenbuch.Herrenberg.Jaegerpfad.gpx
 map-image: Schoenbuch.Herrenberg.Jaegerpfad-Map.png
-tags: Train Forest Family
+tags: Familie Schattig
 ---
 
 

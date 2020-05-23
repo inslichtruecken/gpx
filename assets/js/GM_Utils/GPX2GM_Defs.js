@@ -143,7 +143,7 @@ JB.GPX2GM.setparameters = function() {
 	JB.GPX2GM.parameters.currentlocationbutton = (typeof(Currentlocationbutton)!="undefined") ? Currentlocationbutton : false;
 	JB.GPX2GM.parameters.trafficbutton = (typeof(Trafficbutton)!="undefined") ? Trafficbutton : false;
 	JB.GPX2GM.parameters.trafficonload = (typeof(Trafficonload)!="undefined") ? Trafficonload : true;
-	JB.GPX2GM.parameters.legende = (typeof(Legende)!="undefined") ? Legende : true;
+	JB.GPX2GM.parameters.legende = (typeof(Legende)!="undefined") ? Legende : false;
 	JB.GPX2GM.parameters.legende_fnm = (typeof(Legende_fnm)!="undefined") ? Legende_fnm  : true;
 	JB.GPX2GM.parameters.legende_fnm_lm = (typeof(Legende_fnm_lm)!="undefined") ? Legende_fnm_lm  : false;
 	JB.GPX2GM.parameters.legende_rr = (typeof(Legende_rr)!="undefined") ? Legende_rr  : true;

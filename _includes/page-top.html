@@ -22,15 +22,28 @@
 
 <!-- Search entry field comes here --> 
 <!-- TO DO: Nice search look and some styling within a bar -->
-	    
+  
 		<form action="{{ site.url }}/general/search-results.html" method="get" id="search-form">
-        <label for="search-box">Search <small>powered by <a href="https://lunrjs.com/" target="_blank">Lunr.js</a></small></label>
-        <input type="text" id="search-box" name="query">
-        <input type="image" alt="go" id="search-submit" src="{{ "/" | relative_url }}assets/img/glasses.png" width=30>
-        <!--<input type="submit" value="search">-->
+  	    <div class=search-box ">
+		   <table>
+		   <tr>
+		      <td>
+              <label for="search-box">Search <small>powered by <a href="https://lunrjs.com/" target="_blank">Lunr.js</a></small>
+			  </td>
+			  
+			  <td>
+              <input type="text" id="search-box" name="query">
+		      </td>
+			  
+		      <td>
+              <input type="image" alt="go" id="search-submit" src="{{ "/" | relative_url }}assets/img/glasses.png" height=30 alt="Search now" title="Search now">
+		      </td>
+		      </label>
+		   </table>
+		   </tr>
+		 </div>
+           <!--<input type="submit" value="search">-->
+ 
         </form>
-		
-		
-        <p>
 		<hr>
 		<p>     

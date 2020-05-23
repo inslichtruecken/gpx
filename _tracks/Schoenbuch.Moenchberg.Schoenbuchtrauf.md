@@ -15,7 +15,7 @@ info-links: https://www.frischluftwege.de/wander/schoenbuchtrauf https://www.ins
 map-link: https://www.openstreetmap.org
 gpx-file: Schoenbuch.Moenchberg.Schoenbuchtrauf.gpx
 map-image: Schoenbuch.Moenchberg.Schoenbuchtrauf-Map.png
-tags: Obst Family
+tags: Panorama Familie
 ---
 
 

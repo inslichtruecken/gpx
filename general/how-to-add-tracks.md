@@ -37,9 +37,9 @@ Supported properties:
 * Author of the Track:          author                
 * Description of the Track:     description           
 * Region:                       region                
-* Start:                        start.location        
-* Start:                        start.coordinates     
-* Start:                        start.google-map-link 
+* Start Location Name:          start-location        
+* Start Location Latitude N/S:  start.lat  (format: 48.60280)   
+* Start Location Longitude O/W: start.long (format:  8.90339) 
 * Length:                       length                
 * Duration:                     duration              
 * Difficulty:                   difficulty            
@@ -48,12 +48,8 @@ Supported properties:
 * Image Alt Text:               image-text            
 * Link(s) for more informaton:  info-links  (separated by blank, include https://)          
 * Map showing track as Image:   map-image   (must be stored in assets/maps)            
-* Map showing track as link:    map-link              
 * Name of the GPX File:         gpx-file    (must be stored in assets/tracks)
 * Tags describing this track    tags        (separated by blank)
-
-TO DO VALIDATE PROPERTIES WHEN FINALLY DONE
-
 
 Below the section specifying those properties you can add further markdown syntax to describe your track. That **content** will be rendering for you by the layout template as well.
 You are free to type whatever and as much individual content you want into the file. You can add further images, structure longer contributions with sub-headlines, bullets, etc. [Here is a cheatsheet to get you acquianted with Git flavoured Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf). However it is possible to just write plain text and it will still be served on a page.
@@ -113,6 +109,7 @@ There are further **properties**, which allow for a full structured description 
 Supported properties:                                    
 * Title of the Blog post:           title  
 * Auuthor:                          Author  
+
 TO DO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 There is one special constraint on blog posts:

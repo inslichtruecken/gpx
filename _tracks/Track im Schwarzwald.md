@@ -1,10 +1,10 @@
 ---
 layout: track
-title: Track im Schwarzwald
+title: Beispiel Track im Schwarzwald
 author: Thomas Stober
 region: Schwarzwald
 start-location: Baiersbronn
-description: Ein netter Track im dunklen Wald.
+description: Ein netter Track im dunklen Wald ohne Inhalte.
 length: 11 km
 duration: 2,5 - 3 h
 difficulty: Einfach
@@ -15,12 +15,11 @@ info-links: https://www.frischluftwege.de/wander/schoenbuchtrauf
 maplink: https://www.openstreetmap.org
 gpx-file: Schoenbuch.Moenchberg.Schoenbuchtrauf.gpx
 map-image: Schoenbuch.Moenchberg.Schoenbuchtrauf-Map.png
-tags: Car Forest Museum Crowded
+tags: Wald Einsam
 ---
 
-
-
 ## Im tiefen Tannenwald gibt es dunkle Täler
+Dieser Track ist nur zum Testen. Mit Fake Daten.
 
 
 
