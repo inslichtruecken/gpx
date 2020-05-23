@@ -4,7 +4,7 @@
 
     if (results.length) { // Are there any results?
       var appendString = '';
-      var resultsString = (results.length > 1) ? 'Ergebnisse' : 'Ergebnis';
+      var resultsString = (results.length > 1) ? 'Ergebnisse<p>' : 'Ergebnis<p>';
       searchResults.insertAdjacentHTML('beforebegin', '<span>' + results.length + ' ' + resultsString + '</span>');
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results

@@ -12,11 +12,18 @@ layout: default
 
 <!-- page header                                              -->
 
+<!-- page title as defined in the /general/search-results.md file -->
 <h1>{{ page.title }}</h1>
 
 <!-- Search result list content is placed here                           -->
-
 <ul id="search-results"></ul>
+
+
+<!-- Note: 
+the actual display of the search results is done in search.js. 
+That javascript also has some string to produce markup for prsenting the search results,
+those would need to be translated, in case this web site should be presented in a different language
+-->
 
 
 <script>
