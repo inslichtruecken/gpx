@@ -6,12 +6,20 @@
 
 
 	<!-- Blogs (posts) -->
-	<h2>List of Blog Posts</h2>
-		<!-- Iterate through the Posts -->
-		{% for post in site.posts %}	
+	<h2>Aktuelle Blog Einträge</h2>
+		<!-- Iterate through the Posts and sort them by date (newest post comes first) -->
+		{% assign all-posts = (site.posts | sort: "date") |reverse %}
+
+		{% for post in all-posts %}	
+		
 		     <!-- Add a list entry for each post -->
-			<li><a href="{{post.url | relative_url }}">{{post.title}}</a></li>		
+			<li><a href="{{post.url | relative_url }}">{{post.title}}</a> <small>({{ post.date | date: "%-d %B %Y" }})</small></li>	
+			
+			<small>{{ page.date | date: "%-d %B %Y" }}</small>
+			
 		{% endfor %}
+		
+	<p>	
 	
 	  <!-- TMS End -->
 	  

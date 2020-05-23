@@ -7,7 +7,23 @@ function showWpt(waypoint) {
 		// var sym = waypoint.sym.toLowerCase().replace('-','').replace(',', '').replace(' ', '') ;
 		var sym = waypoint.sym.toLowerCase().replace('-','');
 		// End of customization by www.frischluftwege.de
-		
+	
+
+JB.GPX2GM.setparameters = function() {  
+
+	
+    // Customization www.frischluftwege.de: Added Fullscreenbutton
+	JB.GPX2GM.parameters.fullscreenbutton = (typeof(Fullscreenbutton)!="undefined") ? Fullscreenbutton : true;
+	
+	// Customization www.frischluftwege.de: Legende disabled
+	JB.GPX2GM.parameters.legende = (typeof(Legende)!="undefined") ? Legende : false;
+
+	// Customization www.frischluftwege.de: Tracks in Blue color									 	
+	JB.GPX2GM.parameters.tcols = (typeof(Tcols)!="undefined") ? Tcols : ["#0000ff","#00ff00","#ff0000","#eeee00","#ff00ff","#00ffff","#000000"]; // Trackfarben in #rrggbb für rot grün blau
+	//JB.GPX2GM.parameters.tcols = (typeof(Tcols)!="undefined") ? Tcols : ["#ff0000","#00ff00","#0000ff","#eeee00","#ff00ff","#00ffff","#000000"]; // Trackfarben in #rrggbb für rot grün blau
+	// End of Customization www.frischluftwege.de: Tracks in Blue color									 	
+
+	
 		
 		
 In File GPX2GM_Defs.js:

@@ -8,18 +8,49 @@ layout: default
 <!-- Licensed CC BY-SA 3.0                                    -->
 <!--                                                          -->
 <!-- Valid Properties for this type of entry:                 -->
+<!-- Title of the Blog Post:           page.title             -->
+<!-- Author of the Blog Post:          page.author            -->
+<!-- Tags describing the track:        page.tags              -->
+<!--                                   (separated by blank)   -->
 <!--                                                          -->
 
-<!-- page header                                              -->
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+<!-- Display page title and track rating                      -->
+<div class="invisible-box">
+    <table>
+	<tr>
+	   <td>
+         <h1>{{ page.title }}</h1>
+       </td>
+	   <td>
+	      <small>{{ page.date | date: "%-d %B %Y" }}</small>
+  	   </td>
+	</tr>
+	</table>
+</div>
 
-<p class="view">by {{ page.author | default: site.author }}
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
-</p>
+<!-- Display author and tags                                 -->
+
+<div class="invisible-box">
+   <table>
+   <tr>
+      {% if page.author %}
+      <td>
+      von {{ page.author | default: site.author }}
+      </td>
+	  {% endif %}     
+		  
+      {% if page.tags %}
+	  <td>
+      <small>Schlagwörter: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+      {% endif %}     
+      </td>
+   </tr>
+   </table>
+</div>
+
+<p>
+<p>
 
 <!-- markdown content is placed here                           -->
 

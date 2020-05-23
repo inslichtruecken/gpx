@@ -46,11 +46,13 @@ layout: default
 <div class="invisible-box">
     <table>
 	<tr>
+	
 	   <td>
          <h1>{{ page.title }}</h1>
        </td>
+	   
+       {% if page.rating %}
 	   <td>
-       {% if site.logo %}
 	   
 	     {% if page.rating==1 %}
             <img src="{{ "/" | relative_url  }}assets/img/star.png" alt="star" height=20/>
@@ -64,8 +66,9 @@ layout: default
             <img src="{{ "/" | relative_url  }}assets/img/star.png" alt="star" height=20/>
             <img src="{{ "/" | relative_url  }}assets/img/star.png" alt="star" height=20/>
 	     {% endif %}
-       {% endif %}
 	   </td>
+       {% endif %}
+
 	</tr>
 	</table>
 </div>
@@ -75,52 +78,67 @@ layout: default
 <div class="invisible-box">
    <table>
    <tr>
+      {% if page.author %}
       <td>
       von {{ page.author | default: site.author }}
       </td>
+	  {% endif %}    
+		   
       {% if page.tags %}
 	  <td>
       <small>Schlagwörter: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-      {% endif %}     
       </td>
+      {% endif %}    
    </tr>
    </table>
 </div>
 
 <!-- Display description text                                    -->
+{% if page.description %}
 <div>
     <strong>
- 
-    {{ page.description }}<br>
-	
+     {{ page.description }}<br>
 	</strong> 
-
+    <p>
 </div>
+{% endif %} 
+ 
 
-<p>
 
 <!-- Display key data                                          -->
 <div class="info-box">
     <table>
+	{% if page.region %}
     <tr>
       <td>Region</td>
       <td>{{ page.region }}</td>
 	</tr>
+	{% endif %}
+	
+	{% if page.length %}
 	<tr>
       <td>Länge</td>
       <td>{{ page.length }}</td>
     </tr>
+	{% endif %}
+	
+	{% if page.duration %}
 	<tr>
       <td>Dauer</td>
       <td>{{ page.duration }}</td>
     </tr>
+	{% endif %}
+	
+	{% if page.difficulty %}
 	<tr>
       <td>Schwierigkeit</td>
       <td>{{ page.difficulty }}</td>
     </tr>
+	{% endif %}
 	
 	
 	<tr>
+	{% if page.start-location %}
       <td>Startpunkt</td>
       <td>
 	      {{ page.start-location }} <br>
@@ -129,21 +147,28 @@ layout: default
 		  Koordinaten: {{ page.start-lat }}, {{ page.start-long }}
 	  </td>
 	</tr>
+	{% endif %}
+	
+	{% if page.info-links %}
 	<tr>
+	  
       <td>Links</td>
       <td>
-	      {% if page.info-links %}
+
           {% assign all-links = page.info-links | split:' ' %}
           {% for one-link in all-links %}   
                <a href="{{ one-link }}" target="_blank">{{ one-link }}</a>
           {% endfor %}
-          {% endif %}
 	  </td>
 	</tr>
+	{% endif %}
+	
+	{% if page.gpx-file %}
 	<tr>
       <td>GPX Track</td>
-      <td><a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpx-file }}">{{ page.gpx-file }}</a></td>
+      <td><a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpx-file }}">{{ page.gpx-file }}</a></td>	  
 	</tr>
+    {% endif %}
 	
     </table>
 </div>
@@ -153,25 +178,34 @@ layout: default
 <!-- Markdown content with more details on the track is placed here                           -->
 {{content}}
 
+<p>
 
 <!-- Show an interactive map with Track and Waypoints -->
 {% if site.enable-map-viewer %}
+    {% if page.gpx-file %}
     <script type="text/javascript" src="{{ "/" | relative_url }}assets/js/GM_Utils/GPX2GM.js"></script>
     <div class="gpxview:{{ "/" | relative_url }}assets/tracks/{{ page.gpx-file }}" style="width:500px;height:500px">
        <noscript><p>Zum Anzeigen der Karte wird Javascript benötigt.</p></noscript>
     </div>
 	 <small>Powered by <a href="https://www.j-berkemeier.de/GPXViewer" target="_blank">GPXViewer (Jürgen Berkemeier)</a><br></small>
+	 <p>
+     <p>
+    {% endif %}
 {% else %}
+    {% if page.map-image %}
      <!-- A nice map image for illustration as an alternative to the interactive map -->
     <img src="{{ "/" | relative_url }}assets/maps/{{ page.map-image }}" alt="{{ page.map-image }}" title="{{ page.map-image }}"><br>
+	<p>
+    <p>
+    {% endif %}	
 {% endif %}
 <!-- End of map display                 -->
 
-<p>
-<p>
 
 <!-- A nice picture for illustration -->
-<img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.image-text }}" title="{{ page.imagetext }}"><br>
+{% if page.image %}
+    <img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.image-text }}" title="{{ page.imagetext }}"><br>
+{% endif %}
 
 <p>
 

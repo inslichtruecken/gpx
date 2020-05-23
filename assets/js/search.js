@@ -23,7 +23,7 @@
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.insertAdjacentHTML('beforebegin', '<span>No results found</span>');
+      searchResults.insertAdjacentHTML('beforebegin', '<span>Keine Suchergnisse gefunden</span>');
     }
   }
 

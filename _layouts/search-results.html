@@ -46,7 +46,7 @@ layout: default
 			{% endif %}
 
        	    <!-- final steps to prepare this collection item for the search index -->			
-			"url": "{{ post.url | absolute_url | xml_escape }}",
+			"url": "{{ post.url | relative_url | xml_escape }}",
             "collection": "{{ post.collection | capitalize}}",
             "excerpt": "{{ item.excerpt }}"
           },
@@ -54,8 +54,8 @@ layout: default
   {% endfor %}
   };
 </script>
-<script src="{{ site.url }}/assets/js/lunr.js"></script>
-<script src="{{ site.url }}/assets/js/search.js"></script>
+<script src="{{ "/" | relative_url }}assets/js/lunr.js"></script>
+<script src="{{ "/" | relative_url }}assets/js/search.js"></script>
 
 
 <p>

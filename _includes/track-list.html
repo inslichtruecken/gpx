@@ -8,7 +8,7 @@
 	<!-- Display Tracks sorted and grouped by Region -->
 		
 		<!-- iterate through all the tracks in the collection and group by region -->
-		<h2>List of tracks</h2>
+		<h2>Übersicht der Tracks</h2>
 		
 		{% assign tracks_by_region = site.tracks | group_by: 'region'  %}
 		{% for region in tracks_by_region %}
@@ -29,4 +29,7 @@
 		</ul>
 		
 		{% endfor %}
+
+		<p>
+
 		

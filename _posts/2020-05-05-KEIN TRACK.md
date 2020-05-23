@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Post im Schwarzwald
+title: Gar kein Post
+author: Thomas Stober
+tags: test news
 ---
 
 
 
-## Welcome to my first Post
+## Noch ein Post
 
-
-
-_yay_
 
 
