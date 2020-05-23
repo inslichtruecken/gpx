@@ -17,11 +17,13 @@ layout: default
 <!-- Author of the Track:          page.author                -->
 <!-- Description of the Track:     page.description           -->
 <!-- Region:                       page.region                -->
-<!-- Start:                        page.start.location        -->
-<!-- Start:                        page.start.coordinates     -->
-<!-- Start:                        page.start.google-map-link -->
-<!-- Length:                       page.length                -->
-<!-- Duration:                     page.duration              -->
+<!-- Start Location Name:          page.start-location        -->
+<!-- Start Location Latitude N/S:  page.start-lat             -->
+<!--                               (format: 48.60280)         -->   
+<!-- Start Location Longitude W/W: page.start-lat             -->
+<!--                               (format: 8.90339           -->   
+<!-- Length of the Hike:           page.length                -->
+<!-- Duration (pure walking):      page.duration              -->
 <!-- Difficulty:                   page.difficulty            -->
 <!-- Rating:                       page.rating                -->
 <!--                               (1, 2 or 3)                -->
@@ -33,7 +35,6 @@ layout: default
 <!--                               include https://)          -->
 <!-- Map showing track as Image:   page.map-image             -->
 <!--                               (stored in assets/maps)    -->
-<!-- Map showing track as link:    page.map-link              -->
 <!-- Name of the GPX File:         page.gpx-file              -->
 <!--                               (stored in assets/tracks)  -->
 <!-- Tags describing the track:    page.tags                  -->
@@ -45,6 +46,10 @@ layout: default
 <div>
    <h1>{{ page.title }}</h1>
    <p class="view">by {{ page.author | default: site.author }}
+   {% if page.tags %}
+     <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+   {% endif %}
+   </p>
 </div>
 
 <div>
@@ -72,6 +77,7 @@ layout: default
 <blockquote>
    Region <strong>{{ page.region }}</strong><br>
    Start <strong>{{ page.start-location }}</strong><br>
+   Google Maps <strong><a href="http://maps.google.com/maps?z=15&mrt=loc&t=p&q={{ page.start-lat }}%2C{{ page.start-long }}" target="_blank">Link</a></strong><br>
 
    {% if page.info-links %}
    Links: 
@@ -82,7 +88,6 @@ layout: default
       <br>
    {% endif %}
 
-   Start: <a href="{{ page.map-link }}" target="_blank">{{ page.map-link }}</a><br>
    {% if page.tags %}
    <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
    {% endif %}
@@ -107,33 +112,24 @@ layout: default
       <li><a href="{{ "/" | relative_url  }}assets/tracks/{{ page.gpx-file }}">Download<strong>GPX</strong></a></li>
    </ul>
 </div>
+
 <hr>
 
+<!-- Show an interactive map with Track and Waypoints -->
+{% if site.enable-map-viewer %}
+    <script type="text/javascript" src="{{ "/" | relative_url }}assets/js/GM_Utils/GPX2GM.js"></script>
+    <div class="gpxview:{{ "/" | relative_url }}assets/tracks/{{ page.gpx-file }}" style="width:500px;height:500px">
+       <noscript><p>Zum Anzeigen der Karte wird Javascript benötigt.</p></noscript>
+    </div>
+	 <small>Powered by <a href="https://www.j-berkemeier.de/GPXViewer" target="_blank">GPXViewer (Jürgen Berkemeier)</a></small>
 
-<!-- get the script body info for leaflet -->
-{% include leaflet-body.html %}
+{% endif %}
+<!-- End of map display                 -->
 
-<!-- Draw a map -->
-jetzt kommt leaflet
-<div id="mapid">
-<script>
-var mymap = L.map('mapid').setView([48.586, 8.921], 13);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a></a>',
-    maxZoom: 18,
-    tileSize: 512,
-    zoomOffset: -1,
-}).addTo(mymap);
-</script>
 
-</div>
-ende leaflet
-
-<!-- markdown content is placed here                           -->
+<!-- Markdown content with more details on the track is placed here                           -->
 
 {{content}}
-
-<!-- page footer                                               -->
 
 
 <hr>
@@ -142,9 +138,7 @@ track map-image: <img src="{{ "/" | relative_url }}assets/maps/{{ page.map-image
 track file:Test mit absolute url <a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpx-file }}">{{ page.gpx-file }}</a><br>
 
 
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+
 <p>
 
-<a href="{{ "/" | relative_url }}">back</a>
+

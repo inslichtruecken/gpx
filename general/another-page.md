@@ -6,4 +6,3 @@ layout: default
 dfdfdfdfdfd
 _yay_
 
-[back]({{ "/" | relative_url }})

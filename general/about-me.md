@@ -11,4 +11,4 @@ Please find more on my websites
 [www.inslichtruecken.de](https://www.inslichtruecken.de)
 [www.frischluftwege.de](https://www.frischluftwege.de)
 
-[back]({{ "/" | relative_url }})
+

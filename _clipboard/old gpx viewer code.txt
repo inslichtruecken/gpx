@@ -1,0 +1,85 @@
+<!-- get the script body info for leaflet -->
+<!-- {% include leaflet-body.html %} --> 
+ 
+<!-- Draw a map -->
+Using [https://github.com/mpetazzoni/leaflet-gpx](https://github.com/mpetazzoni/leaflet-gpx)
+<div id="mapid">
+<script>
+<!-- draw the leaflet map -->
+//var mymap = L.map('mapid').setView([48.586, 8.921], 13);
+var mymap = L.map('mapid').setView([ {{ page.start-lat }}, {{ page.start-long }} ], 13);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a></a>',
+    maxZoom: 18,
+    tileSize: 512,
+    zoomOffset: -1,
+}).addTo(mymap);
+
+<!-- Draw the location of the start coordinates --->
+// var marker = L.marker([ {{ page.start-lat }}, {{ page.start-long }} ]).addTo(mymap);
+// marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+
+//var circle = L.circle([ {{ page.start-lat }}, {{ page.start-long }} ], {
+//    color: 'red',
+//    fillColor: '#f03',
+//    fillOpacity: 0.5,
+//    radius: 150
+//}).addTo(mymap);
+
+// circle.bindPopup("{{ page.start-location }}").openPopup();
+//var popup = L.popup()
+//    .setLatLng([  {{ page.start-lat }}, {{ page.start-long }} ])
+//    .setContent("{{ page.start-location }}")
+//    .openOn(mymap);
+
+
+var iconStart = L.icon({
+    iconUrl: '{{ "/" | relative_url }}assets/img/icon-start.png',
+    shadowUrl: '',
+
+    iconSize:     [40, 40], // size of the icon
+    shadowSize:   [0, 0], // size of the shadow
+    iconAnchor:   [0, 40], // point of the icon which will correspond to marker's location
+    shadowAnchor: [5, 5],  // the same for the shadow
+    popupAnchor:  [10, 20] // point from which the popup should open relative to the iconAnchor
+});
+var marker = L.marker([ {{ page.start-lat }}, {{ page.start-long }} ], {icon: iconStart}).addTo(mymap);
+marker.bindPopup("xxxxx").openPopup();
+
+
+<!-- draw the gpx track on the map -->
+var gpx = '{{ "/" | relative_url }}assets/tracks/{{ page.gpx-file }}'; // URL to your GPX file or the GPX itself
+new L.GPX(gpx, {async: true}).on('loaded', function(e) {
+  mymap.fitBounds(e.target.getBounds());
+}).addTo(mymap);
+
+
+var url = '...'; // URL to your GPX file
+new L.GPX(url, {
+  async: true,
+  marker_options: {
+    startIconUrl: '',
+    endIconUrl: '',
+    shadowUrl: '{{ "/" | relative_url }}assets/img/icon-shadow.png'
+  }
+}).on('loaded', function(e) {
+  map.fitBounds(e.target.getBounds());
+}).addTo(mymap);
+
+new L.GPX(app.params.gpx_url, {
+  async: true,
+  marker_options: {
+    wptIconUrls: {
+      '': '{{ "/" | relative_url }}assets/img/inslichtruecken.png'
+    },
+    shadowUrl: 'http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-shadow.png'
+  }
+}).on('loaded', function (e) {
+  var gpx = e.target;
+  map.fitBounds(gpx.getBounds());
+}).addTo(mymap);
+
+
+</script>
+
+</div>

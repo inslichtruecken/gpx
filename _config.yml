@@ -54,11 +54,13 @@ lang: de_DE
 # A link to the legal you want to reference:                 legal
 # (Note: if not specified: the page ./general/legal will be displayed)
 # Link to your Homepage:                                     my link
+# Show a interactive map on track descriptons:               enable-map-viewer
+# (Note: if you enable this, please read the license implications carefully on /general/license.html)
 impressum: https://www.frischluftwege.de/impressum/
-gdpr-notice: https://help.github.com/en/github/site-policy/github-privacy-statement/
+# gdpr-notice: https://help.github.com/en/github/site-policy/github-privacy-statement/
 legal: https://www.frischluftwege.de/rechtliche-hinweise/
 my-link: https://www.frischluftwege.de/"
-
+enable-map-viewer: true
 
 
 collections:
@@ -68,6 +70,3 @@ collections:
     sequence: 2
   
  
-    
-    
-   

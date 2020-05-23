@@ -1,0 +1,36 @@
+<!-- Page Top markup for the site rendering                   -->
+<!-- (placed at the top of each default page)                 -->
+<!--                                                          -->
+<!-- inslichtruecken/gpx: track repository web site           -->
+<!-- Created by Thomas Stober,  www.inslichtruecken.de        -->
+<!-- Licensed CC BY-SA 3.0                                    -->
+
+
+
+<!--  small header with key links to be shown on the top of each page -->	  
+	    
+		<small>
+       	<a href="{{ "/" | relative_url }}general/about-this-site.html">About this site</a>
+        &mdash;
+     	<a href="{{ "/" | relative_url }}general/about-me.html">About me</a>
+        &mdash;
+		<a href="{{ "/" | relative_url }}general/set-up-instructions.html">Getting Started</a>
+        &mdash;
+		<a href="{{ "/" | relative_url }}general/how-to-add-tracks.html">Adding your own Tracks</a>
+        </small>
+		
+
+<!-- Search entry field comes here --> 
+<!-- TO DO: Nice search look and some styling within a bar -->
+	    
+		<form action="{{ site.url }}/general/search-results.html" method="get" id="search-form">
+        <label for="search-box">Search <small>powered by <a href="https://lunrjs.com/" target="_blank">Lunr.js</a></small></label>
+        <input type="text" id="search-box" name="query">
+        <input type="image" alt="go" id="search-submit" src="{{ "/" | relative_url }}assets/img/glasses.png" width=30>
+        <!--<input type="submit" value="search">-->
+        </form>
+		
+		
+        <p>
+		<hr>
+		<p>     

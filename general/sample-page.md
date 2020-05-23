@@ -126,5 +126,4 @@ The final element.
 
 
 
-[back]({{ "/" | relative_url }})
 

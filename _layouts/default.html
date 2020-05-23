@@ -22,67 +22,42 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
 
-    <!-- get the header info for leaflet -->
-	{% include leaflet-header.html %}
-
-  </head>
+   </head>
   
   <body>
     <div class="wrapper">
-      <header>
- 
-      <!--  the header (left side of the page come here -->	  
 
+      <header>
+	  
+      <!--  the header (left side of the page come here -->	  
       {% include header.html %}
- 
+	  
       </header>
+	  
+	  
       <section>
 
-      <!--  small header with key links to be shown on each page -->	  
-	    
-		<small>
-       	<a href="{{ "/" | relative_url }}general/about-this-site.html">About this site</a>
-        &mdash;
-     	<a href="{{ "/" | relative_url }}general/about-me.html">About me</a>
-        &mdash;
-     	<a href="{{ "/" | relative_url }}README.html">ReadMe</a>
-        &mdash;
-		<a href="{{ "/" | relative_url }}general/set-up-instructions.html">Getting Started</a>
-        &mdash;
-		<a href="{{ "/" | relative_url }}general/how-to-add-tracks.html">Adding your own Tracks</a>
-        </small>
+      <!--  Top of the page -->	  
+      {% include page-top.html %}
 		
-      <!-- Search entry field comes here --> 
-	  
-	  <!-- TO DO: Nice search log and some styling within a bar -->
-	    <small>
-		<form action="{{ site.url }}/general/search-results.html" method="get" id="search-form">
-        <label for="search-box">Searching for </label>
-        <input type="text" id="search-box" name="query">
-        <input type="image" alt="go" id="search-submit" src="{{ "/" | relative_url }}assets/img/inslichtruecken.png" width=30>
-        <!--<input type="submit" value="search">-->
-        </form>
-		</small>
-		
-        <p>
-		<hr>
-		<p>
-		
-       <!--  the main page content comes here -->	  
-       
+      <!--  Content of the page -->	  
       {{ content }}
+
+      <!-- End of the page at the bottom -->  
+      {% include page-end.html %}
 
       </section>
 	  
-      <footer>
-
-      <!--  the footer on each page comes here -->	  
 	  
+      <footer>
+	  
+      <!--  the footer on each page comes here -->	  
       {% include footer.html %}
-
+	  
       </footer>
 	  
     </div>
+	
 	
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 	

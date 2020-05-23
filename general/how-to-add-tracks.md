@@ -125,4 +125,3 @@ In addition to the tracks you can add **further pages** to the site by adding `m
 
 
 
-[back]({{ "/" | relative_url }})
