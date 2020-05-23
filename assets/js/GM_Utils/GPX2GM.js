@@ -713,7 +713,13 @@ JB.makeMap = function (ID) {
 	} // showWpts 
 	
 	function showWpt(waypoint) {
-		var sym = waypoint.sym.toLowerCase() ;
+		// Customization www.frischluftwege.de: Added these additional Symbols									 
+	    // Note: The Symbols whihc are used in the Track of www.frischluftwege include Waypoint names with a hyphen "-".
+	    // Therefore a small code change in GPX2GM.js is neccessary to strip off hyphens in the name of Symbols.
+		// var sym = waypoint.sym.toLowerCase().replace('-','').replace(',', '').replace(' ', '') ;
+		var sym = waypoint.sym.toLowerCase().replace('-','');
+		// End of customization by www.frischluftwege.de
+		
 		var icon = JB.icons[sym]?JB.icons[sym]:null;
 		JB.Debug_Info(id,"Symbol: "+sym,false);
 		var imgsrc="";

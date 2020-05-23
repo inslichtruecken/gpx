@@ -21,31 +21,31 @@ Creative-Commons Lizenz CC BY-SA" />
 <wpt lat="48.580219" lon="8.922230">
 	<ele>540.00</ele>
 	<name>Schoenbuchtrauf.Grafenberg</name>
-	<sym>Circle, Red</sym>
+	<sym>z-ico04</sym>
 </wpt>
 
 <wpt lat="48.586739" lon="8.921209">
 	<ele>529.00</ele>
 	<name>Schoenbuchtrauf.MönchbergerSattel</name>
-	<sym>Square, Red</sym>
+	<sym>sport-hiking</sym>
 </wpt>
 
 <wpt lat="48.580232" lon="8.938746">
 	<ele>551.58</ele>
 	<name>Schoenbuchtrauf.SportplatzKayh</name>
-	<sym>Circle, Red</sym>
+	<sym>z-ico04</sym>
 </wpt>
 
 <wpt lat="48.579514" lon="8.954484">
 	<ele>533.00</ele>
 	<name>Schoenbuchtrauf.Hohlweg</name>
-	<sym>Circle, Red</sym>
+	<sym>z-ico04</sym>
 </wpt>
 
 <wpt lat="48.592954" lon="8.906942">
 	<ele>566.00</ele>
 	<name>Schoenbuchtrauf.StirnersJagdhuette</name>
-	<sym>Circle, Red</sym>
+	<sym>z-ico04</sym>
 </wpt>
 
 <trk>

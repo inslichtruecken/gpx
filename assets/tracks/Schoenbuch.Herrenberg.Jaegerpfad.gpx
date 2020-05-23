@@ -22,27 +22,27 @@ Creative-Commons Lizenz CC BY-SA" />
 <wpt lat="48.606057" lon="8.915716">
 	<ele>540.14</ele>
 	<name>Jaegersteig.KalterBrunnen</name>
-	<sym>Circle, Red</sym>
+	<sym>z-ico04</sym>
 </wpt>
 <wpt lat="48.602744" lon="8.903415">
 	<ele>554.64</ele>
 	<name>Jaegersteig.Naturfreundehaus</name>
-	<sym>Square, Red</sym>
+	<sym>sport-hiking</sym>
 </wpt>
 <wpt lat="48.617935" lon="8.922520">
 	<ele>537.89</ele>
 	<name>Jaegersteig.Schlossberg</name>
-	<sym>Circle, Red</sym>
+	<sym>z-ico04</sym>
 </wpt>
 <wpt lat="48.603812" lon="8.909239">
 	<ele>568.01</ele>
 	<name>Jaegersteig.Schoenbuchturm</name>
-	<sym>Circle, Red</sym>
+	<sym>z-ico04</sym>
 </wpt>
 <wpt lat="48.624463" lon="8.933730">
 	<ele>522.84</ele>
 	<name>Jaegersteig.Waldspielplatz</name>
-	<sym>Circle, Red</sym>
+	<sym>z-ico04</sym>
 </wpt>
 
 <trk>

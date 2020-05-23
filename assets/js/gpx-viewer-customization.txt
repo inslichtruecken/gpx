@@ -1,0 +1,35 @@
+In File GPX2GM.js:
+
+function showWpt(waypoint) {
+		// Customization www.frischluftwege.de: Added these additional Symbols									 
+	    // Note: The Symbols whihc are used in the Track of www.frischluftwege include Waypoint names with a hyphen "-".
+	    // Therefore a small code change in GPX2GM.js is neccessary to strip off hyphens in the name of Symbols.
+		// var sym = waypoint.sym.toLowerCase().replace('-','').replace(',', '').replace(' ', '') ;
+		var sym = waypoint.sym.toLowerCase().replace('-','');
+		// End of customization by www.frischluftwege.de
+		
+		
+		
+In File GPX2GM_Defs.js:
+
+JB.Icons = function(baseurl) {		
+	// Customization www.frischluftwege.de: Added these additional Symbols									 
+	// Note: The Symbols whihc are used in the Track of www.frischluftwege include Waypoint names with a hyphen "-".
+	// Therefore a small code change in GPX2GM.js is neccessary to strip off hyphens in the name of Symbols.
+	// function showWpt(waypoint) {
+	//	var sym = waypoint.sym.toLowerCase().replace('-','') ;
+	//  ...
+	// Custom Symbols used  www.frischluftwege.de
+	// "sport-hiking" for start/finish
+	this.sporthiking   = { icon:   { anchor: {x:15,y:36}, url: baseurl+"Icons/sport-hiking.png" },
+						shadow: { anchor: {x:10,y:31}, url: baseurl+"Icons/shadow.png" } };			
+    //"z-oco04" for all waypoints inbetween.
+ 	this.zico04 		= { icon:   { anchor: {x:8,y:6}, url: baseurl+"Icons/circle_red.svg", 
+						scaledSize: { width: 15, height: 15, widthUnit: "px", heightUnit: "px" },
+						size: { width: 15, height: 15, widthUnit: "px", heightUnit: "px" } } };
+    // Maybe in the future Garmin Symbol: "Circle, Red" 					
+	// needs additional string replacement to remove "," and " " in function showWpt(waypoint) {
+	// this.circlered		= { icon:   { anchor: {x:8,y:6}, url: baseurl+"Icons/circle_red.svg", 
+	//					scaledSize: { width: 15, height: 15, widthUnit: "px", heightUnit: "px" },
+	//					size: { width: 15, height: 15, widthUnit: "px", heightUnit: "px" } } };						
+	// End of customization by www.frischluftwege.de

@@ -21,12 +21,6 @@ window.JB.GPX2GM = window.JB.GPX2GM || {};
 // Definition der Icons, bei eigenen Icons nur Kleinbuchstaben verwenden.
 JB.Icons = function(baseurl) {
 	
-	// Customization: Added these additional Symbols
-	this.start	= { shadow: { anchor: {x:10,y:35}, url: baseurl+"Icons/Circle, Red.png" } };
-	this.inbetween	= { shadow: { anchor: {x:10,y:35}, url: baseurl+"Icons/Square, Red.png" } };
-	// End of customization
-	
-	
 	this.DefShadow	= { shadow: { anchor: {x:10,y:35}, url: baseurl+"Icons/shadow50.png" } };
 	this.Bild				= { icon:   { anchor: {x: 6,y:31}, url: baseurl+"Icons/scenic.png" },
 											shadow: { anchor: {x:10,y:31}, url: baseurl+"Icons/shadow.png" } };
@@ -113,6 +107,29 @@ JB.Icons = function(baseurl) {
 	//this.myicon       = { icon:   { anchor: {x:15,y:36}, url: baseurl+"Icons/myicon.png" },
 	//                    shadow: { anchor: {x:10,y:31}, url: baseurl+"Icons/shadow.png" } };
 	// Most Icons from https://mapicons.mapsmarker.com/
+	
+	
+	// Customization www.frischluftwege.de: Added these additional Symbols									 
+	// Note: The Symbols whihc are used in the Track of www.frischluftwege include Waypoint names with a hyphen "-".
+	// Therefore a small code change in GPX2GM.js is neccessary to strip off hyphens in the name of Symbols.
+	// function showWpt(waypoint) {
+	//	var sym = waypoint.sym.toLowerCase().replace('-','') ;
+	//  ...
+	// Custom Symbols used  www.frischluftwege.de
+	// "sport-hiking" for start/finish
+	this.sporthiking   = { icon:   { anchor: {x:15,y:36}, url: baseurl+"Icons/sport-hiking.png" },
+						shadow: { anchor: {x:10,y:31}, url: baseurl+"Icons/shadow.png" } };			
+    //"z-oco04" for all waypoints inbetween.
+ 	this.zico04 		= { icon:   { anchor: {x:8,y:6}, url: baseurl+"Icons/circle_red.svg", 
+						scaledSize: { width: 15, height: 15, widthUnit: "px", heightUnit: "px" },
+						size: { width: 15, height: 15, widthUnit: "px", heightUnit: "px" } } };
+    // Maybe in the future Garmin Symbol: "Circle, Red" 					
+	// needs additional string replacement to remove "," and " " in function showWpt(waypoint) {
+	// this.circlered		= { icon:   { anchor: {x:8,y:6}, url: baseurl+"Icons/circle_red.svg", 
+	//					scaledSize: { width: 15, height: 15, widthUnit: "px", heightUnit: "px" },
+	//					size: { width: 15, height: 15, widthUnit: "px", heightUnit: "px" } } };						
+	// End of customization by www.frischluftwege.de
+	
 } ;   
 
 JB.GPX2GM.setparameters = function() {  
@@ -215,7 +232,14 @@ JB.GPX2GM.setparameters = function() {
 	JB.GPX2GM.parameters.plotmarkercol = (typeof(Plotmarkercol)!="undefined") ? Plotmarkercol : "black";
 	JB.GPX2GM.parameters.profilfillopac = (typeof(Profilfillopac)!="undefined") ? Profilfillopac : 0; //   0 ... 1, 0:aus
 	JB.GPX2GM.parameters.trcolmod = (typeof(Trcolmod)!="undefined") ? Trcolmod : ""; // h s v hr cad
-	JB.GPX2GM.parameters.tcols = (typeof(Tcols)!="undefined") ? Tcols : ["#ff0000","#00ff00","#0000ff","#eeee00","#ff00ff","#00ffff","#000000"]; // Trackfarben in #rrggbb für rot grün blau
+	
+	
+	// Customization www.frischluftwege.de: Tracks in Blue color									 	
+	JB.GPX2GM.parameters.tcols = (typeof(Tcols)!="undefined") ? Tcols : ["#0000ff","#00ff00","#ff0000","#eeee00","#ff00ff","#00ffff","#000000"]; // Trackfarben in #rrggbb für rot grün blau
+	//JB.GPX2GM.parameters.tcols = (typeof(Tcols)!="undefined") ? Tcols : ["#ff0000","#00ff00","#0000ff","#eeee00","#ff00ff","#00ffff","#000000"]; // Trackfarben in #rrggbb für rot grün blau
+	// End of Customization www.frischluftwege.de: Tracks in Blue color									 	
+
+	
 	JB.GPX2GM.parameters.rcols = (typeof(Rcols)!="undefined") ? Rcols : ["#800000","#008000","#000080","#808000","#800080","#008080","#808080"]; // Routenfarben
 	JB.GPX2GM.parameters.ocol = (typeof(Ocol)!="undefined") ? Ocol : "#000000";   // Track- und Routenfarbe bei Mouseover
 	JB.GPX2GM.parameters.owidth = (typeof(Owidth)!="undefined") ? Owidth : 3.0;  // Linienstärke Track und Route bei Mouseover
