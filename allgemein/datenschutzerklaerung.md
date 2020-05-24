@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: general-page
+title: Datenschutzerklärung
 ---
 
-## GDPR Notice / Datenschutzerklärung
+
 
 Wir freuen uns über Ihr Interesse an unserer Webseite. 
 Der Schutz Ihrer Privatsphäre ist für uns sehr wichtig. 

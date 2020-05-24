@@ -10,7 +10,7 @@ description: Wald und Streuobstwiesen. Sonne und Schatten. Auf dieser abwechslun
 length: 11 km
 duration: 2,5 - 3 h
 difficulty: Einfach
-rating: Top
+rating: 3
 image: Schoenbuch.Moenchberg.Schoenbuchtrauf.jpg
 image-text: unterwegs
 info-links: https://www.frischluftwege.de/wander/schoenbuchtrauf https://www.inslichtruecken.de

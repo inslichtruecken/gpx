@@ -1,16 +1,16 @@
 ---
-layout: default
+layout: general-page
 title: How to Add Tracks
 ---
 
-## Some background
+### Some background
 
 This Site is made using Jekyll and hosted on Github pages. A static site generator creates web pages from raw text files, such as `markdown`, and as such individual pages are simple markdown files. 
 All set-up, install and preparation is covered in the [set-up-instructions]({{ site.url }}/general/set-up-instructions).
 Let's assume now, that you have your own clone of the repository and your own set of Github Pages.
 
 
-##  Where to edit
+###  Where to edit
 
 There are two ways to create new pages for tracks and test your edits: 
 
@@ -18,7 +18,7 @@ There are two ways to create new pages for tracks and test your edits:
 * edit the files locally in your local Jekyll environment (which you have prepared using the [set-up-instructions]({{ site.url }}/general/set-up-instructions) )
 
 
-## How to add more Tracks 
+### How to add more Tracks 
 
 For each **track** you will need to create a new **file** in the Github repository. In the Github repo, all track descriptions are stored within the directory "_tracks". 
 
@@ -92,7 +92,7 @@ might want.
 Once the file describing your track is committed on Github, it will represent your track as a unique **page** in your overall Github pages site and will be visible for everyone in the site navigation.
 
 
-## How to add Blog post
+### How to add Blog post
 
 In addition to tracks you can also create blog posts. A Blog post has exactly the same concepts as a track description:
 * A layout "post.html" provides the markup for rendering. The layout is located in the subdirectory "_layouts" (next to the layout for tracks)
@@ -116,9 +116,20 @@ There is one special constraint on blog posts:
 **The naming of the markdown post file must have the format `yyy-mm-dd-name`**
 
 
-## Adding other pages to the Site
+### Adding other pages to the Site
 
-In addition to the tracks you can add **further pages** to the site by adding `markdown` formatted files to the directory structure. A good place to store static pages is the subdirectory "general". This page is a good example of such an additional page.
+In addition to the tracks you can add **further pages** to the site by adding `markdown` formatted files to the directory structure. A good place to store static pages is the subdirectory "general". 
+This page is a good example of such an additional page.
+Use the alyout template `general-page`, which provides the property 'title'. 
+
+```
+---
+layout: general-page
+---
+```
+Supported properties:                                    
+* Title of the Track:           title       
+
 
 
 

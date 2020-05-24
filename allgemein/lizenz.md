@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: general-page
+title: Lizenz und Rechte
 ---
 
-# Used Technology, Licenses and Attribution 
+### Used Technology, Licenses and Attribution 
 
 Please check out the licensing aspects on this page:
 

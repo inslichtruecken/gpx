@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: general-page
+title: "Über mich"
 ---
-
-## About me
 
 I am a hiker, fotographer and outdoor enthusiast. 
 And I love to collect GPX tracks.

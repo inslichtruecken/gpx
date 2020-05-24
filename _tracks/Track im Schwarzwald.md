@@ -5,7 +5,7 @@ author: Thomas Stober
 region: Schwarzwald
 start-location: Baiersbronn
 start-lat: 48.60280
-start-long: 8.90339
+start-long: 8.00339
 description: Ein netter Track im dunklen Wald ohne Inhalte.
 length: 11 km
 duration: 2,5 - 3 h

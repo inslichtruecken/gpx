@@ -48,7 +48,7 @@ layout: default
 	<tr>
 	
 	   <td>
-         <h1>{{ page.title }}</h1>
+         <h2>{{ page.title }}</h2>
        </td>
 	   
        {% if page.rating %}
@@ -182,22 +182,31 @@ layout: default
 
 <!-- Show an interactive map with Track and Waypoints -->
 {% if site.enable-map-viewer %}
+
     {% if page.gpx-file %}
+	<!-- load GPX Vier Script --> 
     <script type="text/javascript" src="{{ "/" | relative_url }}assets/js/GM_Utils/GPX2GM.js"></script>
+	
+	<!-- display the map with the GPX file of this track -->
     <div class="gpxview:{{ "/" | relative_url }}assets/tracks/{{ page.gpx-file }}" style="width:500px;height:500px">
        <noscript><p>Zum Anzeigen der Karte wird Javascript benötigt.</p></noscript>
     </div>
-	 <small>Powered by <a href="https://www.j-berkemeier.de/GPXViewer" target="_blank">GPXViewer (Jürgen Berkemeier)</a><br></small>
-	 <p>
-     <p>
+	
+	<!-- add credit -->
+	<small>Powered by <a href="https://www.j-berkemeier.de/GPXViewer" target="_blank">GPXViewer (Jürgen Berkemeier)</a><br></small>
+	<p>
+    <p>
     {% endif %}
+	
 {% else %}
+
     {% if page.map-image %}
      <!-- A nice map image for illustration as an alternative to the interactive map -->
     <img src="{{ "/" | relative_url }}assets/maps/{{ page.map-image }}" alt="{{ page.map-image }}" title="{{ page.map-image }}"><br>
 	<p>
     <p>
     {% endif %}	
+	
 {% endif %}
 <!-- End of map display                 -->
 

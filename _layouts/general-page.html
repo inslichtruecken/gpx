@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<!-- Markup for rendering entries of type: post               -->
+<!-- Markup for rendering entries of type: general-page       -->
 <!--                                                          -->
 <!-- inslichtruecken/gpx: track repository web site           -->
 <!-- Created by Thomas Stober,  www.inslichtruecken.de        -->
@@ -24,33 +24,9 @@ layout: default
          <h2>{{ page.title }}</h2>
        </td>
 	   <td>
-	      {% if page.archived==true %}
-		      <strong>Archived</strong>
-		  {% endif %}
-	      <small>{{ page.date | date: "%-d %B %Y" }}</small>
-  	   </td>
+	   </td>
 	</tr>
 	</table>
-</div>
-
-<!-- Display author and tags                                 -->
-
-<div class="invisible-box">
-   <table>
-   <tr>
-      {% if page.author %}
-      <td>
-      von {{ page.author | default: site.author }}
-      </td>
-	  {% endif %}     
-		  
-      {% if page.tags %}
-	  <td>
-      <small>Schlagwörter: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-      {% endif %}     
-      </td>
-   </tr>
-   </table>
 </div>
 
 <p>

@@ -4,7 +4,7 @@ title: Track im Lechtal
 author: Thomas Stober
 region: Alpen
 start-location: Reutte
-start-lat: 48.60280
+start-lat: 48.00280
 start-long: 8.90339
 description: Ein steiler Track im wilden Gebirge
 length: 11 km

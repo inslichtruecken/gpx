@@ -8,32 +8,38 @@
 		Von <a href="{{ site.github.owner_url }}" target="_blank">Thomas Stober</a>
         <a href="https://www.inslichtruecken.de" target="_blank">www.inslichtruecken.de</a><br>
 
+        <!-- Documentation -->		
+		<a href="{{ "/" | relative_url }}allgemein/installation.html">Installation</a>
+        &mdash;
+		<a href="{{ "/" | relative_url }}allgemein/tracks-hinzufuegen.html">Tracks hinzufügen</a> <br>
+
         <!-- Link the involved license terms -->
-	    <a href="{{ "/" | relative_url }}general/license">Lizenz und Rechte </a>
+	    <a href="{{ "/" | relative_url }}allgemein/lizenz">Lizenz und Rechte </a>
 		&mdash;
-		
+	
+
         <!-- Link the GDPR notice -->
 		{% if site.gdpr-notice %}
 		<a href="{{ site.gdpr-notice }}" target="_blank">Datenschutzerklärung</a><br>
 		{% else %}
-		<a href="{{ "/" | relative_url }}general/gdpr-notice">Datenschutzerklärung</a><br>
+		<a href="{{ "/" | relative_url }}allgemein/datenschutzerklaerung">Datenschutzerklärung</a><br>
         {% endif %}
 		
-	
-	    
+        
         <!-- Link the Impressum for Germany -->
 		{% if site.impressum %}
 		<a href="{{ site.impressum }}" target="_blank">Impressum</a>  
 		{% else %}
-		<a href="{{ "/" | relative_url }}general/impressum">Impressum</a>
+		<a href="{{ "/" | relative_url }}allgemein/impressum">Impressum</a>
         {% endif %}
         &mdash;
-
+	
+	
         <!-- Link any further legal constraints -->
 		{% if site.legal" %}
 		<a href="{{ site.legal }}" target="_blank">Rechtliche Hinweise</a><br>
 		{% else %}
-		<a href="{{ "/" | relative_url }}general/legal">Rechtliche Hinweise</a><br>
+		<a href="{{ "/" | relative_url }}allgemein/rechtliche-hinweise">Rechtliche Hinweise</a><br>
         {% endif %}
 
 	</small>	
