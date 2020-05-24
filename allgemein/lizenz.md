@@ -1,6 +1,7 @@
 ---
 layout: general-page
 title: Lizenz und Rechte
+noindex: true
 ---
 
 ### Used Technology, Licenses and Attribution 

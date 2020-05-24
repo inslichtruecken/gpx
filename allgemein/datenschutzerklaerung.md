@@ -1,6 +1,7 @@
 ---
 layout: general-page
 title: Datenschutzerklärung
+noindex: true
 ---
 
 
