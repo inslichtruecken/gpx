@@ -118,9 +118,9 @@ There is one special constraint on blog posts:
 
 ### Adding other pages to the Site
 
-In addition to the tracks you can add **further pages** to the site by adding `markdown` formatted files to the directory structure. A good place to store static pages is the subdirectory "general". 
+In addition to the tracks you can add **further pages** to the site by adding `markdown` formatted files to the directory structure. A good place to store static pages is the subdirectory "allgemein". 
 This page is a good example of such an additional page.
-Use the alyout template `general-page`, which provides the property 'title'. 
+Use the layout template `general-page`, which provides the property 'title'. 
 
 ```
 ---
