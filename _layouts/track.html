@@ -154,11 +154,13 @@ layout: default
 	  
       <td>Links</td>
       <td>
-
+		   <small>	
           {% assign all-links = page.info-links | split:' ' %}
           {% for one-link in all-links %}   
-               <a href="{{ one-link }}" target="_blank">{{ one-link }}</a>
+               <a href="{{ one-link }}" target="_blank">{{ one-link  | truncate: 40, "..." }}</a><br>
           {% endfor %}
+  		  </small>	
+
 	  </td>
 	</tr>
 	{% endif %}
@@ -166,7 +168,7 @@ layout: default
 	{% if page.gpx-file %}
 	<tr>
       <td>GPX Track</td>
-      <td><a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpx-file }}">{{ page.gpx-file }}</a></td>	  
+      <td><a href="{{ "/" | absolute_url  }}assets/tracks/{{ page.gpx-file }}">Download</a></td>	  
 	</tr>
     {% endif %}
 	
