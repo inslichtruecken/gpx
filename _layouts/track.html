@@ -20,10 +20,11 @@ layout: default
 <!-- Start Location Name:          page.start-location        -->
 <!-- Start Location Latitude N/S:  page.start-lat             -->
 <!--                               (format: 48.60280)         -->   
-<!-- Start Location Longitude O/W: page.start-long             -->
+<!-- Start Location Longitude O/W: page.start-long            -->
 <!--                               (format:  8.90339)         -->   
 <!-- Length of the Hike:           page.length                -->
 <!-- Duration (pure walking):      page.duration              -->
+<!-- Rise in elevation:            page.rise                  -->
 <!-- Difficulty:                   page.difficulty            -->
 <!-- Rating:                       page.rating                -->
 <!--                               (1, 2 or 3)                -->
@@ -32,7 +33,11 @@ layout: default
 <!-- Image Alt Text:               page.image-text            -->
 <!-- Link(s) for more informaton:  page.info-links            -->
 <!--                               (separated by blank,       -->
-<!--                               include https://)          -->
+<!-- Link more details:            page.details-link          -->
+<!--                               (in case you have another   -->
+<!--                               web site with a more       -->
+<!--                               detailed description of    -->
+<!--                               that track)                -->
 <!-- Map showing track as Image:   page.map-image             -->
 <!--                               (stored in assets/maps)    -->
 <!-- Name of the GPX File:         page.gpx-file              -->
@@ -129,6 +134,12 @@ layout: default
     </tr>
 	{% endif %}
 	
+	{% if page.rise %}
+	<tr>
+      <td>Höhenmeter</td>
+      <td>{{ page.rise }}</td>
+    </tr>
+	{% endif %}
 	{% if page.difficulty %}
 	<tr>
       <td>Schwierigkeit</td>
@@ -165,6 +176,19 @@ layout: default
 	</tr>
 	{% endif %}
 	
+	{% if page.details-link %}
+	<tr>
+	  
+      <td>Links</td>
+      <td>
+     	  <small>	
+          <a href="{{ page.details-link }}" target="_blank">{{ page.details-link  | truncate: 45, "..." }}</a><br>
+  		  </small>	
+
+	  </td>
+	</tr>
+	{% endif %}
+	
 	{% if page.gpx-file %}
 	<tr>
       <td>GPX Track</td>
@@ -195,16 +219,22 @@ layout: default
     </div>
 	
 	<!-- add credit -->
-	<small>Powered by <a href="https://www.j-berkemeier.de/GPXViewer" target="_blank">GPXViewer (Jürgen Berkemeier)</a><br></small>
+	<small>Powered by <a href="https://www.j-berkemeier.de/GPXViewer" target="_blank">GPXViewer (Jürgen Berkemeier)</a>, <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de" target="_blank">Creative-Commons Lizenz BY-NC-SA 4.0</a><br></small>
+	<small>Verwendete Kartendaten: <a href="https://www.openstreetmap.org" target="_blank">Openstreetmap</a>,  <a href="https://www.openstreetmap.org/copyright"target="_blank">Creative-Commons Lizenz CC BY-SA</a><br></small>
+    <small>Karten Symbole von  <a href="https://mapicons.mapsmarker.com/" target="_blank">Mapsmarker / Nicolas Mollet</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative-Commons Lizenz CC BY-SA 3.0</a><br></small>
+
 	<p>
     <p>
     {% endif %}
 	
-{% else %}
+<!-- FOR TESTING DISABLE THIS ELSE {  else }  ANS SHOW BOTH MAP AND MAP IMAGE --> 
 
     {% if page.map-image %}
      <!-- A nice map image for illustration as an alternative to the interactive map -->
     <img src="{{ "/" | relative_url }}assets/maps/{{ page.map-image }}" alt="{{ page.map-image }}" title="{{ page.map-image }}"><br>
+ 	<small>Verwendete Kartendaten: <a href="https://www.openstreetmap.org" target="_blank">Openstreetmap</a>, Copyright OpenStreetMap-Mitwirkende,  <a href="https://www.openstreetmap.org/copyright"target="_blank">Creative-Commons Lizenz CC BY-SA</a><br></small>
+    <small>Karten Symbole von  <a href="https://mapicons.mapsmarker.com/" target="_blank">Mapsmarker / Nicolas Mollet</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative-Commons Lizenz CC BY-SA 3.0</a><br></small>
+    <small>Kartenlayout (Theme) <a href="https://www.openandromaps.org/kartenlegende/elevation-hike-theme/" target="_blank">Elevate, Elegant, Elements & Elevelo von Tobias Kühn</a>, <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.de" target="_blank">Creative-Commons Lizenz CC BY-NC-SA 3.0</a><br></small>
 	<p>
     <p>
     {% endif %}	

@@ -9,11 +9,13 @@ start-long: 8.90339
 description: Versteckte Waldpfade im Naturpark Schönbuch und ein Besuch beim neuen Schönbuchturm.
 length: 12km
 duration: 2,5 - 3 h
+rise: 220 m
 difficulty: Einfach
 rating: 3
 image: Schoenbuch.Herrenberg.Jaegerpfad.jpg
 image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/jaegerpfad https://www.inslichtruecken.de
+details-link: https://www.frischluftwege.de/wandern/jaegerpfad 
 gpx-file: Schoenbuch.Herrenberg.Jaegerpfad.gpx
 map-image: Schoenbuch.Herrenberg.Jaegerpfad-Map.png
 tags: Familie Schattig

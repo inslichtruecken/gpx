@@ -27,8 +27,13 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
   Please refer to the license terms before activitating this GPX viewer feature on your site. It has a couple of implications (like non-commercial use only and others)
   
   * GPX Viewer uses [Leaflet](https://leafletjs.com/). Leaflet was originally created by [Vladimir Agafonkin](https://agafonkin.com/), but is now developed by a big community of [contributors](https://github.com/Leaflet/Leaflet/graphs/contributors).
-  * As the GPX Viewer displays data from Openstreetmap, the license terms of [Openstreetmap (Creative-Commons Lizenz CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/)) apply as well. This includes the [copyright](www.openstreetmap.org/copyright) of the map data.
-  * The used Map Icons have been created by Nicolas Mollet [Maps Icons Collection](https://mapicons.mapsmarker.com) under the license [Creative Commons 3.0 BY-SA](https://creativecommons.org/licenses/by-sa/3.0/)
+  * As the GPX Viewer displays data from Openstreetmap, the license terms of [Openstreetmap](www.openstreetmap.org/copyright) [Creative-Commons Lizenz CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) apply. 
+
+* The used Map Icons have been created by Nicolas Mollet [Maps Icons Collection](https://mapicons.mapsmarker.com) under the license [Creative Commons 3.0 BY-SA](https://creativecommons.org/licenses/by-sa/3.0/)
+
+* JPG-Images of maps are using the map layout (Theme) [Elevate, Elegant, Elements & Elevelo by Tobias Kühn](https://www.openandromaps.org/kartenlegende/elevation-hike-theme), under the license [Creative-Commons Lizenz CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.de)
+
+  * The maps displays data from Openstreetmap, the license terms of [Openstreetmap](www.openstreetmap.org/copyright) [Creative-Commons Lizenz CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) apply. 
    
 
 

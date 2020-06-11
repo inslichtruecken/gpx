@@ -1,0 +1,44 @@
+<!-- Displaying a map with start-location of all tracks       -->
+<!--                                                          -->
+<!-- inslichtruecken/gpx: track repository web site           -->
+<!-- Created by Thomas Stober,  www.inslichtruecken.de        -->
+<!-- Licensed CC BY-SA 3.0                                    -->
+
+
+<!-- Display a map with start-locations of all tracks -->
+ {% if site.enable-map-viewer %} 
+ 
+    <!-- load GPX Vier Script --> 
+    <script type="text/javascript" src="{{ "/" | relative_url }}assets/js/GM_Utils/GPX2GM.js"></script>
+	
+	<!-- Display the map -->
+    <div id="OverviewMap" class="gpxview::Karte" style="width:500px;height:500px">
+       <noscript><p>Zum Anzeigen der Karte wird Javascript benötigt.</p></noscript>
+    </div>
+	
+	<!-- add the start-locations -->
+	<div id="OverviewMap_wp">
+	
+	{% assign all-tracks = site.tracks %}
+	{% for track in all-tracks %}
+
+        {% if track.start-lat and track.start-long %}
+	    <div data-geo="lat:{{ track.start-lat }},lon:{{ track.start-long }}" data-icon="sporthiking" data-name="{{ track.title }}" data-link="{{track.details-link | relative_url }}"></div>
+	    {% endif %}
+		
+	{% endfor %}	
+		
+	<!-- add credit -->
+	<small>Powered by <a href="https://www.j-berkemeier.de/GPXViewer" target="_blank">GPXViewer (Jürgen Berkemeier)</a>, <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de" target="_blank">Creative-Commons Lizenz BY-NC-SA 4.0</a><br></small>
+	<small>Verwendete Kartendaten: <a href="https://www.openstreetmap.org" target="_blank">Openstreetmap</a>,  <a href="https://www.openstreetmap.org/copyright"target="_blank">Creative-Commons Lizenz CC BY-SA</a><br></small>
+    <small>Karten Symbole von  <a href="https://mapicons.mapsmarker.com/" target="_blank">Mapsmarker / Nicolas Mollet</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative-Commons Lizenz CC BY-SA 3.0</a><br></small>
+
+	 <p>
+     <p>
+    </div>
+ {% endif %}
+
+
+<p>
+
+		

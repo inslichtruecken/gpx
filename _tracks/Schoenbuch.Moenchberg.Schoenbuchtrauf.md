@@ -3,17 +3,19 @@ layout: track
 title: Wald- und Wiesenrunde am Schönbuchtrauf
 author: Thomas Stober
 region: Schönbuch
-start-location: Mönchberger Sattel
+start-location: "Mönchberg, Parkplatz am Mönchberger Sattel"
 start-lat: 48.58673
 start-long: 8.92120
 description: Wald und Streuobstwiesen. Sonne und Schatten. Auf dieser abwechslungsreichen Strecke am Rand des Naturparks Schönbuch gibt es für alle etwas.
 length: 11 km
 duration: 2,5 - 3 h
+rise: 270 m
 difficulty: Einfach
 rating: 3
 image: Schoenbuch.Moenchberg.Schoenbuchtrauf.jpg
 image-text: unterwegs
 info-links: https://www.frischluftwege.de/wander/schoenbuchtrauf https://www.inslichtruecken.de
+details-link: https://www.frischluftwege.de/wander/schoenbuchtrauf
 gpx-file: Schoenbuch.Moenchberg.Schoenbuchtrauf.gpx
 map-image: Schoenbuch.Moenchberg.Schoenbuchtrauf-Map.png
 tags: Panorama Familie

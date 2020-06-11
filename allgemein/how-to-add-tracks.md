@@ -41,12 +41,14 @@ Supported properties:
 * Start Location Latitude N/S:  start.lat  (format: 48.60280)   
 * Start Location Longitude O/W: start.long (format:  8.90339) 
 * Length:                       length                
-* Duration:                     duration              
+* Duration:                     duration        
+* Rise in Elevation:            rise          
 * Difficulty:                   difficulty            
 * Rating:                       rating      (1, 2 or 3)          
 * Image:                        image       (must be stored in assets/images)         
 * Image Alt Text:               image-text            
-* Link(s) for more informaton:  info-links  (separated by blank, include https://)          
+* Link(s) for more informaton:  info-links  (separated by blank, include https://)  
+* Link more details:            details-link (in case you have another web site with a more detailed description of that track)
 * Map showing track as Image:   map-image   (must be stored in assets/maps)            
 * Name of the GPX File:         gpx-file    (must be stored in assets/tracks)
 * Tags describing this track    tags        (separated by blank)
@@ -66,11 +68,13 @@ start-location: Baiersbronn
 description: My first Track
 length: 11 km
 duration: 2,5 - 3 h
+rise: 1200 m
 difficulty: Easy
 rating: 3
 image: my-nice-photo.jpg
 image-text: my nicephoto 
 info-links: https://www.frischluftwege.de 
+details-link: https://www.frischluftwege.de/thistrack
 maplink: https://www.openstreetmap.org
 gpx-file: Schoenbuchtrauf.gpx
 map-image: Schoenbuchtrauf-Map.png
