@@ -14,8 +14,8 @@ difficulty: Mittel
 rating: 3
 image: Alb.Reutlingen.Lichtensteinrunde.jpg
 image-text: unterwegs
-info-links: https://www.frischluftwege.de/wandern/lichtenstein https://www.inslichtruecken.de
-details-link: https://www.frischluftwege.de/wandern/lichtenstein 
+info-links: https://www.frischluftwege.de/wandern/urach https://www.inslichtruecken.de
+details-link: https://www.frischluftwege.de/wandern/urach
 gpx-file: Alb.Reutlingen.Lichtensteinrunde.gpx
 map-image: Alb.Reutlingen.Lichtensteinrunde-Map.png
 tags: 

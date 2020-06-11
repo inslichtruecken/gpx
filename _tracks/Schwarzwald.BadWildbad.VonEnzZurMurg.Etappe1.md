@@ -14,8 +14,8 @@ difficulty: Mittel
 rating: 3
 image: Schwarzwald.BadWildbad.VonEnzZurMurg.Etappe1.jpg
 image-text: unterwegs
-info-links: https://www.frischluftwege.de/wandern/enzmurg https://www.inslichtruecken.de
-details-link: https://www.frischluftwege.de/wandern/enzmurg 
+info-links: https://www.frischluftwege.de/wandern/von-enz-zur-murg https://www.inslichtruecken.de
+details-link: https://www.frischluftwege.de/wandern/von-enz-zur-murg 
 gpx-file: Schwarzwald.BadWildbad.VonEnzZurMurg.Etappe1.gpx
 map-image: Schwarzwald.BadWildbad.VonEnzZurMurg.Etappe1-Map.png
 tags: 

@@ -14,8 +14,8 @@ difficulty: Einfach
 rating: 2
 image: Schoenbuch.Moenchberg.TraufUndTal.jpg
 image-text: unterwegs
-info-links: https://www.frischluftwege.de/wandern/traufundtal https://www.inslichtruecken.de
-details-link: https://www.frischluftwege.de/wandern/traufundtal 
+info-links: https://www.frischluftwege.de/wandern/trauf-und-tal https://www.inslichtruecken.de
+details-link: https://www.frischluftwege.de/wandern/trauf-und-tal 
 gpx-file: Schoenbuch.Moenchberg.TraufUndTal.gpx
 map-image: Schoenbuch.Moenchberg.TraufUndTal-Map.png
 tags: 

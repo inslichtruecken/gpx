@@ -65,7 +65,7 @@
   box-shadow:0 1px 1px rgba(0,0,0,0.15),0 1px 1px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15);
   table-layout: fixed;
   text-align:center;
- font-size: small; 
+  font-size: small; 
   width: 99%
 }
 
@@ -76,6 +76,7 @@
 .info-box td:first-child {
  font-weight: bold;
  font-size: small;
+ vertical-align: top;
  width: 100px;
 }
 

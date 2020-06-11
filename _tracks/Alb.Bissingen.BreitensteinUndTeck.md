@@ -14,8 +14,8 @@ difficulty: Mittel
 rating: 2
 image: Alb.Bissingen.BreitensteinUndTeck.jpg
 image-text: unterwegs
-info-links: https://www.frischluftwege.de/wandern/teck https://www.inslichtruecken.de
-details-link: https://www.frischluftwege.de/wandern/teck 
+info-links: https://www.frischluftwege.de/wandern/burg-teck https://www.inslichtruecken.de
+details-link: https://www.frischluftwege.de/wandern/burg-teck 
 gpx-file: Alb.Bissingen.BreitensteinUndTeck.gpx
 map-image: Alb.Bissingen.BreitensteinUndTeck-Map.png
 tags: 

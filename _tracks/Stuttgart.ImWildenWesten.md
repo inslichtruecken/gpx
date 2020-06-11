@@ -14,8 +14,8 @@ difficulty: Einfach
 rating: 2
 image: Stuttgart.ImWildenWesten.jpg
 image-text: unterwegs
-info-links: https://www.frischluftwege.de/wandern/wilderwesten https://www.inslichtruecken.de
-details-link: https://www.frischluftwege.de/wandern/wilderwesten 
+info-links: https://www.frischluftwege.de/wandern/wilder-westen https://www.inslichtruecken.de
+details-link: https://www.frischluftwege.de/wandern/wilder-westen 
 gpx-file: Stuttgart.ImWildenWesten.gpx
 map-image: Stuttgart.ImWildenWesten-Map.png
 tags: 

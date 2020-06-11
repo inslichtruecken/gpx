@@ -14,8 +14,8 @@ difficulty: Mittel
 rating: 3
 image: Alb.BadUrach.WasserfallsteigMitBonus.jpg
 image-text: unterwegs
-info-links: https://www.frischluftwege.de/wandern/wasserfallsteig https://www.inslichtruecken.de
-details-link: https://www.frischluftwege.de/wandern/wasserfallsteig 
+info-links: https://www.frischluftwege.de/wandern/bad-urach https://www.inslichtruecken.de
+details-link: https://www.frischluftwege.de/wandern/bad-urach 
 gpx-file: Alb.BadUrach.WasserfallsteigMitBonus.gpx
 map-image: Alb.BadUrach.WasserfallsteigMitBonus-Map.png
 tags: 

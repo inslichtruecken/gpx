@@ -14,8 +14,8 @@ difficulty: Einfach
 rating: 2
 image: Stuttgart.WaldBergUndStadt.jpg
 image-text: unterwegs
-info-links: https://www.frischluftwege.de/wandern/waldundstadt https://www.inslichtruecken.de
-details-link: https://www.frischluftwege.de/wandern/waldundstadt
+info-links: https://www.frischluftwege.de/wandern/wald-berg-stadt https://www.inslichtruecken.de
+details-link: https://www.frischluftwege.de/wandern/wald-berg-stadt
 gpx-file: Stuttgart.WaldBergUndStadt.gpx
 map-image: Stuttgart.WaldBergUndStadt-Map.png
 tags: 
