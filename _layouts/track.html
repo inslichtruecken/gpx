@@ -168,7 +168,7 @@ layout: default
       <td>
           {% assign all-links = page.info-links | split:' ' %}
           {% for one-link in all-links %}   
-               <a href="{{ one-link }}" target="_blank">{{ one-link  | truncate: 40, "..." }}</a><br>
+               <a href="{{ one-link }}" target="_blank">{{ one-link  | truncate: 55, "..." }}</a><br>
           {% endfor %}
 
 	  </td>
@@ -180,7 +180,7 @@ layout: default
 	  
       <td>Links</td>
       <td>
-          <a href="{{ page.details-link }}" target="_blank">{{ page.details-link  | truncate: 40, "..." }}</a><br>
+          <a href="{{ page.details-link }}" target="_blank">{{ page.details-link  | truncate: 55, "..." }}</a><br>
 
 	  </td>
 	</tr>

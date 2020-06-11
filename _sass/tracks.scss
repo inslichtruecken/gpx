@@ -63,7 +63,7 @@
   border-top: 1px solid #e5e5e5;
   border-radius: 3px;
   box-shadow:0 1px 1px rgba(0,0,0,0.15),0 1px 1px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15);
-  table-layout: auto;
+  table-layout: fixed;
   text-align:center;
  font-size: small; 
   width: 99%
@@ -76,9 +76,11 @@
 .info-box td:first-child {
  font-weight: bold;
  font-size: small;
+ width: 100px;
 }
 
 .info-box a {
+
   }
 
 .info-box a:hover, .info-boxS a:focus {
