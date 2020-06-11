@@ -1,6 +1,6 @@
 ---
 layout: track
-title: Xanderklinge
+title: Hornberger Felsen
 author: Thomas Stober
 region: Schwarzwald
 start-location: "Hornberg, Wanderparkplatz Gesundbrunnen"
