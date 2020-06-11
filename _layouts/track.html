@@ -49,7 +49,7 @@ layout: default
 
 <!-- Display page title and track rating                      -->
 <div class="invisible-box">
-    <table>
+    <table">
 	<tr>
 	
 	   <td>
@@ -113,6 +113,7 @@ layout: default
 <!-- Display key data                                          -->
 <div class="info-box">
     <table>
+	<small>
 	{% if page.region %}
     <tr>
       <td>Region</td>
@@ -165,12 +166,10 @@ layout: default
 	  
       <td>Links</td>
       <td>
-		   <small>	
           {% assign all-links = page.info-links | split:' ' %}
           {% for one-link in all-links %}   
-               <a href="{{ one-link }}" target="_blank">{{ one-link  | truncate: 45, "..." }}</a><br>
+               <a href="{{ one-link }}" target="_blank">{{ one-link  | truncate: 40, "..." }}</a><br>
           {% endfor %}
-  		  </small>	
 
 	  </td>
 	</tr>
@@ -181,9 +180,7 @@ layout: default
 	  
       <td>Links</td>
       <td>
-     	  <small>	
-          <a href="{{ page.details-link }}" target="_blank">{{ page.details-link  | truncate: 45, "..." }}</a><br>
-  		  </small>	
+          <a href="{{ page.details-link }}" target="_blank">{{ page.details-link  | truncate: 40, "..." }}</a><br>
 
 	  </td>
 	</tr>
@@ -197,6 +194,7 @@ layout: default
     {% endif %}
 	
     </table>
+	</small>  
 </div>
 
 <p>
