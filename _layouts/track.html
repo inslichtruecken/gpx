@@ -231,7 +231,9 @@ layout: default
 
     {% if page.map-image %}
      <!-- A nice map image for illustration as an alternative to the interactive map -->
-    <img src="{{ "/" | relative_url }}assets/maps/{{ page.map-image }}" alt="{{ page.map-image }}" title="{{ page.map-image }}"><br>
+    <a href="{{ "/" | relative_url }}assets/maps/{{ page.map-image }}" target="_blank">
+	    <img src="{{ "/" | relative_url }}assets/maps/{{ page.map-image }}" alt="{{ page.map-image }}" title="{{ page.map-image }}">
+    </a><br>
  	<small>Verwendete Kartendaten: <a href="https://www.openstreetmap.org" target="_blank">Openstreetmap</a>, Copyright OpenStreetMap-Mitwirkende,  <a href="https://www.openstreetmap.org/copyright"target="_blank">Creative-Commons Lizenz CC BY-SA</a><br></small>
     <small>Karten Symbole von  <a href="https://mapicons.mapsmarker.com/" target="_blank">Mapsmarker / Nicolas Mollet</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative-Commons Lizenz CC BY-SA 3.0</a><br></small>
     <small>Kartenlayout (Theme) <a href="https://www.openandromaps.org/kartenlegende/elevation-hike-theme/" target="_blank">Elevate, Elegant, Elements & Elevelo von Tobias Kühn</a>, <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.de" target="_blank">Creative-Commons Lizenz CC BY-NC-SA 3.0</a><br></small>
@@ -245,7 +247,9 @@ layout: default
 
 <!-- A nice picture for illustration -->
 {% if page.image %}
-    <img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.image-text }}" title="{{ page.imagetext }}"><br>
+    <a href="{{ "/" | relative_url }}assets/images/{{ page.image }}" target="_blank">
+        <img src="{{ "/" | relative_url }}assets/images/{{ page.image }}" alt="{{ page.image-text }}" title="{{ page.imagetext }}">
+	</a><br>
 {% endif %}
 
 <p>
