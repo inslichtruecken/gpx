@@ -19,33 +19,33 @@ Creative-Commons Lizenz CC BY-SA" />
 
 <wpt lat="48.6027440" lon="8.9034140">
 	<ele>554.78</ele>
-	<name>Jaegersteig.Naturfreundehaus</name>
+	<name>Jaegerpfad.Naturfreundehaus</name>
 	<sym>sport-hiking</sym>
 </wpt>
 <wpt lat="48.6179360" lon="8.9225150">
 	<ele>537.82</ele>
-	<name>Jaegersteig.Schlossberg</name>
+	<name>Jaegerpfad.Schlossberg</name>
 	<sym>z-ico04</sym>
 </wpt>
 <wpt lat="48.6060530" lon="8.9157150">
 	<ele>540.20</ele>
-	<name>Jaegersteig.KalterBrunnen</name>
+	<name>Jaegerpfad.KalterBrunnen</name>
 	<sym>z-ico04</sym>
 </wpt>
 <wpt lat="48.6038120" lon="8.9092390">
 	<ele>568.00</ele>
-	<name>SJaegersteig.Schoenbuchturm</name>
+	<name>Jaegerpfad.Schoenbuchturm</name>
 	<sym>z-ico04</sym>
 </wpt>
 <wpt lat="48.6244630" lon="8.9337300">
 	<ele>523.00</ele>
-	<name>Jaegersteig.Waldspielplatz</name>
+	<name>Jaegerpfad.Waldspielplatz</name>
 	<sym>z-ico04</sym>
 </wpt>
 <trk>
 <name>Schoenbuch.Herrenberg.Jaegerpfad</name>
 <desc><![CDATA[
-Jaegersteig bei Herrenberg und Rohrau:
+Jaegerpfad bei Herrenberg und Rohrau:
  
 Versteckte Waldpfade im Naturpark Schönbuch 
 und ein Besuch beim neuen Schönbuchturm. 

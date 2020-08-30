@@ -5,20 +5,20 @@ title: Über diese Seite
 
 ### Your own GPX Track Web Site
 
-This Github repository creates Github Pages to present your GPX tracks nicely.
+This Github repository creates Github Pages to present the documentation and information for the GPX XML source files, which you are managing in your Github repository.
 
 
 ### Features and capabilities
 
-* Home page
-* Layout/Theme of the site is based on [minimal theme](https://github.com/pages-themes/minimal)
-* Storage for GPX Files, Images (such as Maps or photos) with externallay accessible direct links
-* Description for Tracks (like duration, rating, helpful links, ...)
-* Layout for a consistent look and feel for the displayed tracks
-* Blog capability
-* Search capability
-* SEO friendly
-* Mobile friendly
+* Create and manage the versions of your GPX XML source files in Github like any other source code you are collaborating on.
+* Expose your committed versions of the GPX XML source files as a documentation web site via Github pages
+* The Layout/Theme of the documentation web site is based on [minimal theme](https://github.com/pages-themes/minimal)
+* In addition to the GPX XML source files you can add descriptive assets, such as images, maps or photos) with externallay accessible direct links
+* Further description / properties for GPX XML source files (like duration, rating, helpful links, ...) is added as further documentation and displayed on the documentation web site using markdown syntax
+* For further illustration a blog capability is also provided (based on markdown syntax)
+* Search capability to search the documentation web site 
+* SEO and mobile friendly representation of the documentation web site 
+* The documentation web site can be used as a template to create your own GPX and hiking track web site at a web page hosting provider of your choice
 
 
 ### Getting started
