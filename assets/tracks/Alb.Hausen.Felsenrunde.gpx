@@ -29,7 +29,7 @@ Creative-Commons Lizenz CC BY-SA" />
 </wpt>
 <wpt lat="48.0793584" lon="9.0407655">
 	<ele>787.00</ele>
-	<name>Felsenrunde.Aussichtspunkt</name>
+	<name>Felsenrunde.AussichtspunktEigerturm</name>
 	<sym>z-ico04</sym>
 </wpt>
 <wpt lat="48.0848759" lon="9.0400872">
@@ -1508,8 +1508,17 @@ Creative-Commons Lizenz CC BY-SA]]></desc>
 <trkpt lat="48.0991100" lon="9.0674650">
 	<ele>781.41</ele>
 </trkpt>
-<trkpt lat="48.0994250" lon="9.0663550">
-	<ele>783.21</ele>
+<trkpt lat="48.0993715" lon="9.0665291">
+	<ele>782.15</ele>
+</trkpt>
+<trkpt lat="48.0994219" lon="9.0663513">
+	<ele>782.29</ele>
+</trkpt>
+<trkpt lat="48.0988872" lon="9.0660478">
+	<ele>782.92</ele>
+</trkpt>
+<trkpt lat="48.0994283" lon="9.0663293">
+	<ele>783.52</ele>
 </trkpt>
 <trkpt lat="48.0995550" lon="9.0659950">
 	<ele>783.78</ele>
