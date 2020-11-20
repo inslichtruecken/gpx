@@ -6,10 +6,10 @@ region: Gäu
 start-location: "Sportplatz Oberjesingen"
 start-lat: 48.6227670
 start-long: 8.8099720
-description: Aussichtsreicher Spaziergang.
-length: x km
-duration: x h
-rise: x m
+description: Sonnenterrassen im Gäu.
+length: 8 km
+duration: 2 - 3 h
+rise: 150 m
 difficulty: Einfach
 rating: 2
 image: Gaeu.GueltlingerKapf.jpg
@@ -22,8 +22,10 @@ tags:
 ---
 
 
-
-Hier fehlt noch Text
+Diese Runde ist perfekt zum Sonne tanken: Über Felder und Wiesen stolzieren wir bequem und mühelos auf der Hochfläche des Gäus dahin. 
+Zu Beginn liegen uns Schönbuch und Schwäbische Alb zu Füßen. 
+Nach einer kurzen Waldpassage wechseln wir auf die andere Seite und blicken auf den Nordschwarzwald. Die kleine Heide am Gültlinger Kapf ist ein wunderbarer Rastplatz zum verweilen.
+Besonders beeindruckend an dieser Wanderung ist die Stille. Der Lärm der Städten und Straßen ist so weit weg.
 
 
 

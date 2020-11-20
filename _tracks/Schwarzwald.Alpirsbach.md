@@ -10,7 +10,7 @@ description: Aussichtsreicher Spaziergang.
 length: xkm
 duration: x h
 rise: x m
-difficulty: Einfach
+difficulty: Mittel
 rating: 2
 image: Schwarzwald.Alpirsbach.jpg
 image-text: unterwegs

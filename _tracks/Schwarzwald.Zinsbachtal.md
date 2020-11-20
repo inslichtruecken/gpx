@@ -10,7 +10,7 @@ description: Aussichtsreicher Spaziergang.
 length: x km
 duration: x h
 rise: x m
-difficulty: Einfach
+difficulty: Mittel
 rating: 2
 image: Schwarzwald.Zinsbachtal.jpg
 image-text: unterwegs
