@@ -17,7 +17,7 @@ image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/kirnbachtal https://www.inslichtruecken.de
 details-link: https://www.frischluftwege.de/wandern/kirnbachtal
 gpx-file: Schoenbuch.Kirnbachtal.gpx
-map-image: Schoenbuch.Kirnbachtal-Ma.png
+map-image: Schoenbuch.Kirnbachtal-Map.png
 tags: 
 ---
 

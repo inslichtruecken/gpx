@@ -17,7 +17,7 @@ image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/glemstal https://www.inslichtruecken.de
 details-link: https://www.frischluftwege.de/wandern/glemstal
 gpx-file: Stuttgart.Glemstal.gpx
-map-image: Stuttgart.Glemstal-Ma.png
+map-image: Stuttgart.Glemstal-Map.png
 tags: 
 ---
 

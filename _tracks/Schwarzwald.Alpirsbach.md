@@ -17,7 +17,7 @@ image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/alpirsbach https://www.inslichtruecken.de
 details-link: https://www.frischluftwege.de/wandern/alpirsbach
 gpx-file: Schwarzwald.Alpirsbach.gpx
-map-image: Schwarzwald.Alpirsbach-Ma.png
+map-image: Schwarzwald.Alpirsbach-Map.png
 tags: 
 ---
 

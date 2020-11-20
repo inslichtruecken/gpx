@@ -17,7 +17,7 @@ image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/zinsbachtal https://www.inslichtruecken.de
 details-link: https://www.frischluftwege.de/wandern/zinsbachtal
 gpx-file: Schwarzwald.Zinsbachtal.gpx
-map-image: Schwarzwald.Zinsbachtal-Ma.png
+map-image: Schwarzwald.Zinsbachtal-Map.png
 tags: 
 ---
 
