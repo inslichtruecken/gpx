@@ -6,10 +6,10 @@ region: Schwarzwald
 start-location: "Bahnhof Alpirsbach"
 start-lat: 48.3443200
 start-long: 8.3992440
-description: Wanderung.
-length: xkm
-duration: x h
-rise: x m
+description: Eine stille Wanderung über einen Bergrücken hoch über Alpirsbach
+length: 15 km
+duration: 4 - 5 h
+rise: 560 m
 difficulty: Mittel
 rating: 2
 image: Schwarzwald.Alpirsbach.Hoehenweg.jpg
@@ -23,7 +23,6 @@ tags:
 
 
 
-Hier fehlt noch Text
 
 
 

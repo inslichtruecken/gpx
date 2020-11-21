@@ -6,10 +6,10 @@ region: Schwarzwald
 start-location: "Pfalzgrafenweiler"
 start-lat: 48.5394240
 start-long: 8.5706140
-description: Aussichtsreicher Spaziergang.
-length: x km
-duration: x h
-rise: x m
+description: Idyllische Talwanderung durch schönen schwarzen Wald.
+length: 10 km
+duration: 3 h
+rise: 220 m
 difficulty: Mittel
 rating: 2
 image: Schwarzwald.Pfalzgrafenweiler.Zinsbachtal.jpg
@@ -23,7 +23,7 @@ tags:
 
 
 
-Hier fehlt noch Text
+
 
 
 
