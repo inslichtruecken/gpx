@@ -6,7 +6,7 @@ region: Schwarzwald
 start-location: "Pfalzgrafenweiler"
 start-lat: 48.5394240
 start-long: 8.5706140
-description: Idyllische Talwanderung durch schönen schwarzen Wald.
+description: Idyllische Talwanderung durch den schönen schwarzen Wald.
 length: 10 km
 duration: 3 h
 rise: 220 m
