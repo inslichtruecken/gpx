@@ -12,12 +12,12 @@ duration: 2 - 3 h
 rise: 150 m
 difficulty: Einfach
 rating: 2
-image: Gaeu.GueltlingerKapf.jpg
+image: Gaeu.Oberjesingen.GueltlingerKapf.jpg
 image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/gueltlinger-kapf https://www.inslichtruecken.de
 details-link: https://www.frischluftwege.de/wandern/gueltlinger-kapf
-gpx-file: Gaeu.GueltlingerKapf.gpx
-map-image: Gaeu.GueltlingerKapf-Map.png
+gpx-file: Gaeu.Oberjesingen.GueltlingerKapf.gpx
+map-image: Gaeu.Oberjesingen.GueltlingerKapf-Map.png
 tags: 
 ---
 

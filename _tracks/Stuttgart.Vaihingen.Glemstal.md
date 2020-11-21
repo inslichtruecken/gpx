@@ -12,12 +12,12 @@ duration: 5 - 6 h
 rise: 360 m
 difficulty: mittel
 rating: 1
-image: Stuttgart.Glemstal.jpg
+image: Stuttgart.Vaihingen.Glemstal.jpg
 image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/glemstal https://www.inslichtruecken.de
 details-link: https://www.frischluftwege.de/wandern/glemstal
-gpx-file: Stuttgart.Glemstal.gpx
-map-image: Stuttgart.Glemstal-Map.png
+gpx-file: Stuttgart.Vaihingen.Glemstal.gpx
+map-image: Stuttgart.Vaihingen.Glemstal-Map.png
 tags: 
 ---
 

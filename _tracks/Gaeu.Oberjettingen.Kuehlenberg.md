@@ -1,6 +1,6 @@
 ---
 layout: track
-title: Kuehlenberg
+title: Kühlenberg
 author: Thomas Stober
 region: Gäu
 start-location: "Oberjettingen"
@@ -12,16 +12,16 @@ duration: 2 h
 rise: 150 m
 difficulty: Einfach
 rating: 2
-image: Gaeu.Kuehlenberg.jpg
+image: Gaeu.Oberjettingen.Kuehlenberg.jpg
 image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/kuehlenberg https://www.inslichtruecken.de
 details-link: https://www.frischluftwege.de/wandern/kuehlenberg
-gpx-file: Gaeu.Kuehlenberg.gpx
-map-image: Gaeu.Kuehlenberg-Map.png
+gpx-file: Gaeu.Oberjettingen.Kuehlenberg.gpx
+map-image: Gaeu.Oberjettingen.Kuehlenberg-Map.png
 tags: 
 ---
 
-Diese kurze Wanderung führt über weite Felder im oberen Gäu. Vom Kühlenberg aus hat man Schwäbische Alb und Schwarzwald gleichzeitig im Panormaschwenk. 
+Dieser kurze Spaziergang führt über weite Felder im oberen Gäu. Hier kann das Auge ungehindert in die Ferne schweifen: Vom Kühlenberg aus hat man Schwäbische Alb und Schwarzwald gleichzeitig im Panormaschwenk. 
 Eine schöne Abwechslung sind die kurzen Waldpassagen zwischendurch.
 
 

@@ -12,12 +12,12 @@ duration: x h
 rise: x m
 difficulty: Mittel
 rating: 2
-image: Schwarzwald.Zinsbachtal.jpg
+image: Schwarzwald.Pfalzgrafenweiler.Zinsbachtal.jpg
 image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/zinsbachtal https://www.inslichtruecken.de
 details-link: https://www.frischluftwege.de/wandern/zinsbachtal
-gpx-file: Schwarzwald.Zinsbachtal.gpx
-map-image: Schwarzwald.Zinsbachtal-Map.png
+gpx-file: Schwarzwald.Pfalzgrafenweiler.Zinsbachtal.gpx
+map-image: Schwarzwald.Pfalzgrafenweiler.Zinsbachtal-Map.png
 tags: 
 ---
 

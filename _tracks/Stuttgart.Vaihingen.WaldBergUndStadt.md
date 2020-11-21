@@ -12,12 +12,12 @@ duration: 3 h
 rise: 170 m
 difficulty: Einfach
 rating: 2
-image: Stuttgart.WaldBergUndStadt.jpg
+image: Stuttgart.Vaihingen.WaldBergUndStadt.jpg
 image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/wald-berg-stadt https://www.inslichtruecken.de
 details-link: https://www.frischluftwege.de/wandern/wald-berg-stadt
-gpx-file: Stuttgart.WaldBergUndStadt.gpx
-map-image: Stuttgart.WaldBergUndStadt-Map.png
+gpx-file: Stuttgart.Vaihingen.WaldBergUndStadt.gpx
+map-image: Stuttgart.Vaihingen.WaldBergUndStadt-Map.png
 tags: 
 ---
 

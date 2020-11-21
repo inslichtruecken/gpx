@@ -12,12 +12,12 @@ duration: 4 h
 rise: 280 m
 difficulty: Einfach
 rating: 2
-image: Stuttgart.ImWildenWesten.jpg
+image: Stuttgart.Vaihingen.ImWildenWesten.jpg
 image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/wilder-westen https://www.inslichtruecken.de
 details-link: https://www.frischluftwege.de/wandern/wilder-westen 
-gpx-file: Stuttgart.ImWildenWesten.gpx
-map-image: Stuttgart.ImWildenWesten-Map.png
+gpx-file: Stuttgart.Vaihingen.ImWildenWesten.gpx
+map-image: Stuttgart.Vaihingen.ImWildenWesten-Map.png
 tags: 
 ---
 

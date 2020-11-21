@@ -12,12 +12,12 @@ duration: 4 h
 rise: 350 m
 difficulty: Einfach
 rating: 2
-image: Stuttgart.UeberRotenbergUndKernen.jpg
+image: Stuttgart.Untertuerkheim.UeberRotenbergUndKernen.jpg
 image-text: unterwegs
 info-links: https://www.frischluftwege.de/wandern/rotenberg https://www.inslichtruecken.de
 details-link: https://www.frischluftwege.de/wandern/rotenberg 
-gpx-file: Stuttgart.UeberRotenbergUndKernen.gpx
-map-image: Stuttgart.UeberRotenbergUndKernen-Map.png
+gpx-file: Stuttgart.Untertuerkheim.UeberRotenbergUndKernen.gpx
+map-image: Stuttgart.Untertuerkheim.UeberRotenbergUndKernen-Map.png
 tags: 
 ---
 

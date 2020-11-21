@@ -19,39 +19,39 @@ Creative-Commons Lizenz CC BY-SA" />
 
 <wpt lat="48.3495123" lon="8.4076377">
 	<ele>531.00</ele>
-	<name>Alpirsbach.VordereKapfhuette</name>
+	<name>Hoehenweg.VordereKapfhuette</name>
 	<sym>z-ico04</sym>
 </wpt>
 
 <wpt lat="48.3602528" lon="8.3824728">
 	<ele>695.00</ele>
-	<name>Alpirsbach.Ecke</name>
+	<name>Hoehenweg.Ecke</name>
 	<sym>z-ico04</sym>
 </wpt>
 
 <wpt lat="48.3546493" lon="8.3822444">
 	<ele>749.00</ele>
-	<name>Alpirsbach.Aussichtspunkt</name>
+	<name>Hoehenweg.Aussichtspunkt</name>
 	<sym>z-ico04</sym>
 </wpt>
 
 <wpt lat="48.3278491" lon="8.3746453">
 	<ele>628.00</ele>
-	<name>Alpirsbach.Sattellege</name>
+	<name>Hoehenweg.Sattellege</name>
 	<sym>z-ico04</sym>
 </wpt>
 
 <wpt lat="48.3443200" lon="8.3992440">
 	<ele>554.64</ele>
-	<name>Alpirsbach.Bahnhof</name>
+	<name>Hoehenweg.Bahnhof</name>
 	<sym>sport-hiking</sym>
 </wpt>
 
 
 <trk>
-<name>Schwarzwald.Alpirsbach</name>
+<name>Schwarzwald.Alpirsbach.Hoehenweg</name>
 <desc>
-<![CDATA[Alpirsbach xxxxxx. 
+<![CDATA[Alpirsbacher Höhenweg. 
 Beschreibung. 
 
 Thomas Stober, www.frischluftwege.de, 
@@ -1231,7 +1231,7 @@ Creative-Commons Lizenz CC BY-SA]]>
 <trkpt lat="48.3443270" lon="8.3992570">
 	<ele>430.81</ele>
 </trkpt>
-<trkpt lat="48.3443190" lon="8.3992640">
+<trkpt lat="48.3443200" lon="8.3992440">
 	<ele>430.71</ele>
 </trkpt>
 </trkseg>

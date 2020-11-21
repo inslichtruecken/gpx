@@ -37,15 +37,15 @@ Creative-Commons Lizenz CC BY-SA" />
 	<name>WaldBergUndStadt.Marienplatz</name>
 	<sym>z-ico04</sym>
 </wpt>
-<wpt lat=lat="48.7607846" lon="9.0916644">
+<wpt lat="48.7607846" lon="9.0916644">
 	<ele>440.00</ele>
 	<name>WaldBergUndStadt.Baerenschloessle</name>
 	<sym>z-ico04</sym>
 </wpt>
-<trk>
-<name>Stuttgart.WaldBergUndStadt</name>
-<desc><![CDATA[
 
+<trk>
+<name>Stuttgart.Vaihingen.WaldBergUndStadt</name>
+<desc><![CDATA[
 Wald, Berg und Stadt:
 
 Mit der S-Bahn ist man in wenigen Minuten von Vaihingen im Stuttgarter Talkessel. Wir gehen es bei dieser Tour deutlich entschleunigter an. Statt dunkler S-Bahn Röhre freuen wir uns über die Fernblicke auf die City vom Birkenkopf und Karlshöhe.
