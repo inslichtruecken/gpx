@@ -4,8 +4,8 @@ title: Von Dresden nach Prag
 author: Thomas Stober
 region: Elbe
 start-location: "Pirma"
-start-lat: 49.201555
-start-long: 7.6002161
+start-lat: 48.7459290
+start-long: 9.1051440
 description: Durch das Elbsandsteingebirge und entlang Elbe und Moldau.
 length: 200 km
 duration: 2 Wochen
@@ -15,7 +15,7 @@ rating: 2
 image: DresdenPrag.Gesamt.jpg
 image-text: unterwegs
 gpx-file: DresdenPrag.Gesamt.gpx
-map-image: Schwarzwald.Pfalzgrafenweiler.Zinsbachtal-Map.png
+map-image: DresdenPrag.Gesamt.png
 tags: 
 ---
 
