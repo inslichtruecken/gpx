@@ -7,26 +7,9 @@
  xmlns:gpxtrkx="http://www.garmin.com/xmlschemas/TrackStatsExtension/v1"
  xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2"
  xmlns:locus="http://www.locusmap.eu">
-	<metadata>
-		<desc>File with points/tracks from Locus Map Classic/3.69.1</desc>
-		<time>2023-08-13T14:14:10.042Z</time>
-	</metadata>
+
 <trk>
 <name>E6.DE.Gesamt</name>
-	<extensions>
-		<line xmlns="http://www.topografix.com/GPX/gpx_style/0/2">
-			<color>D500FF</color>
-			<opacity>0.59</opacity>
-			<width>15.0</width>
-			<extensions>
-				<locus:lsColorBase>#96D500FF</locus:lsColorBase>
-				<locus:lsWidth>15.0</locus:lsWidth>
-				<locus:lsUnits>PIXELS</locus:lsUnits>
-			</extensions>
-		</line>
-		<locus:rteComputeType>3</locus:rteComputeType>
-		<locus:rteSimpleRoundabouts>1</locus:rteSimpleRoundabouts>
-	</extensions>
 <trkseg>
 <trkpt lat="54.8404922" lon="9.4025488">
 </trkpt>
