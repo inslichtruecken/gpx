@@ -8,8 +8,8 @@
  xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2"
  xmlns:locus="http://www.locusmap.eu">
 	<metadata>
-		<desc>File with points/tracks from Locus Map Classic/3.68.0</desc>
-		<time>2023-05-21T08:56:00.214Z</time>
+		<desc>File with points/tracks from Locus Map Classic/3.69.1</desc>
+		<time>2023-08-13T14:17:51.313Z</time>
 	</metadata>
 <trk>
 <name>DresdenPrag.Gesamt</name>
