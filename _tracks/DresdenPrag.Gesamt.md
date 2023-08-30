@@ -2,7 +2,7 @@
 layout: track
 title: Von Dresden nach Prag
 author: Thomas Stober
-region: Elbe
+region: Deutschland
 start-location: "Pirma"
 start-lat: 48.7459290
 start-long: 9.1051440

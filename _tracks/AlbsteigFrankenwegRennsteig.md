@@ -27,17 +27,23 @@ Ziel vom Rennsteig in Hörschel.<br>
 </p>
 
 <p>
-# Infos zum HW1/Albsteig:<br>
+
+# Infos zum HW1/Albsteig: 
+<br>
 <a href="https://www.schwaebischealb.de/wandern/albsteig"> Webseite Albsteig</a>
 </p>
 
 <p>
-# Infos zum Frankenweg:<br>
+
+# Infos zum Frankenweg: 
+<br>
 <a href="https://www.wildganz.com/fernwanderweg/frankenweg"> Webseite Frankenweg</a>
 </p>
 
 <p>
-# Infos zum Rennsteig:<br>
+
+# Infos zum Rennsteig: 
+<br>
 <a href="https://www.rennsteig.de/"> Webseite Rennsteig</a>
 </p>
 
