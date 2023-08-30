@@ -20,25 +20,25 @@ tags: Mehrtagestour
 
 # Verlauf
 <p>
-Start des HW1 in *Tuttlingen*.<br>
-Wechsel von Hw 1 zum Frankenweg in *Harburg* bei Donauwörth.<br>
-Wechsel vom Frankenweg zum Rennsteig in *Blankenstein*.<br>
-Ziel vom Rennsteig in *Hörschel*.<br>
+Start des HW1 in Tuttlingen.<br>
+Wechsel von Hw 1 zum Frankenweg in Harburg bei Donauwörth.<br>
+Wechsel vom Frankenweg zum Rennsteig in Blankenstein.<br>
+Ziel vom Rennsteig in Hörschel.<br>
 </p>
 
 <p>
 # Infos zum HW1/Albsteig:<br>
-[Albsteig Webseite](https://www.schwaebischealb.de/wandern/albsteig)
+<a href="https://www.schwaebischealb.de/wandern/albsteig"> Webseite Albsteig</a>
 </p>
 
 <p>
 # Infos zum Frankenweg:<br>
-[Frankenweg Webseite](https://www.wildganz.com/fernwanderweg/frankenweg)
+<a href="https://www.wildganz.com/fernwanderweg/frankenweg"> Webseite Frankenweg</a>
 </p>
 
 <p>
 # Infos zum Rennsteig:<br>
-[Rennsteig Webseite](https://www.rennsteig.de/)
+<a href="https://www.rennsteig.de/"> Webseite Rennsteig</a>
 </p>
 
 
