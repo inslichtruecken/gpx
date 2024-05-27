@@ -1,6 +1,6 @@
 ---
 layout: track
-title: Rundfahrt im Egertal
+title: Rundfahrt im Egertal (Nordrunde)
 author: Thomas Stober
 region: Tschechien
 start-location: "Münchberg"
