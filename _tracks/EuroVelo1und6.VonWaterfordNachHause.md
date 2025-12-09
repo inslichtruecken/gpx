@@ -7,7 +7,7 @@ start-location: "Waterford"
 start-lat: 52.24268
 start-long: -7.16480
 description: Riding home from Waterford/Ireland via EuroVelo 1 and EuroVelo 6 to Herrenberg/Germany.
-length: 2700 km
+length: 3000 km
 duration: a month or so
 difficulty: medium
 rating: 2
