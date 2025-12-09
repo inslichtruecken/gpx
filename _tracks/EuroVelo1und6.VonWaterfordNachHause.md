@@ -18,24 +18,34 @@ tags: Mehrtagestour
 ---
 
 
-Start in Waterford / Ireland on July 10th 2026
+Start in Dublin IBM Technology Campus or Waterford on July 10th 2026
 
-* Sligo - Waterford, 800 km (Prolog)
-  * EuroVelo 1 with shortcut from Galway to Waterford
+* Dublin - Sligo, 300 km (Prolog)
+  * Royal Canal Greenway
+  * Dublin, IBM Technology Campus: approx 10.07.2026
+  * Sligo: approx xx.xx.2026
+* Sligo - Galway, 550 km (Prolog)
+  * EuroVelo 1 
   * Sligo: approx xx.xx.2026
   * Galway: approx xx.xx.2026
-  * Waterford: approx xx.xx.2026
+* Galway - Waterford, 250 km (Prolog)
+  * Shortcut from Galway to Waterford
+  * Galway: approx xx.xx.2026
+  * Waterford IBM Office: approx xx.xx.2026
 * Waterford - Rosslare, 120 km 
   * EuroVelo 1
-  * Waterford: approx xx.xx.2026
+  * Waterford IBM Office: approx xx.xx.2026
   * Rosslare: approx xx.xx.2026
 * Roscoff - Nantes, 300 km 
   * EuroVelo 1
   * Roscoff: approx xx.xx.2026
   * Nantes: approx xx.xx.2026
-* Nantes – Chalon sur Saone, 800 km 
+* Nantes – Orleans, 400 km 
   * EuroVelo 6
   * Nantes: approx xx.xx.2026
+  * Orleans: approx xx.xx.2026
+* Orleans – Chalon sur Saone, 400 km 
+  * EuroVelo 6
   * Orleans: approx xx.xx.2026
   * Chalon sur Saone: approx xx.xx.2026
 * Chalon sur Saone – Basel, 350 km 
