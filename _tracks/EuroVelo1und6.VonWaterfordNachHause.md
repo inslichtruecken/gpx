@@ -62,7 +62,7 @@ Start after Farewell Party in the Waterford IBM office on July 10th 2026
 
 * Tuttlingen – Herrenberg (2 days, 100 km)
   * Neckarradweg
-  * Tuttlingen: approx 14.8.2026
-  * Herrenberg: approx 15.8.2026
+  * Tuttlingen: approx 19.8.2026
+  * Herrenberg: approx 20.8.2026
 
-Finish in Herrenberg / Germany approx 15.8.2026
+Finish in Herrenberg / Germany approx 20.8.2026
