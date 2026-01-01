@@ -23,8 +23,9 @@ Start after Farewell Party in the Waterford IBM office on July 10th 2026
 * Waterford - Galway - Sligo (13 days, 800 - 1000 km) (Prolog)
   * Waterford: 10.07.2026  
   * Galway: approx 13.7.2026 (3 days, 200km)
+  * EuroVelo 1
   * Sligo: 23.7.2026 (8 days, 600km)
-  * maybe extend Sligo - Carrick-on-Shannon via Kingfisher Bike Trail (2 days, 150 km)
+  * maybe extend Sligo - Carrick-on-Shannon via Kingfisher Cycle Trail (2 days, 150 km)
  
 * Transfers 
   * Sligo - Maynooth (23.7. evening or 24.7.)
