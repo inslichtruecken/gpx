@@ -20,29 +20,40 @@ tags: Mehrtagestour
 
 Start after Farewell Party in the Waterford IBM office on July 10th 2026
 
-* Waterford - Galway - Sligo (13 days, 800 - 1000 km) (Prolog)
+Prolog
+
+* Waterford - Galway (3 days, 250 km)
   * Waterford: 10.07.2026  
-  * Galway: approx 13.7.2026 (3 days, 200km)
+  * Galway: 12.7.2026
+
+* Galway - Sligo (7 days, 550 km) (Prolog)
   * EuroVelo 1
-  * Sligo: 23.7.2026 (8 days, 600km)
+  * Galway: 13.7.2026
+  * Sligo: 19.7.2026 
   * maybe extend Sligo - Carrick-on-Shannon via Kingfisher Cycle Trail (2 days, 150 km)
+
+* Sligo extended - Kingfisher Bike Trail (4 days, 150 km) 
+  * Kingfisher Bike Trail 
+  * Sligo: 20.7.2026 
+  * Convenient railway station (Sligo, Ballina, Castlera, ...):  23.7.2026 
  
+
+Transfers via rail and ferry
+
 * Transfers  24.-25.7.2026 
-  * Sligo - Maynooth 
-  * Maynooth - Sallins by bike to change railway lines outside of Dublin
-  * Sallins - Cork by train 
-  or: 
-  * Ballina - Cork by train (railway lines are connected)
-  * Cork - Cobh by bike
-  * Cork/Cobh - Roscoff by Ferry (25.7. or 29.7.) 
+  * Train/bike to Cork - Ringaskiddy (24.7.)
+  * Cork/Ringaskiddy - Roscoff by Ferry (25.7.) 
+
+
+Finally riding home
 
 * Roscoff - Nantes (3.5 days, 300 km) 
   * EuroVelo 1
-  * Roscoff: approx 26.7.2026
+  * Roscoff: 26.7.2026
   * Nantes: approx 29.7.2026
   * Note: easy train access with TGV from Strasbourg via Rennes to Morlaix (no train change in Paris) 
 
-* Maybe a 2 day break at the beach near Nantes
+* Maybe a 2 day break at the beach near Nantes (approx. 30./31.7.)
 
 * Nantes – Tour (3 days, 250 km)
   * EuroVelo 6
@@ -64,28 +75,51 @@ Start after Farewell Party in the Waterford IBM office on July 10th 2026
   * EuroVelo 6
   * Chalon sur Saone: approx 11.8.2026
   * Besancon : approx 12.8.2026
-
-* Besancon  – Basel (3 days, 200 km)  
+  * Note: easy train access with TGV in Besancon (from Strasbourg)
+ 
+* Besancon  – Muhlhouse - Colmar - Münster (4 days, 300 km)  
   * EuroVelo 6
   * Besancon: approx 13.8.2026
-  * Basel: approx 15.8.2026
-  * Note: easy train access with TGV from Strasbourg to Besancon
+  * Muhlhouse: approx 15.8.2026
+  * Munster: approx 16.8.2026
+  * Note: easy train access with TGV in Besancon (from Strasbourg)
+  * Note: easy train access with TGV in Muhlhouse
+  
 
-* Likely a 1-week family break in the french Jura
+Some pleasant interrupts along the way
 
-* Basel – Tuttlingen, (3 days, 200 km, 2 days stoppover) 
-  * EuroVelo 6
-  * Basel: approx 23.8.2026
-  * Stoppover in Radolfzell: approx 25.+26.8.2026
-  * Tuttlingen: approx 27.8.2026
+
+* Two week family vacation near Munster/Alsace
+  * approx. 15.8.- 29.8.
+
+* Another cycling detour back into France
+  * approx. 29.8.- 6.9.
+
+* Muhlhouse – Basel - Radolfzell (3 days, 200 km)  
+  * back on the way home: EuroVelo 6
+  * Muhlhouse: approx 15.8.2026
+  * Radolfzell: approx 10.9.2026
+  * Note: easy train access with TGV in Muhlhouse
   * Note: Easy train access with Deutsche Bahn to Basel Badischer Bahnhof, Schaffhausen, or Radolfzell
 
-* Tuttlingen – Herrenberg (2 days, 100 km)
+* Two day family break in Radolfzell
+  * approx. 10.-12.9.
+
+
+Final stages
+
+
+* Radolzell – Tuttlingen, (1 days, 50 km) 
+  * EuroVelo 6
+  * Radolfzell: approx 12.9.2026
+  * Tuttlingen: approx 12.9.2026
+ 
+* Tuttlingen – Herrenberg (1 days, 80 km)
   * Neckarradweg
-  * Tuttlingen: approx 28.8.2026
-  * Herrenberg: approx 29.8.2026
+  * Tuttlingen: approx 13.9.2026
+  * Herrenberg: approx 13.9.2026
   * Note: Easy train access with Deutsche Bahn to Tuttlingen
 
 
-Finish in Herrenberg / Germany approx 29.8.2026
+Finish in Herrenberg / Germany approx 13.9.2026
 
