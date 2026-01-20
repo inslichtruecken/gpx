@@ -92,22 +92,22 @@ Some pleasant interrupts along the way
 * Two week family vacation near Munster/Alsace
   * approx. 15.8.- 29.8.
 
-* Another cycling detour back into France
+* Another nice cycling detour back into France
   * approx. 29.8.- 6.9.
 
+
+Final stages back home
+
+
 * Muhlhouse – Basel - Radolfzell (3 days, 200 km)  
-  * back on the way home: EuroVelo 6
+  * back on track: EuroVelo 6
   * Muhlhouse: approx 15.8.2026
   * Radolfzell: approx 10.9.2026
   * Note: easy train access with TGV in Muhlhouse
   * Note: Easy train access with Deutsche Bahn to Basel Badischer Bahnhof, Schaffhausen, or Radolfzell
 
-* Two day family break in Radolfzell
+* Two day break in Radolfzell
   * approx. 10.-12.9.
-
-
-Final stages
-
 
 * Radolzell – Tuttlingen, (1 days, 50 km) 
   * EuroVelo 6
