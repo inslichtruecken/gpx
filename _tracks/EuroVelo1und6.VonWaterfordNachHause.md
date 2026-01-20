@@ -22,17 +22,17 @@ Start after Farewell Party in the Waterford IBM office on July 10th 2026
 
 Prolog
 
-* Waterford - Galway (3 days, 250 km)
+* Waterford  -  Galway (3 days, 250 km)
   * Waterford: 10.07.2026  
   * Galway: 12.7.2026
 
-* Galway - Sligo (7 days, 550 km) (Prolog)
+* Galway  -  Sligo (7 days, 550 km) (Prolog)
   * EuroVelo 1
   * Galway: 13.7.2026
   * Sligo: 19.7.2026 
-  * maybe extend Sligo - Carrick-on-Shannon via Kingfisher Cycle Trail (2 days, 150 km)
+  * maybe extend Sligo  -  Carrick-on-Shannon via Kingfisher Cycle Trail (2 days, 150 km)
 
-* Sligo extended - Kingfisher Bike Trail (4 days, 150 km) 
+* Sligo extended  -  Kingfisher Bike Trail (4 days, 150 km) 
   * Kingfisher Bike Trail 
   * Sligo: 20.7.2026 
   * Convenient railway station (Sligo, Ballina, Castlera, ...):  23.7.2026 
@@ -41,13 +41,13 @@ Prolog
 Transfers via rail and ferry
 
 * Transfers  24.-25.7.2026 
-  * Train/bike to Cork - Ringaskiddy (24.7.)
-  * Cork/Ringaskiddy - Roscoff by Ferry (25.7.) 
+  * Train/bike to Cork  -  Ringaskiddy (24.7.)
+  * Cork/Ringaskiddy  -  Roscoff by Ferry (25.7.) 
 
 
 Finally riding home
 
-* Roscoff - Nantes (3.5 days, 300 km) 
+* Roscoff  -  Nantes (3.5 days, 300 km) 
   * EuroVelo 1
   * Roscoff: 26.7.2026
   * Nantes: approx 29.7.2026
@@ -55,29 +55,29 @@ Finally riding home
 
 * Maybe a 2 day break at the beach near Nantes (approx. 30./31.7.)
 
-* Nantes – Tour (3 days, 250 km)
+* Nantes  –  Tour (3 days, 250 km)
   * EuroVelo 6
   * Nantes: approx 1.8.2026
   * Tour: approx 3.8.2026
 
-* Tour – Orleans (2 days, 150 km)
+* Tour  –  Orleans (2 days, 150 km)
   * EuroVelo 6
   * Tour: approx 4.8.2026
   * Orleans: approx 5.8.2026
   * Note: easy train access with TGV from Strasbourg via Le Mans to Tour (no train change in Paris) 
 
-* Orleans – Chalon sur Saone (5 days, 400 km) 
+* Orleans  –  Chalon sur Saone (5 days, 400 km) 
   * EuroVelo 6
   * Orleans: approx 6.8.2026
   * Chalon sur Saone: approx 10.8.2026
 
-* Chalon sur Saone – Besancon (2 days, 150 km)  
+* Chalon sur Saone  –  Besancon (2 days, 150 km)  
   * EuroVelo 6
   * Chalon sur Saone: approx 11.8.2026
   * Besancon : approx 12.8.2026
   * Note: easy train access with TGV in Besancon (from Strasbourg)
  
-* Besancon  – Muhlhouse - Colmar - Münster (4 days, 300 km)  
+* Besancon  –  Muhlhouse  -  Colmar  -  Münster (4 days, 300 km)  
   * EuroVelo 6
   * Besancon: approx 13.8.2026
   * Muhlhouse: approx 15.8.2026
