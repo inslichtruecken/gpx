@@ -105,7 +105,7 @@ Final stages back home
 
 * Muhlhouse – Basel - Radolfzell (3 days, 200 km)  
   * back on track: EuroVelo 6
-  * Muhlhouse: approx 15.8.2026
+  * Muhlhouse: approx 6.9.2026
   * Radolfzell: approx 10.9.2026
   * Note: easy train access with TGV in Muhlhouse
   * Note: Easy train access with Deutsche Bahn to Basel Badischer Bahnhof, Schaffhausen, or Radolfzell
