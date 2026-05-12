@@ -43,21 +43,20 @@ Prolog
 Transfers via rail and ferry
 
 * Transfers  23.-25.7.2026 
-  * Train Castlerea  -  Portlaoise (23.7.)
+  * Train Castlerea  -  Portlaoise 
   * Portlaoise: 23.07.2026
-  * Train/bike Portlaoise  -  Ringaskiddy (24.7.)
-  * Ferry Cork/Ringaskiddy  -  Roscoff (25.7.) 
+  * Train Portlaoise  -  Cork 
+  * Cork: 24.07.2026
+  * Ferry Cork/Ringaskiddy  -  Roscoff 25.07.
 
 
 Finally riding home
 
-* Roscoff  -  Nantes (3.5 days, 300 km) 
+* Roscoff  -  Nantes (5 days, 300 km) 
   * EuroVelo 1
   * Roscoff: 26.7.2026
-  * Nantes: approx 29.7.2026
-  * Note: easy train access with TGV from Strasbourg via Rennes to Morlaix (no train change in Paris) 
-
-* Maybe a 2 day break at the beach near Nantes (approx. 30./31.7.)
+  * Morlaix: 26.-28.7.2026
+  * Nantes: approx 1.8.2026
 
 * Nantes  –  Tour (3 days, 250 km)
   * EuroVelo 6
