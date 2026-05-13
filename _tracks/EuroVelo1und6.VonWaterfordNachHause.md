@@ -23,10 +23,11 @@ Start after Farewell Party in the Waterford IBM office on July 10th 2026
 Prolog
 
 * Waterford  -  Galway (3 days, 250 km)
-  * Waterford: 10.07.2026 (km 0)
-  * Thurles: 10.07.2026 (km 89)
-  * Portumna: 11.07.2026 (km 163)
-  * Galway: 12.7.2026 (km 238)
+  * Waterford/Tramore: 09.07.2026 (km 0)
+  * Bunmahon: 10.07.2026
+  * Thurles: 11.07.2026 (km 89)
+  * Portumna: 12.07.2026 (km 163)
+  * Galway: 13.7.2026 (km 238)
 
 * Galway  -  Sligo (7 days, 550 km) (Prolog)
   * EuroVelo 1
@@ -37,8 +38,7 @@ Prolog
 * Sligo extended  -  Kingfisher Bike Trail (4 days, 150 km) 
   * Kingfisher Bike Trail 
   * Sligo: 20.7.2026 
-  * Convenient railway station (Sligo, Ballina, Castlerea, ...):  23.7.2026 
- 
+  * Carrick sur Shannon: 22.07.2026
 
 Transfers via rail and ferry
 
