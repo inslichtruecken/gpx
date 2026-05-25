@@ -22,7 +22,7 @@ Start after Farewell Pizza Party in the Waterford IBM office on July 9th 2026
 
 Prolog
 
-* Waterford  -  Kilcolgan/Galway (3 days, 270 km) 
+* Waterford  -  Kilcolgan/Galway (4 days, 270 km) 
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.01.Irland.WaterfordGalway.Connector.gpx">Download</a>
   * Waterford/Tramore: 09.07.2026 (km 0)
   * Bunmahon: 10.07.2026 (km 20)
