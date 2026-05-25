@@ -7,7 +7,7 @@ start-location: "Waterford"
 start-lat: 52.24268
 start-long: -7.16480
 description: Riding home from Waterford/Ireland via EuroVelo 1 and EuroVelo 6 to Herrenberg/Germany.
-length: 3000 km
+length: 3000 km or so
 duration: a month or so
 difficulty: medium
 rating: 2
@@ -18,27 +18,29 @@ tags: Mehrtagestour
 ---
 
 
-Start after Farewell Party in the Waterford IBM office on July 10th 2026
+Start after Farewell Pizza Party in the Waterford IBM office on July 9th 2026
 
 Prolog
 
-* Waterford  -  Galway (3 days, 250 km)
+* Waterford  -  Kilcolgan/Galway (3 days, 270 km) 
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.01.Irland.WaterfordGalway.Connector.gpx">Download</a>
   * Waterford/Tramore: 09.07.2026 (km 0)
-  * Bunmahon: 10.07.2026
-  * Thurles: 11.07.2026 (km 89)
-  * Portumna: 12.07.2026 (km 163)
-  * Galway: 13.7.2026 (km 238)
+  * Bunmahon: 10.07.2026 (km 20)
+  * Killenaule: 11.07.2026 (km 110)
+  * Portumna: 12.07.2026 (km 195)
 
-* Galway  -  Sligo (7 days, 550 km) (Prolog)
+* Kilcolgan/Galway  -  Sligo (7 days, 550 km) 
   * EuroVelo 1
-  * Galway: 13.7.2026
-  * Sligo: 19.7.2026 
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.02.Irland.GalwaySligo.gpx">Download</a>
+  * Galway: 13.7.2026 (km 270)
+  * Sligo: approx. 19.7.2026 
   * maybe extend Sligo  -  Carrick-on-Shannon via Kingfisher Cycle Trail (2 days, 150 km)
 
-* Sligo extended  -  Kingfisher Bike Trail (4 days, 150 km) 
+* Kingfisher Bike Trail: Sligo  -  Castlerea(4 days, 150 km) 
   * Kingfisher Bike Trail 
-  * Sligo: 20.7.2026 
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.03.Irland.SligoCastlerea.Connector.gpx">Download</a>
   * Carrick sur Shannon: 22.07.2026
+  * Castlerea: 23.07.2026
 
 Transfers via rail and ferry
 
@@ -46,83 +48,66 @@ Transfers via rail and ferry
   * Train Castlerea  -  Portlaoise 
   * Portlaoise: 23.07.2026
   * Train Portlaoise  -  Cork 
-  * Cork: 24.07.2026
+  * Cork/Passage West: 24.07.2026
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.04.Irland.CorkCobh.Connector.gpx">Download</a> 
   * Ferry Cork/Ringaskiddy  -  Roscoff 25.07.
 
 
 Finally riding home
 
-* Roscoff  -  Nantes (5 days, 300 km) 
+* Roscoff  -  Nantes (5 days, 380 km) 
   * EuroVelo 1
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.06.Bretagne.RoscoffNantes.gpx">Download</a> 
   * Roscoff: 26.7.2026
-  * Morlaix: 26.-28.7.2026
+  * Morlaix (1 day layover): 26.-28.7.2026
   * Nantes: approx 1.8.2026
 
-* Nantes  –  Tour (3 days, 250 km)
+* Nantes  –  Nevers (8 days, 580 km)
   * EuroVelo 6
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.01.Frankreich.NantesNevers.gpx">Download</a> 
   * Nantes: approx 1.8.2026
   * Tour: approx 3.8.2026
-
-* Tour  –  Orleans (2 days, 150 km)
-  * EuroVelo 6
-  * Tour: approx 4.8.2026
   * Orleans: approx 5.8.2026
-  * Note: easy train access with TGV from Strasbourg via Le Mans to Tour (no train change in Paris) 
+  * Nevers: approx 8.8.2026
 
-* Orleans  –  Chalon sur Saone (5 days, 400 km) 
+* Nevers  –  Muhlhouse (8 days, 530 km) 
   * EuroVelo 6
-  * Orleans: approx 6.8.2026
-  * Chalon sur Saone: approx 10.8.2026
-
-* Chalon sur Saone  –  Besancon (2 days, 150 km)  
-  * EuroVelo 6
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMuhlhouse.gpx">Download</a> 
+  * Nevers: approx 8.8.2026
   * Chalon sur Saone: approx 11.8.2026
-  * Besancon : approx 12.8.2026
-  * Note: easy train access with TGV in Besancon (from Strasbourg)
- 
-* Besancon  –  Muhlhouse  -  Colmar  -  Münster (4 days, 300 km)  
-  * EuroVelo 6
-  * Besancon: approx 13.8.2026
-  * Muhlhouse: approx 15.8.2026
-  * Munster: approx 16.8.2026
-  * Note: easy train access with TGV in Besancon (from Strasbourg)
-  * Note: easy train access with TGV in Muhlhouse
-  
+  * Besancon : approx 13.8.2026
+  * Muhlhouse: approx 16.8.2026
+
+
 
 Some pleasant interrupts along the way
 
 
-* Two week family vacation near Munster/Alsace
-  * approx. 15.8.- 29.8.
-
-* Another nice cycling detour back into France
-  * approx. 29.8.- 6.9.
+* Two week family vacation near Munster/Alsace (17.8.- 29.8.)
+  * Muhlhouse - Orbey (1 days, 95 km) 
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.03.MuhlhouseOrbeyConnector.gpx">Download</a>  
+  * Orbey: approx 17.8.2026
+ 
+* Another nice cycling detour back into France (29.8.- 6.9.)
+  * Route undefined at this point
 
 
 Final stages back home
 
 
-* Muhlhouse – Basel - Radolfzell (3 days, 200 km)  
+* Muhlhouse – Basel - Radolfzell (3 days, 250 km)  
   * back on track: EuroVelo 6
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.04.BadenWürttemberg.MuhlhouseTuttlingen.gpx">Download</a>  
   * Muhlhouse: approx 6.9.2026
-  * Radolfzell: approx 10.9.2026
-  * Note: easy train access with TGV in Muhlhouse
-  * Note: Easy train access with Deutsche Bahn to Basel Badischer Bahnhof, Schaffhausen, or Radolfzell
-
-* Two day break in Radolfzell
-  * approx. 10.-12.9.
-
-* Radolzell – Tuttlingen, (1 days, 50 km) 
-  * EuroVelo 6
-  * Radolfzell: approx 12.9.2026
+  * Radolfzell: approx 10-12.9.2026
   * Tuttlingen: approx 12.9.2026
  
 * Tuttlingen – Herrenberg (1 days, 80 km)
   * Neckarradweg
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.05.BadenWürttemberg.TuttlingenHerrenberg.Connector.gpx">Download</a>  
   * Tuttlingen: approx 13.9.2026
   * Herrenberg: approx 13.9.2026
-  * Note: Easy train access with Deutsche Bahn to Tuttlingen
-
+  
 
 Finish in Herrenberg / Germany approx 13.9.2026
 
