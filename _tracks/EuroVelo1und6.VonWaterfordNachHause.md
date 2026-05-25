@@ -36,7 +36,7 @@ Prolog
   * Sligo: approx. 19.7.2026 
   * maybe extend Sligo  -  Carrick-on-Shannon via Kingfisher Cycle Trail (2 days, 150 km)
 
-* Kingfisher Bike Trail: Sligo  -  Castlerea(4 days, 150 km) 
+* Kingfisher Bike Trail: Sligo  -  Castlerea (4 days, 150 km) 
   * Kingfisher Bike Trail 
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.03.Irland.SligoCastlerea.Connector.gpx">Download</a>
   * Carrick sur Shannon: 22.07.2026
