@@ -89,7 +89,10 @@ Some pleasant interrupts along the way
   * Orbey: approx 17.8.2026
  
 * Another nice cycling detour back into France (29.8.- 6.9.)
-  * Route undefined at this point
+  * Orbey - Müllheim (1 day, 75 km)
+  * Around the Vosges (10 days, 580 km) 
+  * GPX Track  <a href="{{ "/" | absolute_url }}assets/tracks/Vogesen.SüdUmrundung.gpx">Download</a>
+  * Raststatt - Muhlhouse (2 days, 180 km)
 
 
 Final stages back home
