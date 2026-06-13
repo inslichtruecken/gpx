@@ -60,23 +60,23 @@ Finally riding home
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.06.Bretagne.RoscoffNantes.gpx">Download</a> 
   * Roscoff: 26.7.2026
   * Morlaix (1 day layover): 26.-28.7.2026
-  * Nantes: approx 1.8.2026
+  * Nantes: approx. 1.8.2026
 
 * Nantes  –  Nevers (8 days, 580 km)
   * EuroVelo 6
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.01.Frankreich.NantesNevers.gpx">Download</a> 
-  * Nantes: approx 1.8.2026
-  * Tour: approx 3.8.2026
-  * Orleans: approx 5.8.2026
-  * Nevers: approx 8.8.2026
+  * Nantes: approx. 1.8.2026
+  * Tour: approx. 3.8.2026
+  * Orleans: approx. 5.8.2026
+  * Nevers: approx. 8.8.2026
 
 * Nevers  –  Muhlhouse (8 days, 530 km) 
   * EuroVelo 6
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMuhlhouse.gpx">Download</a> 
   * Nevers: approx 8.8.2026
   * Chalon sur Saone: approx 11.8.2026
-  * Besancon : approx 13.8.2026
-  * Muhlhouse: approx 16.8.2026
+  * Besancon : approx. 13.8.2026
+  * Muhlhouse: approx. 16.8.2026
 
 
 
@@ -86,12 +86,14 @@ Some pleasant interrupts along the way
 * Two week family vacation near Munster/Alsace (17.8.- 29.8.)
   * Muhlhouse - Orbey (1 days, 95 km) 
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.03.MuhlhouseOrbeyConnector.gpx">Download</a>  
-  * Orbey: approx 17.8.2026
+  * Orbey: approx. 17.8.2026
  
 * Another nice cycling detour back into France (29.8.- 6.9.)
   * Orbey - Müllheim (1 day, 75 km)
+  * Müllheim/Muhlhouse/Illfurth: 29.8.2026
   * Around the Vosges (10 days, 580 km) 
   * GPX Track  <a href="{{ "/" | absolute_url }}assets/tracks/Vogesen.SüdUmrundung.gpx">Download</a>
+  * Rastatt: aporox. 11.9.2026
   * Raststatt - Muhlhouse (2 days, 180 km)
 
 
@@ -101,15 +103,15 @@ Final stages back home
 * Muhlhouse – Basel - Radolfzell (3 days, 250 km)  
   * back on track: EuroVelo 6
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.04.BadenWürttemberg.MuhlhouseTuttlingen.gpx">Download</a>  
-  * Muhlhouse: approx 6.9.2026
-  * Radolfzell: approx 10-12.9.2026
-  * Tuttlingen: approx 12.9.2026
+  * Muhlhouse: approx. 13.9.2026
+  * Radolfzell: approx. 16-18.9.2026
+  * Tuttlingen: approx. 18.9.2026
  
 * Tuttlingen – Herrenberg (1 days, 80 km)
   * Neckarradweg
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.05.BadenWürttemberg.TuttlingenHerrenberg.Connector.gpx">Download</a>  
-  * Tuttlingen: approx 13.9.2026
-  * Herrenberg: approx 13.9.2026
+  * Tuttlingen: approx. 18.9.2026
+  * Herrenberg: approx. 19.9.2026
   
 
 Finish in Herrenberg / Germany approx 13.9.2026
