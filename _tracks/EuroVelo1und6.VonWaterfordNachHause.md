@@ -88,7 +88,7 @@ Some pleasant interrupts along the way
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.03.MuhlhouseOrbeyConnector.gpx">Download</a>  
   * Orbey: approx. 17.8.2026
  
-* Another nice cycling detour back into France (29.8.- 6.9.)
+* Another nice cycling detour back into France (29.8.- approx. 13.9.)
   * Orbey - Müllheim (1 day, 75 km)
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.04.Frankreich.OrbeyMullheim.Connector.gpx">Download</a>
   * Müllheim/Muhlhouse/Illfurth: 29.8.2026
