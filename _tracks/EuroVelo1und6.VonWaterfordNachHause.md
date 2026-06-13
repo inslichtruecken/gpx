@@ -90,11 +90,13 @@ Some pleasant interrupts along the way
  
 * Another nice cycling detour back into France (29.8.- 6.9.)
   * Orbey - Müllheim (1 day, 75 km)
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.04.Frankreich.OrbeyMullheim.Connector.gpx">Download</a>
   * Müllheim/Muhlhouse/Illfurth: 29.8.2026
   * Around the Vosges (10 days, 580 km) 
   * GPX Track  <a href="{{ "/" | absolute_url }}assets/tracks/Vogesen.SüdUmrundung.gpx">Download</a>
   * Rastatt: aporox. 11.9.2026
   * Raststatt - Muhlhouse (2 days, 180 km)
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.05.Frankreich.RastattMuhlhouse.Connector.gpx">Download</a> 
 
 
 Final stages back home
