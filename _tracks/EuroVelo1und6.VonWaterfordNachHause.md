@@ -72,7 +72,8 @@ Finally riding home
 
 * Nevers  –  Muhlhouse (8 days, 530 km) 
   * EuroVelo 6
-  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMuhlhouse.gpx">Download</a> 
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMuhlhouse.gpx">Download</a>
+  * alternate GPX Track via Morvan Regional Parc <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/Burgund.Morvan.Überquerung.gpx">Download</a> 
   * Nevers: approx 8.8.2026
   * Chalon sur Saone: approx 11.8.2026
   * Besancon : approx. 13.8.2026
