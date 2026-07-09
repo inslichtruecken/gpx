@@ -32,7 +32,9 @@ Prolog
 * Kilcolgan/Galway  -  Sligo (7 days, 550 km) 
   * EuroVelo 1
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.02.Irland.GalwaySligo.gpx">Download</a>
-  * Galway: 13.7.2026 (km 270)
+  * Galway: 13.+14.7.2026 (km 270)
+  * Carraroe:15.7.2026
+  * tbd
   * Sligo: approx. 19.7.2026 
   * maybe extend Sligo  -  Carrick-on-Shannon via Kingfisher Cycle Trail (2 days, 150 km)
 
