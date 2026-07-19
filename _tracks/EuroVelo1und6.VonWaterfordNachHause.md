@@ -22,37 +22,29 @@ Start after Farewell Pizza Party in the Waterford IBM office on July 9th 2026
 
 Prolog
 
-* Waterford  -  Kilcolgan/Galway (4 days, 270 km) 
+* Waterford  -  Connemara and Mayo County - Westport
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.01.Irland.WaterfordGalway.Connector.gpx">Download</a>
   * Waterford/Tramore: 09.07.2026 (km 0)
   * Bunmahon: 10.07.2026 (km 20)
   * Killenaule: 11.07.2026 (km 110)
   * Portumna: 12.07.2026 (km 195)
-
-* Kilcolgan/Galway  -  Sligo (7 days, 550 km) 
-  * EuroVelo 1
-  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.02.Irland.GalwaySligo.gpx">Download</a>
   * Galway: 13.+14.7.2026 (km 270)
-  * Carraroe:15.7.2026
-  * tbd
-  * Sligo: approx. 19.7.2026 
-  * maybe extend Sligo  -  Carrick-on-Shannon via Kingfisher Cycle Trail (2 days, 150 km)
-
-* Kingfisher Bike Trail: Sligo  -  Castlerea (4 days, 150 km) 
-  * Kingfisher Bike Trail 
-  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.03.Irland.SligoCastlerea.Connector.gpx">Download</a>
-  * Carrick sur Shannon: 22.07.2026
-  * Castlerea: 23.07.2026
-
+  * Carraroe:15.7.2026 (km 345)
+  * Omey Island: 16.7.2026 (km 425)
+  * Lettergesh Beach: 17.7.2026 (km 457)
+  * Newport:18.7.2026 (km 530)
+  * Ballycastle: 19.7.2026 (km 616)
+  * Carraunboy: 20.7.2026 (km )
+  * Achill Island: 21.7.2026 (km)
+  * Westport: 22.7.2026 (km)
+    
 Transfers via rail and ferry
 
-* Transfers  23.-25.7.2026 
-  * Train Castlerea  -  Portlaoise 
-  * Portlaoise: 23.07.2026
-  * Train Portlaoise  -  Cork 
-  * Cork/Passage West: 24.07.2026
+* Transfers  23.-26.7.2026 
+  * Train Westport  -  Cork 
+  * Cork - Passage West: 24.07.2026
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.04.Irland.CorkCobh.Connector.gpx">Download</a> 
-  * Ferry Cork/Ringaskiddy  -  Roscoff 25.07.
+  * Ferry Cork/Ringaskiddy  -  Roscoff: 25.07.
 
 
 Finally riding home
