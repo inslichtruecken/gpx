@@ -24,7 +24,7 @@ Prolog
 
 * Waterford  -  Connemara and Mayo County - Westport
   * GPX Track Waterford Galway <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.01.Irland.WaterfordGalway.Connector.gpx">Download</a>
-  * GPX Track Galway Mayo Westport <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.01.Irland.GalwayBallinaWestport.gpx">Download</a>
+  * GPX Track Galway Mayo Westport <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.02.Irland.GalwayBallinaWestport.gpx">Download</a>
   * Waterford/Tramore: 09.07.2026 (km 0)
   * Bunmahon: 10.07.2026 (km 20)
   * Killenaule: 11.07.2026 (km 110)
