@@ -18,12 +18,13 @@ tags: Mehrtagestour
 ---
 
 
-Start after Farewell Pizza Party in the Waterford IBM office on July 9th 2026
+Start after Farewell Party at Geoff's in Waterford on July 9th 2026
 
 Prolog
 
 * Waterford  -  Connemara and Mayo County - Westport
-  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.01.Irland.WaterfordGalway.Connector.gpx">Download</a>
+  * GPX Track Waterford Galway <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.01.Irland.WaterfordGalway.Connector.gpx">Download</a>
+  * GPX Track Galway Mayo Westport <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.01.Irland.GalwayBallinaWestport.gpx">Download</a>
   * Waterford/Tramore: 09.07.2026 (km 0)
   * Bunmahon: 10.07.2026 (km 20)
   * Killenaule: 11.07.2026 (km 110)
@@ -34,9 +35,9 @@ Prolog
   * Lettergesh Beach: 17.7.2026 (km 457)
   * Newport:18.7.2026 (km 530)
   * Ballycastle: 19.7.2026 (km 616)
-  * Carraunboy: 20.7.2026 (km )
-  * Achill Island: 21.7.2026 (km)
-  * Westport: 22.7.2026 (km)
+  * Carrowteige: 20.7.2026 (km 666)
+  * Achill Island: 21.7.2026 (km 764)
+  * Westport: 22.7.2026 (km 853)
     
 Transfers via rail and ferry
 
