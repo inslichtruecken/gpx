@@ -53,8 +53,8 @@ Finally riding home
 * Roscoff  -  Nantes (5 days, 380 km) 
   * EuroVelo 1
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.06.Bretagne.RoscoffNantes.gpx">Download</a> 
-  * Roscoff: 26.7.2026
-  * Morlaix (1 day layover): 26.-28.7.2026
+  * Roscoff: 26.7.2026 (km 873)
+  * Morlaix (1 day layover): 26.-28.7.2026 (km )
   * Nantes: approx. 1.8.2026
 
 * Nantes  –  Nevers (8 days, 580 km)
