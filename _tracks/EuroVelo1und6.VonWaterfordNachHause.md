@@ -11,7 +11,7 @@ length: 3000 km or so
 duration: a month or so
 difficulty: medium
 rating: 2
-image: EuroVelo1und6.VonWaterfordNachHause.jpg
+image: EuroVelo1und6.VonWaterfordNachHause.JPG
 image-text: unterwegs
 gpx-file: EuroVelo1und6.VonWaterfordNachHause.gpx
 tags: Mehrtagestour
