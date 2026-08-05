@@ -25,92 +25,55 @@ Prolog
 * Waterford  -  Connemara and Mayo County - Westport
   * GPX Track Waterford Galway <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.01.Irland.WaterfordGalway.Connector.gpx">Download</a>
   * GPX Track Galway Mayo Westport <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.02.Irland.GalwayBallinaWestport.gpx">Download</a>
-  * Waterford/Tramore: 09.07.2026 (km 0)
-  * Bunmahon: 10.07.2026 (km 20)
-  * Killenaule: 11.07.2026 (km 110)
-  * Portumna: 12.07.2026 (km 195)
-  * Galway: 13.+14.7.2026 (km 270)
-  * Carraroe:15.7.2026 (km 345)
-  * Omey Island: 16.7.2026 (km 425)
-  * Lettergesh Beach: 17.7.2026 (km 457)
-  * Newport:18.7.2026 (km 530)
-  * Ballycastle: 19.7.2026 (km 616)
-  * Carrowteige: 20.7.2026 (km 666)
-  * Achill Island: 21.7.2026 (km 764)
-  * Westport: 22.7.2026 (km 853)
-    
+ 
 Transfers via rail and ferry
 
-* Transfers  23.-26.7.2026 
+* Transfers 
   * Train Westport  -  Cork 
-  * Cork - Passage West: 24.07.2026
+  * Cork - Passage West
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.04.Irland.CorkCobh.Connector.gpx">Download</a> 
-  * Ferry Cork/Ringaskiddy  -  Roscoff: 25.07.
-
+  * Ferry Cork/Ringaskiddy  -  Roscoff
 
 Finally riding home
 
-* Roscoff  -  Nantes (5 days, 380 km) 
+* Roscoff  -  Nantes 
   * EuroVelo 1
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo1.06.Bretagne.RoscoffNantes.gpx">Download</a> 
-  * Roscoff: 26.7.2026 (km 873)
-  * Morlaix (1 day layover): 26.-28.7.2026 (km )
-  * Nantes: approx. 1.8.2026
 
-* Nantes  –  Nevers (8 days, 580 km)
+* Nantes  –  Nevers 
   * EuroVelo 6
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.01.Frankreich.NantesNevers.gpx">Download</a> 
-  * Nantes: approx. 1.8.2026
-  * Tour: approx. 3.8.2026
-  * Orleans: approx. 5.8.2026
-  * Nevers: approx. 8.8.2026
 
-* Nevers  –  Muhlhouse (8 days, 530 km) 
+* Nevers  –  Muhlhouse
   * EuroVelo 6
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMuhlhouse.gpx">Download</a>
-  * alternate GPX Track via Morvan Regional Parc <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/Burgund.Morvan.Überquerung.gpx">Download</a> 
-  * Nevers: approx 8.8.2026
-  * Chalon sur Saone: approx 11.8.2026
-  * Besancon : approx. 13.8.2026
-  * Muhlhouse: approx. 16.8.2026
-
-
+  * alternate GPX Track via Morvan Regional Parc <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/NeversMorvanMuhlhouse.gpx">Download</a> 
 
 Some pleasant interrupts along the way
 
-
-* Two week family vacation near Munster/Alsace (17.8.- 29.8.)
-  * Muhlhouse - Orbey (1 days, 95 km) 
+* Two week family vacation near Munster/Alsace 
+  * Muhlhouse - Orbey
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.03.MuhlhouseOrbeyConnector.gpx">Download</a>  
-  * Orbey: approx. 17.8.2026
  
-* Another nice cycling detour back into France (29.8.- approx. 13.9.)
-  * Orbey - Müllheim (1 day, 75 km)
+* Another nice cycling detour back into France
+  * Orbey - Müllheim
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.04.Frankreich.OrbeyMullheim.Connector.gpx">Download</a>
-  * Müllheim/Muhlhouse/Illfurth: 29.8.2026
-  * Around the Vosges (10 days, 580 km) 
   * GPX Track  <a href="{{ "/" | absolute_url }}assets/tracks/Vogesen.SüdUmrundung.gpx">Download</a>
-  * Rastatt: aporox. 11.9.2026
-  * Raststatt - Muhlhouse (2 days, 180 km)
+  * Raststatt - Muhlhouse
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.05.Frankreich.RastattMuhlhouse.Connector.gpx">Download</a> 
 
 
 Final stages back home
 
 
-* Muhlhouse – Basel - Radolfzell (3 days, 250 km)  
+* Muhlhouse – Basel - Radolfzell 
   * back on track: EuroVelo 6
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.04.BadenWürttemberg.MuhlhouseTuttlingen.gpx">Download</a>  
-  * Muhlhouse: approx. 13.9.2026
-  * Radolfzell: approx. 16-18.9.2026
-  * Tuttlingen: approx. 18.9.2026
  
-* Tuttlingen – Herrenberg (1 days, 80 km)
+ 
+* Tuttlingen – Herrenberg
   * Neckarradweg
-  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.05.BadenWürttemberg.TuttlingenHerrenberg.Connector.gpx">Download</a>  
-  * Tuttlingen: approx. 18.9.2026
-  * Herrenberg: approx. 19.9.2026
-  
+  * GPX Track  <a href="{{ "/" | absolute_url}}assets/tracks/Rödinghausen/EuroVelo6.05.BadenWürttemberg.TuttlingenHerrenberg.Connector.gpx">Download</a>  
 
 Finish in Herrenberg / Germany approx 13.9.2026
 
