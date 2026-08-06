@@ -47,13 +47,12 @@ Finally riding home
 * Nevers  –  Muhlhouse
   * EuroVelo 6
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMuhlhouse.gpx">Download</a>
- * alternate GPX Track via Morvan Regional Parc  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMorvanMuhlhouse.gpx">Download</a>
-  * alternate GPX Track via Morvan Regional Parc <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMorvanMuhlhouse.gpx">Download</a> 
+ * Alternate GPX Track via Morvan Regional Parc  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMorvanMuhlhouse.gpx">Download</a>
 
 Some pleasant interrupts along the way
 
 * Two week family vacation near Munster/Alsace 
-  * Muhlhouse - Orbey
+  * Muhlhouse - Or bey
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.03.MuhlhouseOrbeyConnector.gpx">Download</a>  
  
 * Another nice cycling detour back into France
