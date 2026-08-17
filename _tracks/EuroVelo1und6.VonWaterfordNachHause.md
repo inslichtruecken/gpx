@@ -46,7 +46,7 @@ Finally riding home
 
 * Nevers  –  Muhlhouse
   * EuroVelo 6 with a detour via Morvan Regional Parc
- *  GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMorvanMuhlhouse.gpx">Download</a>
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMorvanMuhlhouse.gpx">Download</a>
 
 Some pleasant interrupts along the way
 
@@ -61,7 +61,7 @@ Some pleasant interrupts along the way
 Final stages back home
 
 * Bühl – Freudenstadt - Herrenberg 
-  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.04.BadenWürttemberg.MuhlhouseTuttlingen.gpx">Download</a>  
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/Schwarzwald.BuehlFreudenstadtHerrenberg.gpx">Download</a>  
  
 
 Finish in Herrenberg / Germany approx. 9.9.2026
