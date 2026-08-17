@@ -45,35 +45,24 @@ Finally riding home
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.01.Frankreich.NantesNevers.gpx">Download</a> 
 
 * Nevers  –  Muhlhouse
-  * EuroVelo 6
-  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMuhlhouse.gpx">Download</a>
- * Alternate GPX Track via Morvan Regional Parc  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMorvanMuhlhouse.gpx">Download</a>
+  * EuroVelo 6 with a detour via Morvan Regional Parc
+ *  GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.02.Frankreich.NeversMorvanMuhlhouse.gpx">Download</a>
 
 Some pleasant interrupts along the way
 
 * Two week family vacation near Munster/Alsace 
-  * Muhlhouse - Or bey
+  * Muhlhouse - Orbey
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.03.MuhlhouseOrbeyConnector.gpx">Download</a>  
  
-* Another nice cycling detour back into France
-  * Orbey - Müllheim
-  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.04.Frankreich.OrbeyMullheim.Connector.gpx">Download</a>
+* Another nice cycling detour back into France around the southern Vosges Mountains 
   * GPX Track  <a href="{{ "/" | absolute_url }}assets/tracks/Vogesen.SüdUmrundung.gpx">Download</a>
-  * Raststatt - Muhlhouse
-  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.05.Frankreich.RastattMuhlhouse.Connector.gpx">Download</a> 
 
 
 Final stages back home
 
-
-* Muhlhouse – Basel - Radolfzell 
-  * back on track: EuroVelo 6
+* Bühl – Freudenstadt - Herrenberg 
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.04.BadenWürttemberg.MuhlhouseTuttlingen.gpx">Download</a>  
  
- 
-* Tuttlingen – Herrenberg
-  * Neckarradweg
-  * GPX Track  <a href="{{ "/" | absolute_url}}assets/tracks/Rödinghausen/EuroVelo6.05.BadenWürttemberg.TuttlingenHerrenberg.Connector.gpx">Download</a>  
 
-Finish in Herrenberg / Germany approx 13.9.2026
+Finish in Herrenberg / Germany approx. 9.9.2026
 
