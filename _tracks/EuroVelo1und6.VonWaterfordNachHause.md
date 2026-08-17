@@ -50,15 +50,18 @@ Finally riding home
 
 Some pleasant interrupts along the way
 
-* Two week family vacation near Munster/Alsace 
+* Family vacation near Colmar/Alsace 
   * Muhlhouse - Orbey
-  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.03.MuhlhouseOrbeyConnector.gpx">Download</a>  
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.03.Frankreich.BuethwillerOrbey.Connector.gpx">Download</a>  
  
 * Another nice cycling detour back into France around the southern Vosges Mountains 
+  * Orbey - Muhlhouse
+  * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/EuroVelo6.04.Frankreich.OrbeyIllfurth.Connector.gpx">Download</a>
+  * Muhlhouse - Besancon - Nancy - Bühl
   * GPX Track  <a href="{{ "/" | absolute_url }}assets/tracks/Vogesen.SüdUmrundung.gpx">Download</a>
 
 
-Final stages back home
+Final stage(s) back home
 
 * Bühl – Freudenstadt - Herrenberg 
   * GPX Track  <a href="{{ "/" | absolute_url  }}assets/tracks/riding-home-details/Schwarzwald.BuehlFreudenstadtHerrenberg.gpx">Download</a>  
